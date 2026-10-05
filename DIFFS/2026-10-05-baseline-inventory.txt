@@ -1,0 +1,87 @@
+# Inventory snapshot 2026-10-05 16:51:12 CEST
+## /workspace (depth 1)
+2026-10-05T16:13:42.0247014920 /workspace/secrets
+2026-10-05T16:28:41.2271304480 /workspace/daintree
+2026-10-05T16:35:55.4582089100 /workspace/daintree-docs
+2026-10-05T16:36:16.4781847620 /workspace/downloads
+2026-10-05T16:49:58.8379158060 /workspace/grokbot-telemetry
+2026-10-05T16:50:36.1499214160 /workspace/sota-suite
+2026-10-05T16:51:04.6859262430 /workspace
+2026-10-05T16:51:04.6859262430 /workspace/daintree-playground
+## /home/box top
+2026-07-12T18:58:21.0000000000 /home/box/.bash_logout
+2026-10-02T11:41:06.0000000000 /home/box/cli-config
+2026-10-05T15:14:16.9389134350 /home/box/agent-data
+2026-10-05T15:14:17.9646221300 /home/box/.cursor
+2026-10-05T15:14:24.9963051780 /home/box/reference
+2026-10-05T15:14:35.6558661110 /home/box/.sand-webauthn-proxy-enabled
+2026-10-05T16:07:52.8484607050 /home/box/.nvm
+2026-10-05T16:08:03.4644648990 /home/box/.npmrc
+2026-10-05T16:08:12.9644688510 /home/box/.local
+2026-10-05T16:09:22.1645031050 /home/box/.bashrc.bak.1791209362
+2026-10-05T16:24:15.5723412180 /home/box/.claude.json.bak-sota-202610051649
+2026-10-05T16:27:51.1753087180 /home/box/.electron-gyp
+2026-10-05T16:28:25.8031833030 /home/box/.bash_history
+2026-10-05T16:30:08.2948639340 /home/box/Applications
+2026-10-05T16:33:32.9264130690 /home/box/.grok
+2026-10-05T16:36:14.1421873780 /home/box/.opencode
+2026-10-05T16:45:00.5899078420 /home/box/.bun
+2026-10-05T16:46:34.7979021010 /home/box/.bashrc
+2026-10-05T16:46:34.7979021010 /home/box/.profile
+2026-10-05T16:48:05.5539042980 /home/box/.venvs
+2026-10-05T16:48:08.9579045100 /home/box/.ipython
+2026-10-05T16:48:41.2059069540 /home/box/.codex
+2026-10-05T16:49:20.7579109650 /home/box/.claude
+2026-10-05T16:49:21.3939110380 /home/box/.cache
+2026-10-05T16:49:22.2339111350 /home/box/.npm
+2026-10-05T16:49:30.6179121300 /home/box/.claude.json
+2026-10-05T16:49:58.1419157090 /home/box
+2026-10-05T16:49:58.1419157090 /home/box/.sand-window-assignments.json
+2026-10-05T16:50:24.2459195370 /home/box/.gemini
+2026-10-05T16:50:25.4099197170 /home/box/chrome-profile
+2026-10-05T16:50:51.3339239290 /home/box/.config
+2026-10-05T16:51:05.4339263750 /home/box/.daintree
+2026-10-05T16:51:08.2939268850 /home/box/sand-data
+## /home/box/.local/bin (names)
+agent
+aider
+basedpyright
+basedpyright-langserver
+bat
+black
+blackd
+claude
+codex
+dmypy
+fd
+goose
+grok
+hf
+httpx
+ipython
+ipython3
+jupyter-lab
+jupyter-labextension
+jupyter-labhub
+kilo
+llm
+markitdown
+mcp-server-fetch
+mypy
+mypyc
+opencode
+pre-commit
+py.test
+pytest
+python3.12
+python3.13
+python3.14
+ruff
+stubgen
+stubtest
+tiny-agents
+ty
+uv
+uvx
+## NOTE: /workspace/secrets/creds-export.csv exists (mode 600, size REDACTED — contents not read)
+## NOTE: sand-data *secrets*.json files exist — contents not read

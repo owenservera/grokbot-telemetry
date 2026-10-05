@@ -1,0 +1,12 @@
+# never commit secrets
+**/auth.json
+**/.credentials.json
+**/*secret*
+**/*credential*
+**/creds-export.csv
+**/*token*
+**/*cookie*
+.env
+.env.*
+*.pem
+*.key

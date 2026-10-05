@@ -1,0 +1,21 @@
+=== run_all start 2026-10-05 17:08:21 CEST ===
+--- running exec_daemon_sample.sh ---
+WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261005-170821.jsonl
+SUMMARY /workspace/grokbot-telemetry/DATA/exec_daemon_latest.md
+DAEMONS 7
+23 /workspace/grokbot-telemetry/DATA/exec_daemon_20261005-170821.jsonl
+OK: exec_daemon_sample.sh
+--- running cli_inventory.sh ---
+WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261005-170824.jsonl
+OK: cli_inventory.sh
+--- running sandbox_telemetry_parse.sh ---
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261005-170830.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261005-170830.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
+WROTE /workspace/grokbot-telemetry/DIFFS/20261005-170830-sandbox-telemetry-summary.md
+KINDS {'memory_sample': 114, 'chrome_profile_sample': 94, 'boot_stage': 3, 'chrome_launch': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1}
+CDP_ROWS 4
+DONE 2026-10-05 17:08:30 CEST
+OK: sandbox_telemetry_parse.sh
+=== run_all end 2026-10-05 17:08:30 CEST fail=0 ===
