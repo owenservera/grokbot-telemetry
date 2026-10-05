@@ -1,6 +1,6 @@
 # PROCESS_MAP
 
-**Updated:** 2026-10-05 17:46 CEST (wake sync; 15 daemons)  
+**Updated:** 2026-10-05 18:19 CEST (wake sync; 17 daemons)  
 **Sources:** `collectors/exec_daemon_sample.sh` → `DATA/exec_daemon_latest.jsonl`, `ps`, `ss -lntp`, `.sand-window-assignments.json` (assignments only; tokens redacted), Xvfb `pgrep`.
 
 ## Exec-daemon ↔ display ↔ agent
@@ -42,9 +42,11 @@ flowchart LR
 | 246076 | 14012 | 13612 | `:12` | Code Master | `2b5105b7…` | Started 17:42 CEST |
 | 253769 | 14013 | 13613 | `:13` | Google-accounts | `82dba8ac…` | Started 17:42 CEST |
 | 261077 | 14014 | 13614 | `:14` | Android Setup And config | `501f1c5c…` | Started 17:42 CEST |
-| 273452 | 14015 | 13615 | `:15` | Versal Live Full Rock Bot Project Management Feed | `a80ef3f4…` | Started 17:44 CEST |
+| 273452 | 14015 | 13615 | `:15` | Vercel Live Full Rock Bot Project Management Feed | `a80ef3f4…` | Started 17:44 CEST; renamed from "Versal…" by 18:18 |
+| 307602 | 14016 | 13616 | `:16` | Daintree Master | `582f31df…` | Started 17:57 CEST; **second agent named "Daintree Master"** (distinct UUID from :5); Chrome Fork-16 CDP 9238 + Playwright |
+| 333218 | 14017 | 13617 | `:17` | AI router | `7d255140…` | Started 18:08 CEST; child tooling-docs MCP |
 
-**Formula:** agent desktop `N` → serve `14000+N`, pty `13600+N` (confirmed through N=15; each daemon's own `DISPLAY` env matches), Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
+**Formula:** agent desktop `N` → serve `14000+N`, pty `13600+N` (confirmed through N=17; each daemon's own `DISPLAY` env matches), Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
 
 ## Shell tool signature (observed)
 
@@ -114,6 +116,8 @@ flowchart LR
 | 9225 | :3 | Fork-3 | TELEMETRY-MASTER | — |
 | 9226 | :4 | Fork-4 | AUTH-MASTER | 123176 |
 | 9227 | :5 | Fork-5 | Daintree Master | 104112 |
+| 9230 | :8 | Fork-8 | TOOLING - DOCS | — |
+| 9238 | :16 | Fork-16 | Daintree Master (582f31df) | 346882 (18:18 sample; runs inside nested `bwrap` → node) |
 
 Refresh: `collectors/sandbox_telemetry_parse.sh`
 

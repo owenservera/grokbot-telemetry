@@ -17,7 +17,7 @@
 |-----|-------|----------|---------|----------------------------|
 | claude | `/home/box/.local/bin/claude` | `/home/box/.local/share/claude/versions/2.1.289` | `2.1.289 (Claude Code)` | `.claude/` dir present; `.claude.json` mode 600 size 7430; `.claude/.credentials.json` mode 600 size 519 — **auth present** (method UNKNOWN without reading file) |
 | codex | `/home/box/.local/bin/codex` | `.../@openai/codex/bin/codex.js` | `codex-cli 0.160.0` | `.codex/auth.json` mode 600 size 83 — **auth present**; app-server daemon running; live `codex auth` process observed |
-| grok | `/home/box/.local/bin/grok` → `.grok/bin/grok` | `/home/box/.grok/downloads/grok-linux-x86_64` | `grok 1.0.46 (2765805b9442)` | `.grok/auth.json` mode 600 size 1796 — **auth present**; `.grok/config.toml` present |
+| grok | `/home/box/.local/bin/grok` → `.grok/bin/grok` | `/home/box/.grok/downloads/grok-linux-x86_64` | `grok 1.0.46 (2765805b9442) [stable]` (channel tag appeared 18:18) | `.grok/auth.json` mode 600 size 1796 — **auth present**; `.grok/config.toml` present |
 | agent | `/home/box/.local/bin/agent` | same binary as grok | `grok 1.0.46 (2765805b9442)` | same as grok |
 | opencode | `/home/box/.local/bin/opencode` | nvm `opencode-ai` bin | `1.18.34` | **auth present** — storage `/home/box/.local/share/opencode/auth.json` (mode 600; contents never read). CLI `opencode auth list` shows OpenCode Zen (api). Provider label: opencode / OpenCode Zen |
 | kilo | `/home/box/.local/bin/kilo` | nvm `@kilocode/cli` | `7.8.3` | `.config/kilo/kilo.jsonc` present — config present; auth state UNKNOWN |

@@ -1,4 +1,4 @@
-# safe inventory 2026-10-05 17:45:50 CEST
+# safe inventory 2026-10-05 18:18:23 CEST
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
@@ -15,7 +15,7 @@
 | gh | `/usr/bin/gh` | gh version 2.102.0 (2026-09-30)  |
 | claude | `/home/box/.local/bin/claude` | 2.1.289 (Claude Code)  |
 | codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
-| grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442)  |
+| grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442) [stable]  |
 | opencode | `/home/box/.local/bin/opencode` | 1.18.34  |
 | kilo | `/home/box/.local/bin/kilo` | 7.8.3  |
 | goose | `/home/box/.local/bin/goose` |  1.53.0  |
