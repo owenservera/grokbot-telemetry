@@ -19,7 +19,7 @@
 | codex | `/home/box/.local/bin/codex` | `.../@openai/codex/bin/codex.js` | `codex-cli 0.160.0` | `.codex/auth.json` mode 600 size 83 — **auth present**; app-server daemon running; live `codex auth` process observed |
 | grok | `/home/box/.local/bin/grok` → `.grok/bin/grok` | `/home/box/.grok/downloads/grok-linux-x86_64` | `grok 1.0.46 (2765805b9442)` | `.grok/auth.json` mode 600 size 1796 — **auth present**; `.grok/config.toml` present |
 | agent | `/home/box/.local/bin/agent` | same binary as grok | `grok 1.0.46 (2765805b9442)` | same as grok |
-| opencode | `/home/box/.local/bin/opencode` | nvm `opencode-ai` bin | `1.18.34` | `.opencode/` + `.config/opencode/` present; process `opencode auth login -p openai ...` observed — **oauth flow in progress / auth attempt** |
+| opencode | `/home/box/.local/bin/opencode` | nvm `opencode-ai` bin | `1.18.34` | **auth present** — storage `/home/box/.local/share/opencode/auth.json` (mode 600; contents never read). CLI `opencode auth list` shows OpenCode Zen (api). Provider label: opencode / OpenCode Zen |
 | kilo | `/home/box/.local/bin/kilo` | nvm `@kilocode/cli` | `7.8.3` | `.config/kilo/kilo.jsonc` present — config present; auth state UNKNOWN |
 | daintree | `/usr/bin/daintree` → `/opt/Daintree/daintree` | `/opt/Daintree/daintree` | **0.41.0** (from Chrome crashpad `_version` annotation; Electron `42.11.8`). Note: `daintree --version` **launches GUI** — do not use for collectors | `.daintree/` mode 700; `.config/Daintree/` present |
 | goose | `/home/box/.local/bin/goose` | same | `1.53.0` | UNKNOWN |
@@ -67,7 +67,7 @@ Also via uv: `python3.12`, `python3.13`, `python3.14` shims under `.local/bin`.
 | CLI | which | version |
 |-----|-------|---------|
 | git | `/usr/bin/git` | `2.47.3` |
-| gh | `/usr/bin/gh` | `2.102.0` — **`gh auth status`: not logged in** |
+| gh | `/usr/bin/gh` | `2.102.0` — **OAuth present** (owenservera; see auth update below) |
 | curl | `/usr/bin/curl` | `8.14.1` |
 | wget | `/usr/bin/wget` | `1.25.0` |
 | jq | `/usr/bin/jq` | `1.7` |
@@ -111,10 +111,10 @@ Notable: `box-chrome`, `box-xvfb`, `box-x11vnc`, `box-xfwm4`, `box-picom`, `box-
 | Claude | YES (credentials file exists) | method UNKNOWN |
 | Codex | YES (auth.json exists; auth process live) | likely oauth/device |
 | Grok | YES (auth.json exists) | method UNKNOWN |
-| OpenCode | ATTEMPTING oauth (login process) | |
+| OpenCode | YES — auth.json present | `/home/box/.local/share/opencode/auth.json` (never read); OpenCode Zen / provider opencode |
 | Kilo | config present | auth UNKNOWN |
 | Daintree | config dirs present | auth UNKNOWN |
-| gh | NO | `gh auth status` |
+| gh | YES — OAuth logged in | account **owenservera**; scopes gist, read:org, repo (token never recorded) |
 | git identity | empty | no global user.name/email |
 | Env TOKEN/KEY names | none matching filter at snapshot | values never printed |
 
@@ -161,3 +161,15 @@ Notable: `box-chrome`, `box-xvfb`, `box-x11vnc`, `box-xfwm4`, `box-picom`, `box-
 | `gh` | `/usr/bin/gh` | **present** — OAuth device-code (`gh auth login --web`), account **owenservera** | Scopes observed via `gh auth status`: `gist`, `read:org`, `repo`. Token value never recorded. Enables local `git push` via `gh auth setup-git` + `collectors/git_sync.sh`. |
 
 Source: `gh auth status` (token redacted); Europe/Paris.
+
+
+---
+
+## Update 2026-10-05 ~17:17–17:43 CEST — OpenCode + gh auth (AUTH-MASTER evidence)
+
+| System | Auth | Storage / evidence (no secrets) |
+|--------|------|----------------------------------|
+| **OpenCode** | **present** | `/home/box/.local/share/opencode/auth.json` exists (mode `600`, mtime ~17:17 CEST 2026-10-05). Contents **never read**. `opencode auth list` → OpenCode Zen (api); provider **opencode**. |
+| **gh** | **present** (reconfirmed 17:43 CEST) | `gh auth status`: logged in as **owenservera**; protocol https; scopes `gist`, `read:org`, `repo`. Token values never recorded. |
+
+Source: `stat` + `opencode auth list` (metadata) + `gh auth status` (token lines discarded); Europe/Paris.
