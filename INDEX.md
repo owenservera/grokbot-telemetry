@@ -43,6 +43,8 @@
 - [ACTION_TRACE/2026-10-05-exec-daemon-correlator.md](./ACTION_TRACE/2026-10-05-exec-daemon-correlator.md)
 - [ACTION_TRACE/2026-10-05-sandbox-telemetry-cdp.md](./ACTION_TRACE/2026-10-05-sandbox-telemetry-cdp.md)
 - [ACTION_TRACE/2026-10-05-daintree-peer-handoff.md](./ACTION_TRACE/2026-10-05-daintree-peer-handoff.md)
+- [SESSION_LOG/2026-10-05-wake-1745.md](./SESSION_LOG/2026-10-05-wake-1745.md) (15 daemons, collector display fix, first chrome process_crash)
+- [ACTION_TRACE/2026-10-05-wake-1745-collector-fix.md](./ACTION_TRACE/2026-10-05-wake-1745-collector-fix.md)
 - `DATA/exec_daemon_latest.jsonl`
 - `DATA/sandbox_telemetry_latest.json` / `DATA/cdp_display_map_latest.json`
 

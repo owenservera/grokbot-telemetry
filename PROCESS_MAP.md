@@ -1,6 +1,6 @@
 # PROCESS_MAP
 
-**Updated:** 2026-10-05 ~17:05 CEST (Collector 1)  
+**Updated:** 2026-10-05 17:46 CEST (wake sync; 15 daemons)  
 **Sources:** `collectors/exec_daemon_sample.sh` → `DATA/exec_daemon_latest.jsonl`, `ps`, `ss -lntp`, `.sand-window-assignments.json` (assignments only; tokens redacted), Xvfb `pgrep`.
 
 ## Exec-daemon ↔ display ↔ agent
@@ -35,8 +35,16 @@ flowchart LR
 | 101839 | 14005 | 13605 | `:5` | Daintree Master | `8070f3a8…` | Idle at sample |
 | 108128 | 14006 | 13606 | `:6` | Research Master | `b89d2383…` | Idle at sample |
 | 153667 | 14007 | 13607 | `:7` | MIRROR-MASTER | `2006f479…` | Appeared ~17:05 CEST |
+| 183637 | 14008 | 13608 | `:8` | TOOLING - DOCS | `df22f871…` | Started 17:14 CEST; child `tooling-docs/service/server.py mcp`; Chrome Fork-8 CDP 9230 |
+| 218495 | 14009 | 13609 | `:9` | New Bot | `00b908f7…` | Started 17:35 CEST |
+| 227163 | 14010 | 13610 | `:10` | Grok Bot Objective Alignment | `8f1be303…` | Started 17:38 CEST; child tooling-docs MCP |
+| 235860 | 14011 | 13611 | `:11` | Runtime Master | `134a7c4b…` | Started 17:40 CEST |
+| 246076 | 14012 | 13612 | `:12` | Code Master | `2b5105b7…` | Started 17:42 CEST |
+| 253769 | 14013 | 13613 | `:13` | Google-accounts | `82dba8ac…` | Started 17:42 CEST |
+| 261077 | 14014 | 13614 | `:14` | Android Setup And config | `501f1c5c…` | Started 17:42 CEST |
+| 273452 | 14015 | 13615 | `:15` | Versal Live Full Rock Bot Project Management Feed | `a80ef3f4…` | Started 17:44 CEST |
 
-**Formula:** agent desktop `N` → serve `1400N`, pty `1360N`, Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
+**Formula:** agent desktop `N` → serve `14000+N`, pty `13600+N` (confirmed through N=15; each daemon's own `DISPLAY` env matches), Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
 
 ## Shell tool signature (observed)
 

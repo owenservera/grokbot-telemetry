@@ -59,7 +59,7 @@ if [[ -f /home/box/.sand-window-assignments.json ]]; then
     AGENT_BY_DISPLAY["$disp"]="$aid"
   done < <(jq -r '.assignments|to_entries[]|"\(.key)\t\(.value)"' /home/box/.sand-window-assignments.json 2>/dev/null || true)
 fi
-for d in /home/box/sand-data/agents/*/; do
+for d in /home/box/sand-data/agents/*/ /home/box/agent-data/agents/*/; do
   id=$(basename "$d")
   [[ -f "$d/profile.json" ]] || continue
   name=$(jq -r '.name // empty' "$d/profile.json" 2>/dev/null || true)
@@ -130,11 +130,16 @@ for pid in "${DAEMON_PIDS[@]:-}"; do
   if [[ "$port" == "1337" ]]; then
     display_num=1
     display_str=":1"
-  elif [[ "$port" =~ ^1400([0-9]+)$ ]]; then
-    display_num="${BASH_REMATCH[1]}"
-    # 14002 → 2, 14003 → 3, ...
+  elif [[ "$port" =~ ^140([0-9]{2})$ ]]; then
+    # 14002 → 2, 14015 → 15, ... (fixed 2026-10-05: old regex ^1400N missed ports ≥14010)
     display_num=$((10#$port - 14000))
     display_str=":$display_num"
+  fi
+  # Prefer DISPLAY from the daemon's own environ (only that key is read; nothing else emitted)
+  env_disp=$(tr '\0' '\n' < "/proc/$pid/environ" 2>/dev/null | sed -n 's/^DISPLAY=:\([0-9]\+\).*/\1/p' | head -1)
+  if [[ -n "$env_disp" ]]; then
+    display_num="$env_disp"
+    display_str=":$env_disp"
   fi
 
   agent_id=""
