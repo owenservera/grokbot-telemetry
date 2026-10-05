@@ -1,6 +1,6 @@
 # PROCESS_MAP
 
-**Updated:** 2026-10-05 18:19 CEST (wake sync; 17 daemons)  
+**Updated:** 2026-10-05 18:38 CEST (wake sync; 18 daemons)  
 **Sources:** `collectors/exec_daemon_sample.sh` → `DATA/exec_daemon_latest.jsonl`, `ps`, `ss -lntp`, `.sand-window-assignments.json` (assignments only; tokens redacted), Xvfb `pgrep`.
 
 ## Exec-daemon ↔ display ↔ agent
@@ -45,8 +45,9 @@ flowchart LR
 | 273452 | 14015 | 13615 | `:15` | Vercel Live Full Rock Bot Project Management Feed | `a80ef3f4…` | Started 17:44 CEST; renamed from "Versal…" by 18:18 |
 | 307602 | 14016 | 13616 | `:16` | Daintree Master | `582f31df…` | Started 17:57 CEST; **second agent named "Daintree Master"** (distinct UUID from :5); Chrome Fork-16 CDP 9238 + Playwright |
 | 333218 | 14017 | 13617 | `:17` | AI router | `7d255140…` | Started 18:08 CEST; child tooling-docs MCP |
+| 406604 | 14018 | 13618 | `:18` | Grock.Coms | `8652b49b…` | Started 18:30 CEST; idle at 18:37 sample; no Chrome Fork yet |
 
-**Formula:** agent desktop `N` → serve `14000+N`, pty `13600+N` (confirmed through N=17; each daemon's own `DISPLAY` env matches), Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
+**Formula:** agent desktop `N` → serve `14000+N`, pty `13600+N` (confirmed through N=18; each daemon's own `DISPLAY` env matches), Xvfb `:N`, x11vnc `5900+(N==1?0:N)` (empirical: :1→5900, :2→5902, :3→5903, …).
 
 ## Shell tool signature (observed)
 

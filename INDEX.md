@@ -47,6 +47,8 @@
 - [ACTION_TRACE/2026-10-05-wake-1745-collector-fix.md](./ACTION_TRACE/2026-10-05-wake-1745-collector-fix.md)
 - [SESSION_LOG/2026-10-05-wake-1818.md](./SESSION_LOG/2026-10-05-wake-1818.md) (17 daemons, duplicate "Daintree Master" name, Fork-16 Playwright in bwrap)
 - [ACTION_TRACE/2026-10-05-wake-1818.md](./ACTION_TRACE/2026-10-05-wake-1818.md)
+- [SESSION_LOG/2026-10-05-wake-1837.md](./SESSION_LOG/2026-10-05-wake-1837.md) (18 daemons, new :18 Grock.Coms)
+- [ACTION_TRACE/2026-10-05-wake-1837.md](./ACTION_TRACE/2026-10-05-wake-1837.md)
 - `DATA/exec_daemon_latest.jsonl`
 - `DATA/sandbox_telemetry_latest.json` / `DATA/cdp_display_map_latest.json`
 
