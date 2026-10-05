@@ -28,3 +28,10 @@ At publish time, `gh auth status` reported **not logged in**. MCP `user-GitHub-x
 ## Next
 
 - Wire `git_sync.sh` into the periodic sync routine after `gh` is authenticated, OR keep MCP push as the publish path.
+
+## Publish complete (2026-10-05 17:10:15 CEST)
+
+- Clone: https://github.com/owenservera/grokbot-telemetry.git
+- Final commit: `05e1830f30b8aeb778199186715afd63b48e2a86`
+- Continuous path: collectors/git_sync.sh (gh oauth present).
+- On-wake: see WAKE.md.

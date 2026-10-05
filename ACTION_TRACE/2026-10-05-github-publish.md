@@ -38,3 +38,12 @@ Auth tokens in DATA cmdline fields remain `[REDACTED]`.
 | `b16e2d152458d17c34b53f42a1cacc7900935999` | schema, verify.sh, collectors/git_sync.sh |
 
 Updated: 2026-10-05 17:08:24 CEST
+
+## Resolution (2026-10-05 17:10:15 CEST)
+
+- Aborted mid-rebase conflicts.
+- Local authoritative tree committed; pushed with force-with-lease (remote only had thin early MCP commits).
+- Final main SHA: `05e1830f30b8aeb778199186715afd63b48e2a86`
+- Verified: collectors/run_all.sh and WAKE.md present on remote.
+- Working tree clean; not rebasing.
+- gh CLI: OAuth device-code, account owenservera (token not recorded).
