@@ -165,3 +165,15 @@ Source: `DATA/cdp_display_map_latest.json`, live `ps`/`ss`, 2026-10-05 17:07 CES
 | Worktrees | under `/workspace/daintree-playground-worktrees/` | feature-alpha-note `a74c7ff`, chore-beta-note `88f6959` CONFIRMED |
 | Human docs | `/workspace/daintree-docs/` | CONFIRMED present |
 
+
+
+## opencode-free-proxy (local service)
+
+| Field | Evidence |
+|-------|----------|
+| Path | `/workspace/opencode-free-proxy` |
+| Port | **6446** (`ss -lntp`: node listen `0.0.0.0:6446`) |
+| Process | `node server.mjs` (e.g. pid 309926 @ 2026-10-05 18:19 CEST sample) |
+| Role | Free-proxy front for OpenCode Zen upstreams (account **count** only in TOOL_CATALOG; no secrets) |
+
+Do not scrape process environ or `api-keys.json` into docs.

@@ -20,7 +20,7 @@
 | grok | `/home/box/.local/bin/grok` → `.grok/bin/grok` | `/home/box/.grok/downloads/grok-linux-x86_64` | `grok 1.0.46 (2765805b9442) [stable]` (channel tag appeared 18:18) | `.grok/auth.json` mode 600 size 1796 — **auth present**; `.grok/config.toml` present |
 | agent | `/home/box/.local/bin/agent` | same binary as grok | `grok 1.0.46 (2765805b9442)` | same as grok |
 | opencode | `/home/box/.local/bin/opencode` | nvm `opencode-ai` bin | `1.18.34` | **auth present** — storage `/home/box/.local/share/opencode/auth.json` (mode 600; contents never read). CLI `opencode auth list` shows OpenCode Zen (api). Provider label: opencode / OpenCode Zen |
-| kilo | `/home/box/.local/bin/kilo` | nvm `@kilocode/cli` | `7.8.3` | `.config/kilo/kilo.jsonc` present — config present; auth state UNKNOWN |
+| kilo | `/home/box/.local/bin/kilo` | nvm `@kilocode/cli` | `7.8.3` | **auth present** — Kilo Gateway **oauth**, 1 credential (`kilo auth list`); storage `/home/box/.local/share/kilo/auth.json` (mode 600, mtime ~17:52 CEST; contents never read) |
 | daintree | `/usr/bin/daintree` → `/opt/Daintree/daintree` | `/opt/Daintree/daintree` | **0.41.0** (from Chrome crashpad `_version` annotation; Electron `42.11.8`). Note: `daintree --version` **launches GUI** — do not use for collectors | `.daintree/` mode 700; `.config/Daintree/` present |
 | goose | `/home/box/.local/bin/goose` | same | `1.53.0` | UNKNOWN |
 | aider | `/home/box/.local/bin/aider` (uv tool) | uv tools path | `0.86.2` | UNKNOWN |
@@ -113,7 +113,7 @@ Notable: `box-chrome`, `box-xvfb`, `box-x11vnc`, `box-xfwm4`, `box-picom`, `box-
 | Grok | YES (auth.json exists) | method UNKNOWN |
 | OpenCode | YES — auth.json present | `/home/box/.local/share/opencode/auth.json` (never read); OpenCode Zen / provider opencode |
 | Gemini CLI | NO — oauth attempt failed | Google: “This client is no longer supported for Gemini”; no oauth_creds.json (~17:43 CEST) |
-| Kilo | config present | auth UNKNOWN |
+| Kilo | YES — Gateway oauth | `/home/box/.local/share/kilo/auth.json` (never read); 1 credential; ~17:52 CEST 2026-10-05 |
 | Daintree | config dirs present | auth UNKNOWN |
 | gh | YES — OAuth logged in | account **owenservera**; scopes gist, read:org, repo (token never recorded) |
 | git identity | empty | no global user.name/email |
@@ -188,3 +188,29 @@ Source: `stat` + `opencode auth list` (metadata) + `gh auth status` (token lines
 | Secrets | none captured |
 
 Source: AUTH-MASTER metadata + `test ! -e oauth_creds.json`; Europe/Paris.
+
+
+---
+
+## Update 2026-10-05 ~17:50–17:55 / catalog refresh 18:19 CEST — Kilo OAuth + opencode-free-proxy
+
+### Kilo (AUTH-MASTER)
+
+| Item | Detail |
+|------|--------|
+| Outcome | **OAuth completed** ~17:52 CEST 2026-10-05 |
+| Provider | Kilo Gateway (`oauth`) |
+| Credentials | **1** present (`kilo auth list`) |
+| Storage | `/home/box/.local/share/kilo/auth.json` exists mode `600` — **never read** |
+
+### opencode-free-proxy (AUTH-MASTER)
+
+| Item | Detail |
+|------|--------|
+| Deploy path | `/workspace/opencode-free-proxy` |
+| Listen | **`0.0.0.0:6446`** — observable via `ss -lntp` → `node` pid **309926** (`node server.mjs`, cwd proxy dir) |
+| Smoke | PEER: passed ~17:50–17:55 CEST |
+| Upstream Zen accounts | **6** (count only; no key material recorded) |
+| Secrets | `api-keys.json` present mode `600` — contents **not** dumped into telemetry |
+
+Source: AUTH-MASTER metadata + `kilo auth list` / `stat` / `ss`; Europe/Paris.
