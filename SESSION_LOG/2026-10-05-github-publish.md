@@ -18,7 +18,7 @@
 
 ## NOTE — gh CLI auth
 
-At publish time, `gh auth status` reported **not logged in**. MCP `user-GitHub-xai` (`get_me` → owenservera) works for `push_files` / `create_or_update_file`. Continuous **local** `git push` still needs `gh auth login` (device/web) completed by the user, or a sanctioned token in the environment. Do not paste tokens into docs.
+Initially MCP `push_files` was used while `gh` was unauthenticated. Later: `gh auth login` OAuth device-code completed as **owenservera** (scopes gist/read:org/repo; token not recorded). Continuous path is now `collectors/git_sync.sh` → local commit + `git push` via `gh auth setup-git`.
 
 ## Skipped from push
 
