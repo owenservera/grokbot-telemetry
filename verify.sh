@@ -133,6 +133,17 @@ else
   bad "daintree-peer ACTION_TRACE missing"
 fi
 
+
+for s in always_on.sh always_on_ctl.sh; do
+  if [[ -x "$ROOT/collectors/$s" ]]; then ok "collector executable $s"; else bad "collector $s missing/not +x"; fi
+done
+# Daemon liveness: how to check manually → collectors/always_on_ctl.sh status
+if [[ -f "$ROOT/DATA/always_on.pid" ]] && kill -0 "$(cat "$ROOT/DATA/always_on.pid")" 2>/dev/null; then
+  ok "always_on daemon alive pid=$(cat "$ROOT/DATA/always_on.pid")"
+else
+  bad "always_on daemon NOT running (start: collectors/always_on_ctl.sh start)"
+fi
+
 if [[ "$FAIL" -eq 0 ]]; then
   echo "RESULT: PASS"
   exit 0

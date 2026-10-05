@@ -37,7 +37,7 @@ fi
 
 # Stage allowlisted paths only
 git add -A -- \
-  README.md INDEX.md ARCHITECTURE.md TOOL_CATALOG.md PROCESS_MAP.md COLLECTORS.md verify.sh \
+  README.md WAKE.md INDEX.md ARCHITECTURE.md TOOL_CATALOG.md PROCESS_MAP.md COLLECTORS.md verify.sh \
   SCHEMAS SESSION_LOG ACTION_TRACE DIFFS DATA collectors \
   .gitignore 2>/dev/null || true
 

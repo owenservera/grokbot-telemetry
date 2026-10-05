@@ -50,3 +50,19 @@ Last local README write: 2026-10-05 17:05:39 CEST (Europe/Paris)
 ## On wake
 
 See [WAKE.md](./WAKE.md): run `collectors/run_all.sh`, then skim `DATA/*_latest.md`.
+
+## Always-on box daemon (Owen order, 2026-10-06)
+
+Linux observability runs **continuously on the box**, independent of Grok Bot chat wakes.
+
+| Item | Value |
+|------|-------|
+| Daemon | `collectors/always_on.sh` (loop: `run_all.sh` → `git_sync.sh` → sleep **300s**) |
+| Control | `collectors/always_on_ctl.sh start|stop|status|restart` |
+| PID file | `DATA/always_on.pid` (single instance via `flock` on `DATA/.always_on.lock`) |
+| Log | `DATA/always_on.log` (rotates at 5 MiB → `.log.1`; local only, not pushed) |
+| Started via | `setsid nohup` (no systemd on this box; PID 1 = `tini`) |
+| Master repo | **https://github.com/owenservera/grokbot-telemetry** — auto commit + push every 5 min |
+| Survives | chat turns / agent exits. **Not** a box reboot → re-run `always_on_ctl.sh start` on wake |
+
+Check: `collectors/always_on_ctl.sh status` · Stop: `collectors/always_on_ctl.sh stop`

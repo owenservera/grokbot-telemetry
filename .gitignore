@@ -10,3 +10,14 @@
 .env.*
 *.pem
 *.key
+
+# always-on daemon local state (not published)
+DATA/always_on.log
+DATA/always_on.log.1
+DATA/always_on.pid
+DATA/.always_on.lock
+# future timestamped snapshots stay local; *_latest.* files are what gets published
+DATA/exec_daemon_2*.jsonl
+DATA/cli_inventory_2*.jsonl
+DATA/sandbox_telemetry_2*.json
+DATA/cdp_display_map_2*.json

@@ -1,193 +1,69 @@
 {
-  "timestamp": "2026-10-05T18:37:31+0200",
+  "timestamp": "2026-10-06T00:03:43+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [
-    {
-      "cdp_port": 9224,
-      "display": ":2",
-      "display_num": 2,
-      "fork": 2,
-      "user_data_dir": "/home/box/chrome-profile/Fork-2",
-      "chrome_pid": 28187,
-      "agent_id": "59b161ea-9ed8-45e9-9343-d88856e1b37b",
-      "agent_name": "VOMEGA-MASTER",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9225,
-      "display": ":3",
-      "display_num": 3,
-      "fork": 3,
-      "user_data_dir": "/home/box/chrome-profile/Fork-3",
-      "chrome_pid": 77071,
-      "agent_id": "c873572d-0782-43e9-8773-459eae590ee7",
-      "agent_name": "TELEMETRY-MASTER",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9226,
-      "display": ":4",
-      "display_num": 4,
-      "fork": 4,
-      "user_data_dir": "/home/box/chrome-profile/Fork-4",
-      "chrome_pid": 122685,
-      "agent_id": "da3f13c0-b787-4f33-b771-3c3118b03c5e",
-      "agent_name": "AUTH-MASTER",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9227,
-      "display": ":5",
-      "display_num": 5,
-      "fork": 5,
-      "user_data_dir": "/home/box/chrome-profile/Fork-5",
-      "chrome_pid": 103760,
-      "agent_id": "8070f3a8-4839-482f-a21f-5a27e0c37574",
-      "agent_name": "Daintree Master",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9230,
-      "display": ":8",
-      "display_num": 8,
-      "fork": 8,
-      "user_data_dir": "/home/box/chrome-profile/Fork-8",
-      "chrome_pid": 187611,
-      "agent_id": "df22f871-00f9-4918-8177-86f8bb235df8",
-      "agent_name": "TOOLING - DOCS",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9238,
-      "display": ":16",
-      "display_num": 16,
-      "fork": 16,
-      "user_data_dir": "/home/box/chrome-profile/Fork-16",
-      "chrome_pid": 346459,
-      "agent_id": "582f31df-8f12-4fc0-9738-92617befe733",
-      "agent_name": "Daintree Master",
-      "playwright_attached": true,
-      "playwright_pids": [
-        346882
-      ],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    }
-  ],
-  "playwright_workers": [
-    {
-      "pid": 346882,
-      "ppid": 362,
-      "cdp_port": 9238,
-      "role": "sand-playwright-main"
-    }
-  ],
+  "live_table": [],
+  "playwright_workers": [],
   "xvfb": [
     {
-      "pid": 562,
+      "pid": 6430,
       "display": ":1",
       "display_num": 1
     },
     {
-      "pid": 17214,
+      "pid": 16727,
       "display": ":2",
       "display_num": 2
     },
     {
-      "pid": 71765,
+      "pid": 31328,
       "display": ":3",
       "display_num": 3
     },
     {
-      "pid": 95767,
+      "pid": 17175,
       "display": ":4",
       "display_num": 4
     },
     {
-      "pid": 99636,
-      "display": ":5",
-      "display_num": 5
-    },
-    {
-      "pid": 105714,
+      "pid": 41491,
       "display": ":6",
       "display_num": 6
     },
     {
-      "pid": 150461,
+      "pid": 34520,
       "display": ":7",
       "display_num": 7
     },
     {
-      "pid": 180187,
+      "pid": 22634,
       "display": ":8",
       "display_num": 8
     },
     {
-      "pid": 214774,
+      "pid": 7364,
       "display": ":9",
       "display_num": 9
     },
     {
-      "pid": 223180,
+      "pid": 21367,
       "display": ":10",
       "display_num": 10
     },
     {
-      "pid": 231530,
+      "pid": 24809,
       "display": ":11",
       "display_num": 11
     },
     {
-      "pid": 241313,
-      "display": ":12",
-      "display_num": 12
-    },
-    {
-      "pid": 247541,
-      "display": ":13",
-      "display_num": 13
-    },
-    {
-      "pid": 253716,
-      "display": ":14",
-      "display_num": 14
-    },
-    {
-      "pid": 268108,
-      "display": ":15",
-      "display_num": 15
-    },
-    {
-      "pid": 301866,
+      "pid": 7626,
       "display": ":16",
       "display_num": 16
     },
     {
-      "pid": 327244,
-      "display": ":17",
-      "display_num": 17
-    },
-    {
-      "pid": 370681,
-      "display": ":18",
-      "display_num": 18
+      "pid": 53379,
+      "display": ":19",
+      "display_num": 19
     }
   ],
   "disk_forks": [
@@ -233,6 +109,10 @@
       "agent_id": "2b5105b7-b669-47fe-9454-651542a04d57",
       "agent_name": "Code Master"
     },
+    "19": {
+      "agent_id": "49621308-b536-405d-ad0f-74589b133bae",
+      "agent_name": "Chief Of Staff"
+    },
     "14": {
       "agent_id": "501f1c5c-7414-4335-ae6d-7bb39171f819",
       "agent_name": "Android Setup And config"
@@ -251,7 +131,7 @@
     },
     "5": {
       "agent_id": "8070f3a8-4839-482f-a21f-5a27e0c37574",
-      "agent_name": "Daintree Master"
+      "agent_name": "Daintree Master (secondary)"
     },
     "13": {
       "agent_id": "82dba8ac-1b27-48f4-9bf0-716a96b04a8b",

@@ -1,18 +1,14 @@
 {
-  "timestamp": "2026-10-05T18:37:31+0200",
+  "timestamp": "2026-10-06T00:03:43+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 185224,
-  "line_count": 778,
+  "bytes": 32558,
+  "line_count": 76,
   "kind_counts": {
-    "chrome_profile_sample": 562,
-    "memory_sample": 203,
-    "chrome_launch": 5,
+    "memory_sample": 71,
     "boot_stage": 3,
-    "cookie_persist": 2,
     "egress_tunnel": 1,
-    "host_boot_fetch": 1,
-    "process_crash": 1
+    "host_boot_fetch": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -62,156 +58,65 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 203
+        "int": 71
       },
       "chromeGpuPssKb": {
-        "int": 203
+        "int": 71
       },
       "chromeOtherPssKb": {
-        "int": 203
+        "int": 71
       },
       "chromeProcesses": {
-        "int": 203
+        "int": 71
       },
       "chromeProfiles": {
-        "int": 203
+        "int": 71
       },
       "chromeRendererMaxPssKb": {
-        "int": 203
+        "int": 71
       },
       "chromeRendererPssKb": {
-        "int": 203
+        "int": 71
       },
       "chromeRenderers": {
-        "int": 203
+        "int": 71
       },
       "chromeTabs": {
-        "int": 203
+        "int": 71
       },
       "chromeTabsProbedProfiles": {
-        "int": 203
+        "int": 71
       },
       "chromeUtilityPssKb": {
-        "int": 203
+        "int": 71
       },
       "desktopPssKb": {
-        "int": 203
+        "int": 71
       },
       "hostPssKb": {
-        "int": 203
+        "int": 71
       },
       "kind": {
-        "str": 203
+        "str": 71
       },
       "memAvailableKb": {
-        "int": 203
+        "int": 71
       },
       "memTotalKb": {
-        "int": 203
+        "int": 71
       },
       "otherPssKb": {
-        "int": 203
+        "int": 71
       },
       "processes": {
-        "int": 203
+        "int": 71
       },
       "pssFallbackProcesses": {
-        "int": 203
-      }
-    },
-    "chrome_launch": {
-      "attempt": {
-        "int": 5
-      },
-      "display": {
-        "int": 5
-      },
-      "durationMs": {
-        "int": 5
-      },
-      "kind": {
-        "str": 5
-      },
-      "mode": {
-        "str": 5
-      },
-      "outcome": {
-        "str": 5
-      }
-    },
-    "cookie_persist": {
-      "attempts": {
-        "int": 1
-      },
-      "injected": {
-        "int": 1
-      },
-      "kind": {
-        "str": 2
-      },
-      "missingAfter": {
-        "int": 1
-      },
-      "outcome": {
-        "str": 2
-      },
-      "phase": {
-        "str": 2
-      },
-      "seedCookies": {
-        "int": 2
-      }
-    },
-    "chrome_profile_sample": {
-      "cpuMillicores": {
-        "int": 555
-      },
-      "display": {
-        "int": 562
-      },
-      "kind": {
-        "str": 562
-      },
-      "processes": {
-        "int": 562
-      },
-      "pssKb": {
-        "int": 562
-      },
-      "rendererMaxPssKb": {
-        "int": 562
-      },
-      "renderers": {
-        "int": 562
-      },
-      "tabs": {
-        "int": 557
-      }
-    },
-    "process_crash": {
-      "binary": {
-        "str": 1
-      },
-      "count": {
-        "int": 1
-      },
-      "kind": {
-        "str": 1
-      },
-      "signal": {
-        "str": 1
+        "int": 71
       }
     }
   },
-  "display_counts_in_log": {
-    "2": 148,
-    "3": 107,
-    "5": 100,
-    "4": 98,
-    "8": 83,
-    "16": 26,
-    "0": 5
-  },
+  "display_counts_in_log": {},
   "boot_stages": {
     "entrypoint_started": 1,
     "daemon_listening": 1,
@@ -219,20 +124,9 @@
   },
   "outcomes": {
     "egress_tunnel:ready": 1,
-    "host_boot_fetch:applied": 1,
-    "chrome_launch:ready": 4,
-    "cookie_persist:empty": 1,
-    "cookie_persist:captured": 1,
-    "chrome_launch:window_timeout": 1
+    "host_boot_fetch:applied": 1
   },
-  "redaction_summary": [
-    {
-      "kind": "cookie_persist",
-      "key": "seedCookies",
-      "value_type": "int",
-      "seen": 2
-    }
-  ],
+  "redaction_summary": [],
   "redaction_policy": [
     "Omit values for keys matching token|secret|password|cookie|credential|bearer|otp|seedCookies",
     "Emit only kind counts, key names, value types, and numeric aggregates",

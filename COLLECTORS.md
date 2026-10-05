@@ -7,6 +7,7 @@
 | 1 | Shell / exec-daemon correlator | `collectors/exec_daemon_sample.sh` | **IMPLEMENTED** — run → `DATA/exec_daemon_*.jsonl` |
 | 2 | Safe CLI inventory | `collectors/cli_inventory.sh` | **SKELETON** — allowlist `--version`; never `daintree --version` |
 | 3 | sand-box-telemetry.log + CDP map | `collectors/sandbox_telemetry_parse.sh` | **IMPLEMENTED** — safe schema + CDP↔Fork↔display |
+| — | Always-on daemon | `collectors/always_on.sh` + `always_on_ctl.sh` | **RUNNING** — 300s loop, run_all → git_sync |
 | — | Orchestrator | `collectors/run_all.sh` | **IMPLEMENTED** — 1→2→3, non-zero on any failure |
 
 ## Collector 1 — exec_daemon_sample.sh
