@@ -1,21 +1,21 @@
-=== run_all start 2026-10-06 01:11:04 CEST ===
+=== run_all start 2026-10-06 01:16:17 CEST ===
 --- running exec_daemon_sample.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261006-011104.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261006-011617.jsonl
 SUMMARY /workspace/grokbot-telemetry/DATA/exec_daemon_latest.md
 DAEMONS 20
-22 /workspace/grokbot-telemetry/DATA/exec_daemon_20261006-011104.jsonl
+22 /workspace/grokbot-telemetry/DATA/exec_daemon_20261006-011617.jsonl
 OK: exec_daemon_sample.sh
 --- running cli_inventory.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261006-011108.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261006-011621.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261006-011114.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261006-011114.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261006-011626.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261006-011626.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261006-011114-sandbox-telemetry-summary.md
-KINDS {'memory_sample': 138, 'boot_stage': 3, 'egress_tunnel': 1, 'host_boot_fetch': 1}
+WROTE /workspace/grokbot-telemetry/DIFFS/20261006-011626-sandbox-telemetry-summary.md
+KINDS {'memory_sample': 143, 'boot_stage': 3, 'egress_tunnel': 1, 'host_boot_fetch': 1}
 CDP_ROWS 0
-DONE 2026-10-06 01:11:14 CEST
+DONE 2026-10-06 01:16:26 CEST
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-06 01:11:14 CEST fail=0 ===
+=== run_all end 2026-10-06 01:16:26 CEST fail=0 ===
