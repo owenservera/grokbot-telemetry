@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-10-06 00:08:46 CEST
+# exec_daemon_sample 2026-10-06 00:13:55 CEST
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -14,9 +14,17 @@
 | 38624 | 14007 | 13607 | :7 | MIRROR-MASTER (2006f479…) | 0 |
 | 44726 | 14006 | 13606 | :6 | Research Master (b89d2383…) | 0 |
 | 56715 | 14019 | 13619 | :19 | Chief Of Staff (49621308…) | 1 |
+| 119443 | 14018 | 13618 | :18 | Grock.Coms (8652b49b…) | 0 |
+| 127290 | 14012 | 13612 | :12 | Code Master (2b5105b7…) | 0 |
+| 134743 | 14020 | 13620 | :20 | Grok Bot (11eafd10…) | 0 |
+| 143302 | 14005 | 13605 | :5 | Daintree Master (secondary) (8070f3a8…) | 0 |
+| 155410 | 14013 | 13613 | :13 | Google-accounts (82dba8ac…) | 0 |
+| 161945 | 14014 | 13614 | :14 | Android Setup And config (501f1c5c…) | 0 |
+| 167258 | 14015 | 13615 | :15 | Vercel Live Full Rock Bot Project Management Feed (a80ef3f4…) | 0 |
+| 175619 | 14017 | 13617 | :17 | AI router (7d255140…) | 0 |
 
 ## Notes
-- Snapshot: `2026-10-06 00:08:46 CEST`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261006-000846.jsonl`
-- Daemons found: 12
+- Snapshot: `2026-10-06 00:13:55 CEST`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261006-001355.jsonl`
+- Daemons found: 20
 - Auth tokens in argv replaced with [REDACTED]

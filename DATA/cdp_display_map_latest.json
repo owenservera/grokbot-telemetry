@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T00:08:53+0200",
+  "timestamp": "2026-10-06T00:14:04+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
@@ -24,6 +24,11 @@
       "pid": 17175,
       "display": ":4",
       "display_num": 4
+    },
+    {
+      "pid": 137788,
+      "display": ":5",
+      "display_num": 5
     },
     {
       "pid": 41491,
@@ -56,14 +61,49 @@
       "display_num": 11
     },
     {
+      "pid": 122491,
+      "display": ":12",
+      "display_num": 12
+    },
+    {
+      "pid": 143041,
+      "display": ":13",
+      "display_num": 13
+    },
+    {
+      "pid": 146756,
+      "display": ":14",
+      "display_num": 14
+    },
+    {
+      "pid": 153030,
+      "display": ":15",
+      "display_num": 15
+    },
+    {
       "pid": 7626,
       "display": ":16",
       "display_num": 16
     },
     {
+      "pid": 169732,
+      "display": ":17",
+      "display_num": 17
+    },
+    {
+      "pid": 115154,
+      "display": ":18",
+      "display_num": 18
+    },
+    {
       "pid": 53379,
       "display": ":19",
       "display_num": 19
+    },
+    {
+      "pid": 129766,
+      "display": ":20",
+      "display_num": 20
     }
   ],
   "disk_forks": [
@@ -96,6 +136,10 @@
     "9": {
       "agent_id": "00b908f7-c2ea-4719-8f62-f6215000f651",
       "agent_name": "New Bot"
+    },
+    "20": {
+      "agent_id": "11eafd10-3717-42e6-99a7-29c889b5c4a0",
+      "agent_name": "Grok Bot"
     },
     "11": {
       "agent_id": "134a7c4b-e4d1-44f2-8a56-bf86910c7276",
