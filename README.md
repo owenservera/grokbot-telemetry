@@ -46,3 +46,7 @@ TELEMETRY-MASTER updates this tree as new evidence appears on the box. Prefer:
 Remote: <https://github.com/owenservera/grokbot-telemetry>
 
 Last local README write: 2026-10-05 17:05:39 CEST (Europe/Paris)
+
+## On wake
+
+See [WAKE.md](./WAKE.md): run `collectors/run_all.sh`, then skim `DATA/*_latest.md`.

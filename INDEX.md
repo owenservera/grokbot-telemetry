@@ -23,6 +23,7 @@
 | [ACTION_TRACE/](./ACTION_TRACE/) | Significant action streams |
 | [DIFFS/](./DIFFS/) | FS inventory snapshots |
 | [SCHEMAS/](./SCHEMAS/) | Event JSON schemas |
+| [WAKE.md](./WAKE.md) | On-wake checklist (run_all + skim latest) |
 | [README.md](./README.md) | Clone / privacy / continuous updates |
 | [verify.sh](./verify.sh) | Health check |
 

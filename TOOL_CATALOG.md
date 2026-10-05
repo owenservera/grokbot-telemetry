@@ -150,3 +150,14 @@ Notable: `box-chrome`, `box-xvfb`, `box-x11vnc`, `box-xfwm4`, `box-picom`, `box-
 | Worktrees | `/workspace/daintree-playground-worktrees/{feature-alpha-note@a74c7ff,chore-beta-note@88f6959}` **CONFIRMED** |
 | Docs | `/workspace/daintree-docs/` incl. `08-worktrees-y-review.md`, `10-trazas-reales.md` **CONFIRMED** |
 | Wizard prefs | PEER only: Integrations → CLI agents; Telemetry Off; Skip permission prompts Off |
+
+
+---
+
+## Update 2026-10-05 17:09:25 CEST — `gh` CLI auth
+
+| CLI | Path | Auth | Notes |
+|-----|------|------|-------|
+| `gh` | `/usr/bin/gh` | **present** — OAuth device-code (`gh auth login --web`), account **owenservera** | Scopes observed via `gh auth status`: `gist`, `read:org`, `repo`. Token value never recorded. Enables local `git push` via `gh auth setup-git` + `collectors/git_sync.sh`. |
+
+Source: `gh auth status` (token redacted); Europe/Paris.
