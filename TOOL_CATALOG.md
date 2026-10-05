@@ -24,7 +24,7 @@
 | daintree | `/usr/bin/daintree` → `/opt/Daintree/daintree` | `/opt/Daintree/daintree` | **0.41.0** (from Chrome crashpad `_version` annotation; Electron `42.11.8`). Note: `daintree --version` **launches GUI** — do not use for collectors | `.daintree/` mode 700; `.config/Daintree/` present |
 | goose | `/home/box/.local/bin/goose` | same | `1.53.0` | UNKNOWN |
 | aider | `/home/box/.local/bin/aider` (uv tool) | uv tools path | `0.86.2` | UNKNOWN |
-| gemini | nvm bin | `@google/gemini-cli` | `0.62.0` | `.gemini/` dir present (mostly tmp projects.json.*) — auth UNKNOWN |
+| gemini | nvm bin | `@google/gemini-cli` | `0.62.0` | **auth NOT present** — oauth-personal attempt ~17:43 CEST 2026-10-05 failed: Google rejected “This client is no longer supported for Gemini”; `~/.gemini/oauth_creds.json` **absent** (AUTH-MASTER metadata; no secrets) |
 | crush | nvm bin | `@charmland/crush` | `v0.97.1` | UNKNOWN |
 | llm | uv tool | | `0.36` | UNKNOWN |
 | hf | uv tool | | `2.1.1` | UNKNOWN |
@@ -112,6 +112,7 @@ Notable: `box-chrome`, `box-xvfb`, `box-x11vnc`, `box-xfwm4`, `box-picom`, `box-
 | Codex | YES (auth.json exists; auth process live) | likely oauth/device |
 | Grok | YES (auth.json exists) | method UNKNOWN |
 | OpenCode | YES — auth.json present | `/home/box/.local/share/opencode/auth.json` (never read); OpenCode Zen / provider opencode |
+| Gemini CLI | NO — oauth attempt failed | Google: “This client is no longer supported for Gemini”; no oauth_creds.json (~17:43 CEST) |
 | Kilo | config present | auth UNKNOWN |
 | Daintree | config dirs present | auth UNKNOWN |
 | gh | YES — OAuth logged in | account **owenservera**; scopes gist, read:org, repo (token never recorded) |
@@ -173,3 +174,17 @@ Source: `gh auth status` (token redacted); Europe/Paris.
 | **gh** | **present** (reconfirmed 17:43 CEST) | `gh auth status`: logged in as **owenservera**; protocol https; scopes `gist`, `read:org`, `repo`. Token values never recorded. |
 
 Source: `stat` + `opencode auth list` (metadata) + `gh auth status` (token lines discarded); Europe/Paris.
+
+
+---
+
+## Update 2026-10-05 ~17:43 CEST — Gemini CLI oauth failed (AUTH-MASTER)
+
+| Item | Detail |
+|------|--------|
+| Attempt | `gemini` oauth-personal ~17:43 CEST 2026-10-05 |
+| Outcome | **FAILED** — Google rejected: “This client is no longer supported for Gemini” |
+| Creds file | `/home/box/.gemini/oauth_creds.json` **not written** (confirmed absent) |
+| Secrets | none captured |
+
+Source: AUTH-MASTER metadata + `test ! -e oauth_creds.json`; Europe/Paris.
