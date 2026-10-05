@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-10-06 00:03:36 CEST
+# exec_daemon_sample 2026-10-06 00:07:44 CEST
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -10,13 +10,13 @@
 | 24220 | 14010 | 13610 | :10 | Grok Bot Objective Alignment (8f1be303…) | 0 |
 | 27331 | 14008 | 13608 | :8 | TOOLING - DOCS (df22f871…) | 0 |
 | 29798 | 14011 | 13611 | :11 | Runtime Master (134a7c4b…) | 0 |
-| 34098 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 8 |
+| 34098 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 6 |
 | 38624 | 14007 | 13607 | :7 | MIRROR-MASTER (2006f479…) | 0 |
 | 44726 | 14006 | 13606 | :6 | Research Master (b89d2383…) | 0 |
 | 56715 | 14019 | 13619 | :19 | Chief Of Staff (49621308…) | 1 |
 
 ## Notes
-- Snapshot: `2026-10-06 00:03:36 CEST`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261006-000336.jsonl`
+- Snapshot: `2026-10-06 00:07:44 CEST`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261006-000744.jsonl`
 - Daemons found: 12
 - Auth tokens in argv replaced with [REDACTED]
