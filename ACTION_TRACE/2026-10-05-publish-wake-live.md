@@ -21,3 +21,9 @@ GitHub publish reported successful at **13fdd4a**. Keep-alive after publish.
 ## Conclusion
 
 Publish + wake path is **live**: verify → run_all → (optional) git_sync. On-wake checklist remains `WAKE.md`.
+
+## Sync result
+
+- Prior publish tip: `13fdd4a`
+- Wake sync tip: **`9b67423`** pushed to `origin/main` via `gh`/`git` (2026-10-05 17:11 CEST)
+- Remote confirmed: `collectors/run_all.sh` present (`gh api …/contents/collectors/run_all.sh`)
