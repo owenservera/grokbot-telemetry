@@ -53,6 +53,23 @@ done < <(git diff --cached --name-only 2>/dev/null || true)
 
 if git diff --cached --quiet 2>/dev/null; then
   echo "No changes to commit ($TS)"
+  # Still try push if we have unpushed commits (e.g. prior always_on commit).
+  if gh auth status >/dev/null 2>&1; then
+    git fetch origin main >/dev/null 2>&1 || true
+    if git rev-parse --verify origin/main >/dev/null 2>&1 \
+      && [[ "$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)" != "0" ]]; then
+      if ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
+        echo "Diverged from origin/main; rebasing before push..."
+        git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase origin/main || {
+          echo "FAIL: rebase needed but conflicted with no new commit path" >&2
+          git rebase --abort 2>/dev/null || true
+          exit 1
+        }
+      fi
+      git push -u origin HEAD:main
+      echo "Pushed via gh/git (no new commit) ($TS)"
+    fi
+  fi
   exit 0
 fi
 
@@ -60,6 +77,30 @@ git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" commi
 echo "Committed locally: $MSG"
 
 if gh auth status >/dev/null 2>&1; then
+  # Rebase onto remote if diverged (common when always_on + sync-loop race, or remote moved).
+  git fetch origin main >/dev/null 2>&1 || true
+  if git rev-parse --verify origin/main >/dev/null 2>&1 \
+    && ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
+    echo "Diverged from origin/main; rebasing before push..."
+    if ! git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase origin/main; then
+      # Prefer the commit being applied (local newer snapshots) for conflicted latest files.
+      while git diff --name-only --diff-filter=U 2>/dev/null | grep -q .; do
+        while IFS= read -r f; do
+          [[ -z "$f" ]] && continue
+          git checkout --theirs -- "$f" 2>/dev/null || true
+          git add -- "$f"
+        done < <(git diff --name-only --diff-filter=U 2>/dev/null || true)
+        if ! GIT_EDITOR=true git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase --continue; then
+          if git diff --name-only --diff-filter=U 2>/dev/null | grep -q .; then
+            continue
+          fi
+          echo "FAIL: rebase could not continue" >&2
+          git rebase --abort 2>/dev/null || true
+          exit 1
+        fi
+      done
+    fi
+  fi
   git push -u origin HEAD:main
   echo "Pushed via gh/git ($TS)"
 else
