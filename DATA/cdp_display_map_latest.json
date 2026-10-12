@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-10-12T23:34:38+0200",
+  "timestamp": "2026-10-12T23:38:50+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [],
+  "live_table": [
+    {
+      "cdp_port": 9243,
+      "display": ":21",
+      "display_num": 21,
+      "fork": 21,
+      "user_data_dir": "/home/box/chrome-profile/Fork-21",
+      "chrome_pid": 491331,
+      "agent_id": "8f505e51-a551-4ca6-ad9e-2ed8cc568c86",
+      "agent_name": "Test",
+      "playwright_attached": false,
+      "playwright_pids": [],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": true
+    }
+  ],
   "playwright_workers": [],
   "xvfb": [
     {
@@ -19,6 +34,11 @@
       "pid": 7303,
       "display": ":9",
       "display_num": 9
+    },
+    {
+      "pid": 488758,
+      "display": ":21",
+      "display_num": 21
     }
   ],
   "disk_forks": [
@@ -29,6 +49,10 @@
     {
       "fork": 2,
       "path": "/home/box/chrome-profile/Fork-2"
+    },
+    {
+      "fork": 21,
+      "path": "/home/box/chrome-profile/Fork-21"
     },
     {
       "fork": 3,
@@ -103,6 +127,10 @@
     "10": {
       "agent_id": "8f1be303-7ff1-4cf4-b6c0-b61fe7f131f6",
       "agent_name": "Grok Bot Objective Alignment"
+    },
+    "21": {
+      "agent_id": "8f505e51-a551-4ca6-ad9e-2ed8cc568c86",
+      "agent_name": "Test"
     },
     "15": {
       "agent_id": "a80ef3f4-3341-481f-935e-b7b4cf0928e5",

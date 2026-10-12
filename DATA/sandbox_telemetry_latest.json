@@ -1,14 +1,17 @@
 {
-  "timestamp": "2026-10-12T23:34:38+0200",
+  "timestamp": "2026-10-12T23:38:50+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 695564,
-  "line_count": 1543,
+  "bytes": 697620,
+  "line_count": 1551,
   "kind_counts": {
-    "memory_sample": 1538,
+    "memory_sample": 1541,
     "boot_stage": 3,
+    "cookie_persist": 2,
+    "chrome_profile_sample": 2,
     "egress_tunnel": 1,
-    "host_boot_fetch": 1
+    "host_boot_fetch": 1,
+    "chrome_launch": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -58,65 +61,142 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "chromeGpuPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "chromeOtherPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "chromeProcesses": {
-        "int": 1538
+        "int": 1541
       },
       "chromeProfiles": {
-        "int": 1538
+        "int": 1541
       },
       "chromeRendererMaxPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "chromeRendererPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "chromeRenderers": {
-        "int": 1538
+        "int": 1541
       },
       "chromeTabs": {
-        "int": 1538
+        "int": 1541
       },
       "chromeTabsProbedProfiles": {
-        "int": 1538
+        "int": 1541
       },
       "chromeUtilityPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "desktopPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "hostPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "kind": {
-        "str": 1538
+        "str": 1541
       },
       "memAvailableKb": {
-        "int": 1538
+        "int": 1541
       },
       "memTotalKb": {
-        "int": 1538
+        "int": 1541
       },
       "otherPssKb": {
-        "int": 1538
+        "int": 1541
       },
       "processes": {
-        "int": 1538
+        "int": 1541
       },
       "pssFallbackProcesses": {
-        "int": 1538
+        "int": 1541
+      }
+    },
+    "chrome_launch": {
+      "attempt": {
+        "int": 1
+      },
+      "display": {
+        "int": 1
+      },
+      "durationMs": {
+        "int": 1
+      },
+      "kind": {
+        "str": 1
+      },
+      "launcher": {
+        "int": 1
+      },
+      "launcherSource": {
+        "str": 1
+      },
+      "mode": {
+        "str": 1
+      },
+      "outcome": {
+        "str": 1
+      }
+    },
+    "cookie_persist": {
+      "attempts": {
+        "int": 1
+      },
+      "injected": {
+        "int": 1
+      },
+      "kind": {
+        "str": 2
+      },
+      "missingAfter": {
+        "int": 1
+      },
+      "outcome": {
+        "str": 2
+      },
+      "phase": {
+        "str": 2
+      },
+      "seedCookies": {
+        "int": 2
+      }
+    },
+    "chrome_profile_sample": {
+      "cpuMillicores": {
+        "int": 1
+      },
+      "display": {
+        "int": 2
+      },
+      "kind": {
+        "str": 2
+      },
+      "processes": {
+        "int": 2
+      },
+      "pssKb": {
+        "int": 2
+      },
+      "rendererMaxPssKb": {
+        "int": 2
+      },
+      "renderers": {
+        "int": 2
+      },
+      "tabs": {
+        "int": 2
       }
     }
   },
-  "display_counts_in_log": {},
+  "display_counts_in_log": {
+    "21": 3
+  },
   "boot_stages": {
     "entrypoint_started": 1,
     "daemon_listening": 1,
@@ -124,9 +204,19 @@
   },
   "outcomes": {
     "egress_tunnel:ready": 1,
-    "host_boot_fetch:applied": 1
+    "host_boot_fetch:applied": 1,
+    "chrome_launch:ready": 1,
+    "cookie_persist:partial": 1,
+    "cookie_persist:captured": 1
   },
-  "redaction_summary": [],
+  "redaction_summary": [
+    {
+      "kind": "cookie_persist",
+      "key": "seedCookies",
+      "value_type": "int",
+      "seen": 2
+    }
+  ],
   "redaction_policy": [
     "Omit values for keys matching token|secret|password|cookie|credential|bearer|otp|seedCookies",
     "Emit only kind counts, key names, value types, and numeric aggregates",
