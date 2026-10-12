@@ -19,3 +19,7 @@
 | opencode | MISSING | | |
 | kilo | MISSING | | |
 | goose | `/home/box/.local/bin/goose` |  1.53.0  |
+| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
+| gemini | MISSING | | |
+| playwright | MISSING | | |
+| pnpm | `/usr/bin/pnpm` | 10.33.4  |
