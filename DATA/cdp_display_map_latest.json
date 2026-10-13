@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "timestamp": "2026-10-14T00:40:37+0200",
-=======
-  "timestamp": "2026-10-14T00:41:41+0200",
->>>>>>> 8f03656 (telemetry always_on 2026-10-14 00:41 CEST)
+  "timestamp": "2026-10-14T00:41:42+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
