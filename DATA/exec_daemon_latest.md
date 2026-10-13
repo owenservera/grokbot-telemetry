@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-10-13 15:17:25 CEST
+# exec_daemon_sample 2026-10-13 15:22:32 CEST
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -9,7 +9,7 @@
 | 769539 | 14020 | 13620 | :20 | Grok Bot (11eafd10…) | 0 |
 
 ## Notes
-- Snapshot: `2026-10-13 15:17:25 CEST`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261013-151725.jsonl`
+- Snapshot: `2026-10-13 15:22:32 CEST`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261013-152232.jsonl`
 - Daemons found: 5
 - Auth tokens in argv replaced with [REDACTED]
