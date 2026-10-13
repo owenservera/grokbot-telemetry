@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-13T22:38:12+0200",
+  "timestamp": "2026-10-13T22:42:32+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1266727,
+  "bytes": 1266728,
   "line_count": 3337,
   "kind_counts": {
     "memory_sample": 2434,
