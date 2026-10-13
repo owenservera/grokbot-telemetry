@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-13T04:09:48+0200",
+  "timestamp": "2026-10-13T04:10:46+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 809667,
-  "line_count": 1903,
+  "bytes": 810304,
+  "line_count": 1905,
   "kind_counts": {
-    "memory_sample": 1717,
-    "chrome_profile_sample": 178,
+    "memory_sample": 1718,
+    "chrome_profile_sample": 179,
     "boot_stage": 3,
     "cookie_persist": 2,
     "egress_tunnel": 1,
@@ -61,61 +61,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "chromeGpuPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "chromeOtherPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "chromeProcesses": {
-        "int": 1717
+        "int": 1718
       },
       "chromeProfiles": {
-        "int": 1717
+        "int": 1718
       },
       "chromeRendererMaxPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "chromeRendererPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "chromeRenderers": {
-        "int": 1717
+        "int": 1718
       },
       "chromeTabs": {
-        "int": 1717
+        "int": 1718
       },
       "chromeTabsProbedProfiles": {
-        "int": 1717
+        "int": 1718
       },
       "chromeUtilityPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "desktopPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "hostPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "kind": {
-        "str": 1717
+        "str": 1718
       },
       "memAvailableKb": {
-        "int": 1717
+        "int": 1718
       },
       "memTotalKb": {
-        "int": 1717
+        "int": 1718
       },
       "otherPssKb": {
-        "int": 1717
+        "int": 1718
       },
       "processes": {
-        "int": 1717
+        "int": 1718
       },
       "pssFallbackProcesses": {
-        "int": 1717
+        "int": 1718
       }
     },
     "chrome_launch": {
@@ -169,33 +169,33 @@
     },
     "chrome_profile_sample": {
       "cpuMillicores": {
-        "int": 177
+        "int": 178
       },
       "display": {
-        "int": 178
+        "int": 179
       },
       "kind": {
-        "str": 178
+        "str": 179
       },
       "processes": {
-        "int": 178
+        "int": 179
       },
       "pssKb": {
-        "int": 178
+        "int": 179
       },
       "rendererMaxPssKb": {
-        "int": 178
+        "int": 179
       },
       "renderers": {
-        "int": 178
+        "int": 179
       },
       "tabs": {
-        "int": 178
+        "int": 179
       }
     }
   },
   "display_counts_in_log": {
-    "21": 179
+    "21": 180
   },
   "boot_stages": {
     "entrypoint_started": 1,
