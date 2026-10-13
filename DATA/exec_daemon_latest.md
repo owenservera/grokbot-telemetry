@@ -7,3 +7,9 @@
 | 375304 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 5 |
 | 490104 | 14021 | 13621 | :21 | Test (8f505e51…) | 0 |
 | 769539 | 14020 | 13620 | :20 | Grok Bot (11eafd10…) | 0 |
+
+## Notes
+- Snapshot: `2026-10-13 15:12:18 CEST`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261013-151218.jsonl`
+- Daemons found: 5
+- Auth tokens in argv replaced with [REDACTED]
