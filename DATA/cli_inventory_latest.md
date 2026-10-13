@@ -1,4 +1,4 @@
-# safe inventory 2026-10-14 00:40:35 CEST
+# safe inventory 2026-10-14 00:41:40 CEST
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
@@ -11,7 +11,10 @@
 | git | `/usr/bin/git` | git version 2.47.3  |
 | curl | `/usr/bin/curl` | curl 8.14.1 (x86_64-pc-linux-gnu) libcurl/8.14.1 OpenSSL/3.5.7 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.2 libssh2/1.11.1 nghttp2/1.64.0 nghttp3/1.8.0 librtmp/2.3 OpenLDAP/2.6.10  |
 | jq | `/usr/bin/jq` | jq-1.7  |
+| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
 | rg | `/usr/bin/rg` | ripgrep 14.1.1  |
+| gemini | MISSING | | |
+| playwright | MISSING | | |
 | gh | `/usr/bin/gh` | gh version 2.46.0 (2025-01-13 Debian 2.46.0-3)  |
 | claude | `/home/box/.local/bin/claude` | 2.1.290 (Claude Code)  |
 | codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
@@ -19,7 +22,4 @@
 | opencode | MISSING | | |
 | kilo | MISSING | | |
 | goose | `/home/box/.local/bin/goose` |  1.53.0  |
-| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
-| gemini | MISSING | | |
-| playwright | MISSING | | |
-| pnpm | `/usr/bin/pnpm` | 10.33.4  |
+| pnpm | `/usr/bin/pnpm` | 10.34.6  |
