@@ -19,3 +19,11 @@
 | claude | `/home/box/.local/bin/claude` | 2.1.290 (Claude Code)  |
 | pnpm | `/usr/bin/pnpm` | 10.34.6  |
 | codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
+| grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442) [stable]  |
+| opencode | MISSING | | |
+| kilo | MISSING | | |
+| goose | `/home/box/.local/bin/goose` |  1.53.0  |
+| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
+| gemini | MISSING | | |
+| playwright | MISSING | | |
+| pnpm | `/usr/bin/pnpm` | 10.34.6  |
