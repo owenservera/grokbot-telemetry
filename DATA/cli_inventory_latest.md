@@ -1,9 +1,8 @@
-# safe inventory 2026-10-14 06:27:29 CEST
+# safe inventory 2026-10-14 06:30:07 CEST
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
-| pnpm | `/usr/bin/pnpm` | 10.34.6  |
 | node | `/usr/bin/node` | v20.19.2  |
 | npm | `/usr/bin/npm` | 9.2.0  |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
