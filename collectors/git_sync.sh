@@ -7,6 +7,10 @@ set -euo pipefail
 ROOT="/workspace/grokbot-telemetry"
 cd "$ROOT"
 
+# Serialize with always_on daemon / sync-loop (race seen 2026-10-15 06:21: concurrent rebase hit unstaged changes).
+exec 8>/tmp/grokbot-telemetry-git_sync.lock
+flock -w 120 8 || { echo "FAIL: git_sync lock busy >120s" >&2; exit 1; }
+
 TS="$(date '+%Y-%m-%d %H:%M:%S %Z')"
 MSG="${1:-telemetry sync ${TS}}"
 
@@ -60,7 +64,7 @@ if git diff --cached --quiet 2>/dev/null; then
       && [[ "$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)" != "0" ]]; then
       if ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
         echo "Diverged from origin/main; rebasing before push..."
-        git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase origin/main || {
+        git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase --autostash origin/main || {
           echo "FAIL: rebase needed but conflicted with no new commit path" >&2
           git rebase --abort 2>/dev/null || true
           exit 1
@@ -82,7 +86,7 @@ if gh auth status >/dev/null 2>&1; then
   if git rev-parse --verify origin/main >/dev/null 2>&1 \
     && ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
     echo "Diverged from origin/main; rebasing before push..."
-    if ! git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase origin/main; then
+    if ! git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase --autostash origin/main; then
       # Prefer the commit being applied (local newer snapshots) for conflicted latest files.
       while git diff --name-only --diff-filter=U 2>/dev/null | grep -q .; do
         while IFS= read -r f; do
