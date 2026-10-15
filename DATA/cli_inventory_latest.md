@@ -1,9 +1,14 @@
-# safe inventory 2026-10-15 15:35:13 CEST
+# safe inventory 2026-10-15 15:35:42 CEST
 | cli | path | version |
 |-----|------|---------|
+| codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
+| grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442) [stable]  |
+| opencode | MISSING | | |
 | node | `/usr/bin/node` | v20.19.2  |
+| kilo | MISSING | | |
+| goose | `/home/box/.local/bin/goose` |  1.53.0  |
 | npm | `/usr/bin/npm` | 9.2.0  |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
 | python3 | `/usr/bin/python3` | Python 3.13.5  |
@@ -23,3 +28,6 @@
 | gemini | MISSING | | |
 | playwright | MISSING | | |
 | pnpm | `/usr/bin/pnpm` | 10.34.6  |
+| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
+| gemini | MISSING | | |
+| playwright | MISSING | | |
