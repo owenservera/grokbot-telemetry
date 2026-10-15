@@ -1,14 +1,17 @@
 {
-  "timestamp": "2026-10-16T01:40:05+0200",
+  "timestamp": "2026-10-16T01:43:12+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1157490,
-  "line_count": 2565,
+  "bytes": 1160005,
+  "line_count": 2574,
   "kind_counts": {
-    "memory_sample": 2560,
+    "memory_sample": 2564,
     "boot_stage": 3,
+    "cookie_persist": 2,
+    "chrome_profile_sample": 2,
     "egress_tunnel": 1,
-    "host_boot_fetch": 1
+    "host_boot_fetch": 1,
+    "chrome_launch": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -55,65 +58,142 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "chromeGpuPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "chromeOtherPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "chromeProcesses": {
-        "int": 2560
+        "int": 2564
       },
       "chromeProfiles": {
-        "int": 2560
+        "int": 2564
       },
       "chromeRendererMaxPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "chromeRendererPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "chromeRenderers": {
-        "int": 2560
+        "int": 2564
       },
       "chromeTabs": {
-        "int": 2560
+        "int": 2564
       },
       "chromeTabsProbedProfiles": {
-        "int": 2560
+        "int": 2564
       },
       "chromeUtilityPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "desktopPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "hostPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "kind": {
-        "str": 2560
+        "str": 2564
       },
       "memAvailableKb": {
-        "int": 2560
+        "int": 2564
       },
       "memTotalKb": {
-        "int": 2560
+        "int": 2564
       },
       "otherPssKb": {
-        "int": 2560
+        "int": 2564
       },
       "processes": {
-        "int": 2560
+        "int": 2564
       },
       "pssFallbackProcesses": {
-        "int": 2560
+        "int": 2564
+      }
+    },
+    "chrome_launch": {
+      "attempt": {
+        "int": 1
+      },
+      "display": {
+        "int": 1
+      },
+      "durationMs": {
+        "int": 1
+      },
+      "kind": {
+        "str": 1
+      },
+      "launcher": {
+        "int": 1
+      },
+      "launcherSource": {
+        "str": 1
+      },
+      "mode": {
+        "str": 1
+      },
+      "outcome": {
+        "str": 1
+      }
+    },
+    "cookie_persist": {
+      "attempts": {
+        "int": 1
+      },
+      "injected": {
+        "int": 1
+      },
+      "kind": {
+        "str": 2
+      },
+      "missingAfter": {
+        "int": 1
+      },
+      "outcome": {
+        "str": 2
+      },
+      "phase": {
+        "str": 2
+      },
+      "seedCookies": {
+        "int": 2
+      }
+    },
+    "chrome_profile_sample": {
+      "cpuMillicores": {
+        "int": 1
+      },
+      "display": {
+        "int": 2
+      },
+      "kind": {
+        "str": 2
+      },
+      "processes": {
+        "int": 2
+      },
+      "pssKb": {
+        "int": 2
+      },
+      "rendererMaxPssKb": {
+        "int": 2
+      },
+      "renderers": {
+        "int": 2
+      },
+      "tabs": {
+        "int": 2
       }
     }
   },
-  "display_counts_in_log": {},
+  "display_counts_in_log": {
+    "22": 3
+  },
   "boot_stages": {
     "entrypoint_started": 1,
     "daemon_listening": 1,
@@ -121,9 +201,19 @@
   },
   "outcomes": {
     "egress_tunnel:ready": 1,
-    "host_boot_fetch:current": 1
+    "host_boot_fetch:current": 1,
+    "chrome_launch:ready": 1,
+    "cookie_persist:partial": 1,
+    "cookie_persist:captured": 1
   },
-  "redaction_summary": [],
+  "redaction_summary": [
+    {
+      "kind": "cookie_persist",
+      "key": "seedCookies",
+      "value_type": "int",
+      "seen": 2
+    }
+  ],
   "redaction_policy": [
     "Omit values for keys matching token|secret|password|cookie|credential|bearer|otp|seedCookies",
     "Emit only kind counts, key names, value types, and numeric aggregates",
