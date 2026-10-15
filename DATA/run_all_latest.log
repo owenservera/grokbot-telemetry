@@ -9,13 +9,13 @@ OK: exec_daemon_sample.sh
 WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261015-063942.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261015-064004.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261015-064004.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261015-064155.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261015-064155.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261015-064004-sandbox-telemetry-summary.md
+WROTE /workspace/grokbot-telemetry/DIFFS/20261015-064155-sandbox-telemetry-summary.md
 KINDS {'memory_sample': 1583, 'boot_stage': 3, 'egress_tunnel': 1, 'host_boot_fetch': 1}
 CDP_ROWS 0
-DONE 2026-10-15 06:40:04 CEST
+DONE 2026-10-15 06:41:55 CEST
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-15 06:40:04 CEST fail=0 ===
+=== run_all end 2026-10-15 06:41:55 CEST fail=0 ===

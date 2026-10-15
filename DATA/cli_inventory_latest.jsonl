@@ -19,4 +19,4 @@
 {"timestamp": "2026-10-15T06:39:44+02:00", "source": "cli_inventory", "cli": "aider", "present": true, "path": "/home/box/.local/bin/aider", "version": "aider 0.86.2 "}
 {"timestamp": "2026-10-15T06:39:44+02:00", "source": "cli_inventory", "cli": "gemini", "present": false}
 {"timestamp": "2026-10-15T06:39:44+02:00", "source": "cli_inventory", "cli": "playwright", "present": false}
-{"timestamp": "2026-10-15T06:40:04+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "?"}
+{"timestamp": "2026-10-15T06:41:55+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "?"}
