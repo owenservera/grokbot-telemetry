@@ -1,12 +1,9 @@
-# safe inventory 2026-10-15 04:05:34 CEST
+# safe inventory 2026-10-15 04:10:39 CEST
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
 | node | `/usr/bin/node` | v20.19.2  |
-| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
-| gemini | MISSING | | |
-| playwright | MISSING | | |
 | npm | `/usr/bin/npm` | 9.2.0  |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
 | python3 | `/usr/bin/python3` | Python 3.13.5  |
@@ -16,7 +13,6 @@
 | jq | `/usr/bin/jq` | jq-1.7  |
 | rg | `/usr/bin/rg` | ripgrep 14.1.1  |
 | gh | `/usr/bin/gh` | gh version 2.46.0 (2025-01-13 Debian 2.46.0-3)  |
-| pnpm | `/usr/bin/pnpm` | 10.34.6  |
 | claude | `/home/box/.local/bin/claude` | 2.1.290 (Claude Code)  |
 | codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
 | grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442) [stable]  |
