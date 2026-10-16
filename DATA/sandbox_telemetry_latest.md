@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-10-16 06:30:28 CEST
-- Log: `/tmp/sand-box-telemetry.log` bytes=187370 lines=700
+# sandbox_telemetry_parse — 2026-10-16 06:33:55 CEST
+- Log: `/tmp/sand-box-telemetry.log` bytes=190578 lines=712
 ## kind counts
 | kind | count |
 |------|------:|
-| `chrome_profile_sample` | 454 |
-| `memory_sample` | 237 |
+| `chrome_profile_sample` | 462 |
+| `memory_sample` | 241 |
 | `boot_stage` | 3 |
 | `chrome_launch` | 2 |
 | `cookie_persist` | 2 |
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 237} |
-| `chromeGpuPssKb` | {'int': 237} |
-| `chromeOtherPssKb` | {'int': 237} |
-| `chromeProcesses` | {'int': 237} |
-| `chromeProfiles` | {'int': 237} |
-| `chromeRendererMaxPssKb` | {'int': 237} |
-| `chromeRendererPssKb` | {'int': 237} |
-| `chromeRenderers` | {'int': 237} |
-| `chromeTabs` | {'int': 237} |
-| `chromeTabsProbedProfiles` | {'int': 237} |
-| `chromeUtilityPssKb` | {'int': 237} |
-| `desktopPssKb` | {'int': 237} |
-| `hostPssKb` | {'int': 237} |
-| `kind` | {'str': 237} |
-| `memAvailableKb` | {'int': 237} |
-| `memTotalKb` | {'int': 237} |
-| `otherPssKb` | {'int': 237} |
-| `processes` | {'int': 237} |
-| `pssFallbackProcesses` | {'int': 237} |
+| `chromeBrowserPssKb` | {'int': 241} |
+| `chromeGpuPssKb` | {'int': 241} |
+| `chromeOtherPssKb` | {'int': 241} |
+| `chromeProcesses` | {'int': 241} |
+| `chromeProfiles` | {'int': 241} |
+| `chromeRendererMaxPssKb` | {'int': 241} |
+| `chromeRendererPssKb` | {'int': 241} |
+| `chromeRenderers` | {'int': 241} |
+| `chromeTabs` | {'int': 241} |
+| `chromeTabsProbedProfiles` | {'int': 241} |
+| `chromeUtilityPssKb` | {'int': 241} |
+| `desktopPssKb` | {'int': 241} |
+| `hostPssKb` | {'int': 241} |
+| `kind` | {'str': 241} |
+| `memAvailableKb` | {'int': 241} |
+| `memTotalKb` | {'int': 241} |
+| `otherPssKb` | {'int': 241} |
+| `processes` | {'int': 241} |
+| `pssFallbackProcesses` | {'int': 241} |
 
 ### `chrome_launch`
 
@@ -93,14 +93,14 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 451} |
-| `display` | {'int': 454} |
-| `kind` | {'str': 454} |
-| `processes` | {'int': 454} |
-| `pssKb` | {'int': 454} |
-| `rendererMaxPssKb` | {'int': 454} |
-| `renderers` | {'int': 454} |
-| `tabs` | {'int': 453} |
+| `cpuMillicores` | {'int': 459} |
+| `display` | {'int': 462} |
+| `kind` | {'str': 462} |
+| `processes` | {'int': 462} |
+| `pssKb` | {'int': 462} |
+| `rendererMaxPssKb` | {'int': 462} |
+| `renderers` | {'int': 462} |
+| `tabs` | {'int': 461} |
 
 ## redaction summary
 
