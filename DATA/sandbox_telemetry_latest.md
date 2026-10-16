@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-10-16 22:45:13 CEST
-- Log: `/tmp/sand-box-telemetry.log` bytes=892129 lines=3334
+# sandbox_telemetry_parse — 2026-10-16 22:50:42 CEST
+- Log: `/tmp/sand-box-telemetry.log` bytes=896946 lines=3352
 ## kind counts
 | kind | count |
 |------|------:|
-| `chrome_profile_sample` | 2210 |
-| `memory_sample` | 1115 |
+| `chrome_profile_sample` | 2222 |
+| `memory_sample` | 1121 |
 | `boot_stage` | 3 |
 | `chrome_launch` | 2 |
 | `cookie_persist` | 2 |
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1115} |
-| `chromeGpuPssKb` | {'int': 1115} |
-| `chromeOtherPssKb` | {'int': 1115} |
-| `chromeProcesses` | {'int': 1115} |
-| `chromeProfiles` | {'int': 1115} |
-| `chromeRendererMaxPssKb` | {'int': 1115} |
-| `chromeRendererPssKb` | {'int': 1115} |
-| `chromeRenderers` | {'int': 1115} |
-| `chromeTabs` | {'int': 1115} |
-| `chromeTabsProbedProfiles` | {'int': 1115} |
-| `chromeUtilityPssKb` | {'int': 1115} |
-| `desktopPssKb` | {'int': 1115} |
-| `hostPssKb` | {'int': 1115} |
-| `kind` | {'str': 1115} |
-| `memAvailableKb` | {'int': 1115} |
-| `memTotalKb` | {'int': 1115} |
-| `otherPssKb` | {'int': 1115} |
-| `processes` | {'int': 1115} |
-| `pssFallbackProcesses` | {'int': 1115} |
+| `chromeBrowserPssKb` | {'int': 1121} |
+| `chromeGpuPssKb` | {'int': 1121} |
+| `chromeOtherPssKb` | {'int': 1121} |
+| `chromeProcesses` | {'int': 1121} |
+| `chromeProfiles` | {'int': 1121} |
+| `chromeRendererMaxPssKb` | {'int': 1121} |
+| `chromeRendererPssKb` | {'int': 1121} |
+| `chromeRenderers` | {'int': 1121} |
+| `chromeTabs` | {'int': 1121} |
+| `chromeTabsProbedProfiles` | {'int': 1121} |
+| `chromeUtilityPssKb` | {'int': 1121} |
+| `desktopPssKb` | {'int': 1121} |
+| `hostPssKb` | {'int': 1121} |
+| `kind` | {'str': 1121} |
+| `memAvailableKb` | {'int': 1121} |
+| `memTotalKb` | {'int': 1121} |
+| `otherPssKb` | {'int': 1121} |
+| `processes` | {'int': 1121} |
+| `pssFallbackProcesses` | {'int': 1121} |
 
 ### `chrome_launch`
 
@@ -93,14 +93,14 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 2207} |
-| `display` | {'int': 2210} |
-| `kind` | {'str': 2210} |
-| `processes` | {'int': 2210} |
-| `pssKb` | {'int': 2210} |
-| `rendererMaxPssKb` | {'int': 2210} |
-| `renderers` | {'int': 2210} |
-| `tabs` | {'int': 2209} |
+| `cpuMillicores` | {'int': 2219} |
+| `display` | {'int': 2222} |
+| `kind` | {'str': 2222} |
+| `processes` | {'int': 2222} |
+| `pssKb` | {'int': 2222} |
+| `rendererMaxPssKb` | {'int': 2222} |
+| `renderers` | {'int': 2222} |
+| `tabs` | {'int': 2221} |
 
 ## redaction summary
 
