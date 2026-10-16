@@ -1,15 +1,16 @@
-# sandbox_telemetry_parse — 2026-10-17 01:02:52 CEST
-- Log: `/tmp/sand-box-telemetry.log` bytes=984935 lines=3680
+# sandbox_telemetry_parse — 2026-10-17 01:07:30 CEST
+- Log: `/tmp/sand-box-telemetry.log` bytes=987277 lines=3686
 ## kind counts
 | kind | count |
 |------|------:|
 | `chrome_profile_sample` | 2440 |
-| `memory_sample` | 1231 |
+| `memory_sample` | 1236 |
 | `boot_stage` | 3 |
 | `chrome_launch` | 2 |
 | `cookie_persist` | 2 |
 | `egress_tunnel` | 1 |
 | `host_boot_fetch` | 1 |
+| `process_crash` | 1 |
 
 ## schema (key → value types) by kind
 
@@ -44,25 +45,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1231} |
-| `chromeGpuPssKb` | {'int': 1231} |
-| `chromeOtherPssKb` | {'int': 1231} |
-| `chromeProcesses` | {'int': 1231} |
-| `chromeProfiles` | {'int': 1231} |
-| `chromeRendererMaxPssKb` | {'int': 1231} |
-| `chromeRendererPssKb` | {'int': 1231} |
-| `chromeRenderers` | {'int': 1231} |
-| `chromeTabs` | {'int': 1231} |
-| `chromeTabsProbedProfiles` | {'int': 1231} |
-| `chromeUtilityPssKb` | {'int': 1231} |
-| `desktopPssKb` | {'int': 1231} |
-| `hostPssKb` | {'int': 1231} |
-| `kind` | {'str': 1231} |
-| `memAvailableKb` | {'int': 1231} |
-| `memTotalKb` | {'int': 1231} |
-| `otherPssKb` | {'int': 1231} |
-| `processes` | {'int': 1231} |
-| `pssFallbackProcesses` | {'int': 1231} |
+| `chromeBrowserPssKb` | {'int': 1236} |
+| `chromeGpuPssKb` | {'int': 1236} |
+| `chromeOtherPssKb` | {'int': 1236} |
+| `chromeProcesses` | {'int': 1236} |
+| `chromeProfiles` | {'int': 1236} |
+| `chromeRendererMaxPssKb` | {'int': 1236} |
+| `chromeRendererPssKb` | {'int': 1236} |
+| `chromeRenderers` | {'int': 1236} |
+| `chromeTabs` | {'int': 1236} |
+| `chromeTabsProbedProfiles` | {'int': 1236} |
+| `chromeUtilityPssKb` | {'int': 1236} |
+| `desktopPssKb` | {'int': 1236} |
+| `hostPssKb` | {'int': 1236} |
+| `kind` | {'str': 1236} |
+| `memAvailableKb` | {'int': 1236} |
+| `memTotalKb` | {'int': 1236} |
+| `otherPssKb` | {'int': 1236} |
+| `processes` | {'int': 1236} |
+| `pssFallbackProcesses` | {'int': 1236} |
 
 ### `chrome_launch`
 
@@ -101,6 +102,15 @@
 | `rendererMaxPssKb` | {'int': 2440} |
 | `renderers` | {'int': 2440} |
 | `tabs` | {'int': 2439} |
+
+### `process_crash`
+
+| key | types |
+|-----|-------|
+| `binary` | {'str': 1} |
+| `count` | {'int': 1} |
+| `kind` | {'str': 1} |
+| `signal` | {'str': 1} |
 
 ## redaction summary
 
