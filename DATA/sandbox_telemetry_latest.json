@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-16T03:28:33+0200",
+  "timestamp": "2026-10-16T03:31:48+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 43122,
-  "line_count": 160,
+  "bytes": 45531,
+  "line_count": 169,
   "kind_counts": {
-    "chrome_profile_sample": 94,
-    "memory_sample": 57,
+    "chrome_profile_sample": 100,
+    "memory_sample": 60,
     "boot_stage": 3,
     "chrome_launch": 2,
     "cookie_persist": 2,
@@ -58,61 +58,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 57
+        "int": 60
       },
       "chromeGpuPssKb": {
-        "int": 57
+        "int": 60
       },
       "chromeOtherPssKb": {
-        "int": 57
+        "int": 60
       },
       "chromeProcesses": {
-        "int": 57
+        "int": 60
       },
       "chromeProfiles": {
-        "int": 57
+        "int": 60
       },
       "chromeRendererMaxPssKb": {
-        "int": 57
+        "int": 60
       },
       "chromeRendererPssKb": {
-        "int": 57
+        "int": 60
       },
       "chromeRenderers": {
-        "int": 57
+        "int": 60
       },
       "chromeTabs": {
-        "int": 57
+        "int": 60
       },
       "chromeTabsProbedProfiles": {
-        "int": 57
+        "int": 60
       },
       "chromeUtilityPssKb": {
-        "int": 57
+        "int": 60
       },
       "desktopPssKb": {
-        "int": 57
+        "int": 60
       },
       "hostPssKb": {
-        "int": 57
+        "int": 60
       },
       "kind": {
-        "str": 57
+        "str": 60
       },
       "memAvailableKb": {
-        "int": 57
+        "int": 60
       },
       "memTotalKb": {
-        "int": 57
+        "int": 60
       },
       "otherPssKb": {
-        "int": 57
+        "int": 60
       },
       "processes": {
-        "int": 57
+        "int": 60
       },
       "pssFallbackProcesses": {
-        "int": 57
+        "int": 60
       }
     },
     "chrome_launch": {
@@ -166,34 +166,34 @@
     },
     "chrome_profile_sample": {
       "cpuMillicores": {
-        "int": 91
+        "int": 97
       },
       "display": {
-        "int": 94
+        "int": 100
       },
       "kind": {
-        "str": 94
+        "str": 100
       },
       "processes": {
-        "int": 94
+        "int": 100
       },
       "pssKb": {
-        "int": 94
+        "int": 100
       },
       "rendererMaxPssKb": {
-        "int": 94
+        "int": 100
       },
       "renderers": {
-        "int": 94
+        "int": 100
       },
       "tabs": {
-        "int": 93
+        "int": 99
       }
     }
   },
   "display_counts_in_log": {
-    "22": 52,
-    "23": 43,
+    "22": 55,
+    "23": 46,
     "0": 1
   },
   "boot_stages": {
