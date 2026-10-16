@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-17T01:38:32+0200",
+  "timestamp": "2026-10-17T01:43:42+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 998585,
-  "line_count": 3711,
+  "bytes": 1000393,
+  "line_count": 3715,
   "kind_counts": {
     "chrome_profile_sample": 2440,
-    "memory_sample": 1261,
+    "memory_sample": 1265,
     "boot_stage": 3,
     "chrome_launch": 2,
     "cookie_persist": 2,
@@ -59,61 +59,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "chromeGpuPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "chromeOtherPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "chromeProcesses": {
-        "int": 1261
+        "int": 1265
       },
       "chromeProfiles": {
-        "int": 1261
+        "int": 1265
       },
       "chromeRendererMaxPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "chromeRendererPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "chromeRenderers": {
-        "int": 1261
+        "int": 1265
       },
       "chromeTabs": {
-        "int": 1261
+        "int": 1265
       },
       "chromeTabsProbedProfiles": {
-        "int": 1261
+        "int": 1265
       },
       "chromeUtilityPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "desktopPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "hostPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "kind": {
-        "str": 1261
+        "str": 1265
       },
       "memAvailableKb": {
-        "int": 1261
+        "int": 1265
       },
       "memTotalKb": {
-        "int": 1261
+        "int": 1265
       },
       "otherPssKb": {
-        "int": 1261
+        "int": 1265
       },
       "processes": {
-        "int": 1261
+        "int": 1265
       },
       "pssFallbackProcesses": {
-        "int": 1261
+        "int": 1265
       }
     },
     "chrome_launch": {
