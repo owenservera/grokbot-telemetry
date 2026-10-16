@@ -4,6 +4,10 @@ set -uo pipefail
 ROOT="/workspace/grokbot-telemetry"
 COLLECTORS="$ROOT/collectors"
 mkdir -p "$ROOT/DATA"
+# Share git_sync's lock so collectors never rewrite DATA/ mid-rebase (race seen 2026-10-16 11:47: always_on run_all
+# rewrote DATA/*_latest.* while sync-loop git_sync was rebasing -> stuck rebase, false "Pushed").
+exec 7>/tmp/grokbot-telemetry-git_sync.lock
+flock -w 180 7 || { echo "FAIL: run_all could not get repo lock >180s" >&2; exit 1; }
 LOG="$ROOT/DATA/run_all_latest.log"
 TS=$(date '+%Y-%m-%d %H:%M:%S %Z')
 

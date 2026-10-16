@@ -12,6 +12,14 @@ exec 8>/tmp/grokbot-telemetry-git_sync.lock
 flock -w 120 8 || { echo "FAIL: git_sync lock busy >120s" >&2; exit 1; }
 
 TS="$(date '+%Y-%m-%d %H:%M:%S %Z')"
+
+rebase_in_progress() { [[ -d .git/rebase-merge || -d .git/rebase-apply ]]; }
+# A leftover rebase from a prior crashed/raced run must not be committed onto (detached HEAD). Fail loudly.
+if rebase_in_progress; then
+  echo "FAIL: stale rebase in progress at start; aborting it (manual check of detached commits may be needed)" >&2
+  git rebase --abort 2>/dev/null || true
+  exit 1
+fi
 MSG="${1:-telemetry sync ${TS}}"
 
 # Ensure git repo
@@ -104,6 +112,11 @@ if gh auth status >/dev/null 2>&1; then
         fi
       done
     fi
+  fi
+  if rebase_in_progress || [[ "$(git symbolic-ref -q --short HEAD || true)" != "main" ]]; then
+    echo "FAIL: rebase did not complete (dirty tree or non-conflict error); aborting, not pushing" >&2
+    git rebase --abort 2>/dev/null || true
+    exit 1
   fi
   git push -u origin HEAD:main
   echo "Pushed via gh/git ($TS)"
