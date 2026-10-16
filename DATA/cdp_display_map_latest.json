@@ -1,9 +1,33 @@
 {
-  "timestamp": "2026-10-16T02:37:30+0200",
+  "timestamp": "2026-10-16T02:42:19+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [],
-  "playwright_workers": [],
+  "live_table": [
+    {
+      "cdp_port": 9244,
+      "display": ":22",
+      "display_num": 22,
+      "fork": 22,
+      "user_data_dir": "/home/box/chrome-profile/Fork-22",
+      "chrome_pid": 20876,
+      "agent_id": "eaf650b7-83d1-4989-9747-3d7f7db89b5c",
+      "agent_name": "AION BFF",
+      "playwright_attached": true,
+      "playwright_pids": [
+        21504
+      ],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": true
+    }
+  ],
+  "playwright_workers": [
+    {
+      "pid": 21504,
+      "ppid": 389,
+      "cdp_port": 9244,
+      "role": "sand-playwright-main"
+    }
+  ],
   "xvfb": [
     {
       "pid": 3968,
@@ -24,6 +48,11 @@
       "pid": 13538,
       "display": ":22",
       "display_num": 22
+    },
+    {
+      "pid": 24527,
+      "display": ":23",
+      "display_num": 23
     }
   ],
   "disk_forks": [
@@ -124,6 +153,10 @@
     "15": {
       "agent_id": "a80ef3f4-3341-481f-935e-b7b4cf0928e5",
       "agent_name": "Vercel Live Full Rock Bot Project Management Feed"
+    },
+    "23": {
+      "agent_id": "b5544065-6d2d-4260-8c0d-865109f0d4b8",
+      "agent_name": "AION PM"
     },
     "6": {
       "agent_id": "b89d2383-420a-4aff-bc12-76f86fd69c58",

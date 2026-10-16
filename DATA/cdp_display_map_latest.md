@@ -1,9 +1,10 @@
-# CDP ↔ Fork ↔ display map — 2026-10-16 02:37:30 CEST
+# CDP ↔ Fork ↔ display map — 2026-10-16 02:42:19 CEST
 
 **Formula:** `CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)`
 
 | CDP | Display | Fork | Profile | Chrome PID | Agent | Playwright |
 |-----|---------|------|---------|------------|-------|------------|
+| 9244 | :22 | Fork-22 | `/home/box/chrome-profile/Fork-22` | 20876 | AION BFF | yes [21504] |
 
 ## Xvfb
 
@@ -11,6 +12,7 @@
 - :3 pid=9607
 - :9 pid=4982
 - :22 pid=13538
+- :23 pid=24527
 
 ## Disk forks
 
