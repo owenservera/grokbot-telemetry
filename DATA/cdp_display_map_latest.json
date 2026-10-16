@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T02:45:37+0200",
+  "timestamp": "2026-10-16T02:47:41+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [
@@ -18,6 +18,22 @@
       ],
       "cdp_formula": "9222 + display_num",
       "formula_match": true
+    },
+    {
+      "cdp_port": 9245,
+      "display": ":23",
+      "display_num": 23,
+      "fork": 23,
+      "user_data_dir": "/home/box/chrome-profile/Fork-23",
+      "chrome_pid": 35638,
+      "agent_id": "b5544065-6d2d-4260-8c0d-865109f0d4b8",
+      "agent_name": "AION PM",
+      "playwright_attached": true,
+      "playwright_pids": [
+        35925
+      ],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": true
     }
   ],
   "playwright_workers": [
@@ -25,6 +41,12 @@
       "pid": 21504,
       "ppid": 389,
       "cdp_port": 9244,
+      "role": "sand-playwright-main"
+    },
+    {
+      "pid": 35925,
+      "ppid": 389,
+      "cdp_port": 9245,
       "role": "sand-playwright-main"
     }
   ],
@@ -71,6 +93,10 @@
     {
       "fork": 22,
       "path": "/home/box/chrome-profile/Fork-22"
+    },
+    {
+      "fork": 23,
+      "path": "/home/box/chrome-profile/Fork-23"
     },
     {
       "fork": 3,
