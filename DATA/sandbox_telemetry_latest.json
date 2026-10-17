@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-17T22:10:54+0200",
+  "timestamp": "2026-10-17T22:18:42+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1500305,
-  "line_count": 4821,
+  "bytes": 1501661,
+  "line_count": 4824,
   "kind_counts": {
     "chrome_profile_sample": 2440,
-    "memory_sample": 2371,
+    "memory_sample": 2374,
     "boot_stage": 3,
     "chrome_launch": 2,
     "cookie_persist": 2,
@@ -59,61 +59,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "chromeGpuPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "chromeOtherPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "chromeProcesses": {
-        "int": 2371
+        "int": 2374
       },
       "chromeProfiles": {
-        "int": 2371
+        "int": 2374
       },
       "chromeRendererMaxPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "chromeRendererPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "chromeRenderers": {
-        "int": 2371
+        "int": 2374
       },
       "chromeTabs": {
-        "int": 2371
+        "int": 2374
       },
       "chromeTabsProbedProfiles": {
-        "int": 2371
+        "int": 2374
       },
       "chromeUtilityPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "desktopPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "hostPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "kind": {
-        "str": 2371
+        "str": 2374
       },
       "memAvailableKb": {
-        "int": 2371
+        "int": 2374
       },
       "memTotalKb": {
-        "int": 2371
+        "int": 2374
       },
       "otherPssKb": {
-        "int": 2371
+        "int": 2374
       },
       "processes": {
-        "int": 2371
+        "int": 2374
       },
       "pssFallbackProcesses": {
-        "int": 2371
+        "int": 2374
       }
     },
     "chrome_launch": {
