@@ -13,10 +13,10 @@
 {"timestamp": "2026-10-17T18:48:13+02:00", "source": "cli_inventory", "cli": "claude", "present": true, "path": "/home/box/.local/bin/claude", "version": "2.1.290 (Claude Code) "}
 {"timestamp": "2026-10-17T18:48:13+02:00", "source": "cli_inventory", "cli": "codex", "present": true, "path": "/home/box/.local/bin/codex", "version": "codex-cli 0.160.0 "}
 {"timestamp": "2026-10-17T18:48:13+02:00", "source": "cli_inventory", "cli": "grok", "present": true, "path": "/home/box/.local/bin/grok", "version": "grok 1.0.46 (2765805b9442) [stable] "}
-{"timestamp": "2026-10-17T18:48:36+02:00", "source": "cli_inventory", "cli": "opencode", "present": true, "path": "/usr/local/bin/opencode", "version": "?"}
-{"timestamp": "2026-10-17T18:48:36+02:00", "source": "cli_inventory", "cli": "kilo", "present": false}
-{"timestamp": "2026-10-17T18:48:36+02:00", "source": "cli_inventory", "cli": "goose", "present": true, "path": "/home/box/.local/bin/goose", "version": " 1.53.0 "}
-{"timestamp": "2026-10-17T18:48:37+02:00", "source": "cli_inventory", "cli": "aider", "present": true, "path": "/home/box/.local/bin/aider", "version": "aider 0.86.2 "}
-{"timestamp": "2026-10-17T18:48:37+02:00", "source": "cli_inventory", "cli": "gemini", "present": false}
-{"timestamp": "2026-10-17T18:48:37+02:00", "source": "cli_inventory", "cli": "playwright", "present": false}
-{"timestamp": "2026-10-17T18:48:37+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "10.34.6 "}
+{"timestamp": "2026-10-17T18:49:30+02:00", "source": "cli_inventory", "cli": "opencode", "present": true, "path": "/usr/local/bin/opencode", "version": "?"}
+{"timestamp": "2026-10-17T18:49:30+02:00", "source": "cli_inventory", "cli": "kilo", "present": false}
+{"timestamp": "2026-10-17T18:49:31+02:00", "source": "cli_inventory", "cli": "goose", "present": true, "path": "/home/box/.local/bin/goose", "version": " 1.53.0 "}
+{"timestamp": "2026-10-17T18:49:32+02:00", "source": "cli_inventory", "cli": "aider", "present": true, "path": "/home/box/.local/bin/aider", "version": "aider 0.86.2 "}
+{"timestamp": "2026-10-17T18:49:32+02:00", "source": "cli_inventory", "cli": "gemini", "present": false}
+{"timestamp": "2026-10-17T18:49:32+02:00", "source": "cli_inventory", "cli": "playwright", "present": false}
+{"timestamp": "2026-10-17T18:49:32+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "10.34.6 "}
