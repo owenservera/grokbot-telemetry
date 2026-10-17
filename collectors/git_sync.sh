@@ -78,7 +78,7 @@ if git diff --cached --quiet 2>/dev/null; then
           exit 1
         }
       fi
-      git push -u origin HEAD:main
+      timeout 90 git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=30 push -u origin HEAD:main
       echo "Pushed via gh/git (no new commit) ($TS)"
     fi
   fi
@@ -118,7 +118,7 @@ if gh auth status >/dev/null 2>&1; then
     git rebase --abort 2>/dev/null || true
     exit 1
   fi
-  git push -u origin HEAD:main
+  timeout 90 git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=30 push -u origin HEAD:main
   echo "Pushed via gh/git ($TS)"
 else
   cat <<'NOTE'
