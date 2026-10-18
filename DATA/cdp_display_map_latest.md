@@ -1,4 +1,4 @@
-# CDP ↔ Fork ↔ display map — 2026-10-18 23:35:42 CEST
+# CDP ↔ Fork ↔ display map — 2026-10-18 23:40:49 CEST
 
 **Formula:** `CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)`
 
@@ -9,6 +9,7 @@
 
 - :1 pid=3968
 - :3 pid=1945541
+- :9 pid=2433524
 
 ## Disk forks
 
