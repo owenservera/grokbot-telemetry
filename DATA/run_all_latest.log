@@ -9,13 +9,13 @@ OK: exec_daemon_sample.sh
 WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261017-234427.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261017-234450.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261017-234450.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261018-233542.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261018-233542.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261017-234450-sandbox-telemetry-summary.md
+WROTE /workspace/grokbot-telemetry/DIFFS/20261018-233542-sandbox-telemetry-summary.md
 KINDS {'memory_sample': 2452, 'chrome_profile_sample': 2440, 'boot_stage': 3, 'chrome_launch': 2, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1, 'process_crash': 1}
 CDP_ROWS 0
-DONE 2026-10-17 23:44:50 CEST
+DONE 2026-10-18 23:35:42 CEST
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-17 23:44:50 CEST fail=0 ===
+=== run_all end 2026-10-18 23:35:43 CEST fail=0 ===
