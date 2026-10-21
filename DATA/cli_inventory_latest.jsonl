@@ -16,7 +16,7 @@
 {"timestamp": "2026-10-21T18:28:25+02:00", "source": "cli_inventory", "cli": "opencode", "present": true, "path": "/usr/local/bin/opencode", "version": "1.19.1 "}
 {"timestamp": "2026-10-21T18:28:25+02:00", "source": "cli_inventory", "cli": "kilo", "present": false}
 {"timestamp": "2026-10-21T18:28:25+02:00", "source": "cli_inventory", "cli": "goose", "present": true, "path": "/home/box/.local/bin/goose", "version": " 1.53.0 "}
-{"timestamp": "2026-10-21T18:28:46+02:00", "source": "cli_inventory", "cli": "aider", "present": true, "path": "/home/box/.local/bin/aider", "version": "?"}
-{"timestamp": "2026-10-21T18:28:46+02:00", "source": "cli_inventory", "cli": "gemini", "present": false}
-{"timestamp": "2026-10-21T18:28:46+02:00", "source": "cli_inventory", "cli": "playwright", "present": false}
-{"timestamp": "2026-10-21T18:28:46+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "10.34.6 "}
+{"timestamp": "2026-10-21T18:33:21+02:00", "source": "cli_inventory", "cli": "aider", "present": true, "path": "/home/box/.local/bin/aider", "version": "?"}
+{"timestamp": "2026-10-21T18:33:21+02:00", "source": "cli_inventory", "cli": "gemini", "present": false}
+{"timestamp": "2026-10-21T18:33:21+02:00", "source": "cli_inventory", "cli": "playwright", "present": false}
+{"timestamp": "2026-10-21T18:33:22+02:00", "source": "cli_inventory", "cli": "pnpm", "present": true, "path": "/usr/bin/pnpm", "version": "10.34.6 "}
