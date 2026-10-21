@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-21T17:17:54+0200",
+  "timestamp": "2026-10-21T17:19:48+0200",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 2696749,
-  "line_count": 7468,
+  "bytes": 2697653,
+  "line_count": 7470,
   "kind_counts": {
-    "memory_sample": 5018,
+    "memory_sample": 5020,
     "chrome_profile_sample": 2440,
     "boot_stage": 3,
     "chrome_launch": 2,
@@ -59,61 +59,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "chromeGpuPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "chromeOtherPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "chromeProcesses": {
-        "int": 5018
+        "int": 5020
       },
       "chromeProfiles": {
-        "int": 5018
+        "int": 5020
       },
       "chromeRendererMaxPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "chromeRendererPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "chromeRenderers": {
-        "int": 5018
+        "int": 5020
       },
       "chromeTabs": {
-        "int": 5018
+        "int": 5020
       },
       "chromeTabsProbedProfiles": {
-        "int": 5018
+        "int": 5020
       },
       "chromeUtilityPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "desktopPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "hostPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "kind": {
-        "str": 5018
+        "str": 5020
       },
       "memAvailableKb": {
-        "int": 5018
+        "int": 5020
       },
       "memTotalKb": {
-        "int": 5018
+        "int": 5020
       },
       "otherPssKb": {
-        "int": 5018
+        "int": 5020
       },
       "processes": {
-        "int": 5018
+        "int": 5020
       },
       "pssFallbackProcesses": {
-        "int": 5018
+        "int": 5020
       }
     },
     "chrome_launch": {
