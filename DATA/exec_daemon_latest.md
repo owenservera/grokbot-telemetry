@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-10-23 19:43:09 CEST
+# exec_daemon_sample 2026-10-23 19:45:48 CEST
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -7,7 +7,7 @@
 | 3542087 | 14022 | 13622 | :22 | AION BFF (eaf650b7…) | 0 |
 
 ## Notes
-- Snapshot: `2026-10-23 19:43:09 CEST`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261023-194309.jsonl`
+- Snapshot: `2026-10-23 19:45:48 CEST`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261023-194548.jsonl`
 - Daemons found: 3
 - Auth tokens in argv replaced with [REDACTED]
