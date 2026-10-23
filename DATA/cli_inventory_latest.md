@@ -1,10 +1,10 @@
-# safe inventory 2026-10-23 13:51:32 CEST
+# safe inventory 2026-10-23 13:56:39 CEST
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
 | node | `/usr/bin/node` | v20.19.2  |
-| npm | `/usr/bin/npm` | 9.2.0  |
+| npm | `/usr/bin/npm` | ? |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
 | python3 | `/usr/bin/python3` | Python 3.13.5  |
 | uv | `/home/box/.local/bin/uv` | uv 0.12.23 (x86_64-unknown-linux-gnu)  |
@@ -16,7 +16,7 @@
 | claude | `/home/box/.local/bin/claude` | 2.1.290 (Claude Code)  |
 | codex | `/home/box/.local/bin/codex` | codex-cli 0.160.0  |
 | grok | `/home/box/.local/bin/grok` | grok 1.0.46 (2765805b9442) [stable]  |
-| opencode | `/home/box/.opencode/bin/opencode` | 1.19.1  |
+| opencode | `/usr/local/bin/opencode` | 1.19.1  |
 | kilo | MISSING | | |
 | goose | `/home/box/.local/bin/goose` |  1.53.0  |
 | aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
