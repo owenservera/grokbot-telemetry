@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T09:05:03+0200",
+  "timestamp": "2026-10-24T09:06:23+0200",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
@@ -27,11 +27,6 @@
       "pid": 4146714,
       "display": ":3",
       "display_num": 3
-    },
-    {
-      "pid": 66852,
-      "display": ":20",
-      "display_num": 20
     }
   ],
   "disk_forks": [
