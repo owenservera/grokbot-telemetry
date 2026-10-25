@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-25T14:07:52+0100",
+  "timestamp": "2026-10-25T14:12:58+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 4986581,
-  "line_count": 12534,
+  "bytes": 4988841,
+  "line_count": 12539,
   "kind_counts": {
-    "memory_sample": 10084,
+    "memory_sample": 10089,
     "chrome_profile_sample": 2440,
     "boot_stage": 3,
     "chrome_launch": 2,
@@ -59,61 +59,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "chromeGpuPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "chromeOtherPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "chromeProcesses": {
-        "int": 10084
+        "int": 10089
       },
       "chromeProfiles": {
-        "int": 10084
+        "int": 10089
       },
       "chromeRendererMaxPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "chromeRendererPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "chromeRenderers": {
-        "int": 10084
+        "int": 10089
       },
       "chromeTabs": {
-        "int": 10084
+        "int": 10089
       },
       "chromeTabsProbedProfiles": {
-        "int": 10084
+        "int": 10089
       },
       "chromeUtilityPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "desktopPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "hostPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "kind": {
-        "str": 10084
+        "str": 10089
       },
       "memAvailableKb": {
-        "int": 10084
+        "int": 10089
       },
       "memTotalKb": {
-        "int": 10084
+        "int": 10089
       },
       "otherPssKb": {
-        "int": 10084
+        "int": 10089
       },
       "processes": {
-        "int": 10084
+        "int": 10089
       },
       "pssFallbackProcesses": {
-        "int": 10084
+        "int": 10089
       }
     },
     "chrome_launch": {
