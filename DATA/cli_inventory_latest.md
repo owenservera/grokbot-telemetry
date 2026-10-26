@@ -1,4 +1,4 @@
-# safe inventory 2026-10-26 20:46:43 CET
+# safe inventory 2026-10-26 20:47:43 CET
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
