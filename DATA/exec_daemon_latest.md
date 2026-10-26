@@ -1,13 +1,12 @@
-# exec_daemon_sample 2026-10-26 16:04:03 CET
+# exec_daemon_sample 2026-10-26 16:09:09 CET
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
 | 363 | 1337 | 1338 | :1 | ? (…) | 2 |
-| 960 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 9 |
-| 5765 | 14009 | 13609 | :9 | New Bot (00b908f7…) | 0 |
+| 960 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 2 |
 
 ## Notes
-- Snapshot: `2026-10-26 16:04:03 CET`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261026-160403.jsonl`
-- Daemons found: 3
+- Snapshot: `2026-10-26 16:09:09 CET`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261026-160909.jsonl`
+- Daemons found: 2
 - Auth tokens in argv replaced with [REDACTED]
