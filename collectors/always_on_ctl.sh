@@ -2,7 +2,9 @@
 # always_on_ctl.sh start|stop|status|restart — manage the always-on telemetry daemon.
 ROOT="/workspace/grokbot-telemetry"
 PIDFILE="$ROOT/DATA/always_on.pid"
-alive() { [[ -f "$PIDFILE" ]] && kill -0 "$(cat "$PIDFILE")" 2>/dev/null; }
+LOCK="$ROOT/DATA/.always_on.lock"
+# Liveness = daemon holds the flock. PID files can come from another PID namespace (per-agent shells), so kill -0 is unreliable.
+alive() { [[ -f "$LOCK" ]] && ! flock -n "$LOCK" true 2>/dev/null; }
 case "${1:-status}" in
   start)
     if alive; then echo "already running pid=$(cat "$PIDFILE")"; exit 0; fi
