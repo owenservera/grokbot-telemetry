@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-10-27T14:45:41+0100",
+  "timestamp": "2026-10-27T14:48:43+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [
-    {
-      "cdp_port": 9244,
-      "display": ":22",
-      "display_num": 22,
-      "fork": 22,
-      "user_data_dir": "/home/box/chrome-profile/Fork-22",
-      "chrome_pid": 1150104,
-      "agent_id": "eaf650b7-83d1-4989-9747-3d7f7db89b5c",
-      "agent_name": "AION BFF \u00b7 AION Chief of Staff",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    }
-  ],
+  "live_table": [],
   "playwright_workers": [],
   "xvfb": [
     {
@@ -29,11 +14,6 @@
       "pid": 889,
       "display": ":3",
       "display_num": 3
-    },
-    {
-      "pid": 1148887,
-      "display": ":22",
-      "display_num": 22
     }
   ],
   "disk_forks": [
