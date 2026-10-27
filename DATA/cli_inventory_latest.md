@@ -1,4 +1,4 @@
-# safe inventory 2026-10-27 16:15:46 CET
+# safe inventory 2026-10-27 16:20:46 CET
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
@@ -19,7 +19,7 @@
 | opencode | `/home/box/.opencode/bin/opencode` | opencode v2.2.0  |
 | kilo | MISSING | | |
 | goose | `/home/box/.local/bin/goose` |  1.53.0  |
-| aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
+| aider | `/home/box/.local/bin/aider` | ? |
 | gemini | MISSING | | |
 | playwright | MISSING | | |
 | pnpm | `/usr/bin/pnpm` | 10.34.6  |
