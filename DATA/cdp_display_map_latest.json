@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T09:46:27+0100",
+  "timestamp": "2026-10-27T09:48:04+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
@@ -14,6 +14,11 @@
       "pid": 889,
       "display": ":3",
       "display_num": 3
+    },
+    {
+      "pid": 947924,
+      "display": ":9",
+      "display_num": 9
     }
   ],
   "disk_forks": [
@@ -105,7 +110,7 @@
     },
     "18": {
       "agent_id": "8652b49b-1c05-4fcb-ad1b-1e1e1994a5f2",
-      "agent_name": "Grock.Coms"
+      "agent_name": "Grock.Coms \u00b7 Comms Manager"
     },
     "10": {
       "agent_id": "8f1be303-7ff1-4cf4-b6c0-b61fe7f131f6",
@@ -141,7 +146,7 @@
     },
     "22": {
       "agent_id": "eaf650b7-83d1-4989-9747-3d7f7db89b5c",
-      "agent_name": "AION BFF"
+      "agent_name": "AION BFF \u00b7 AION Chief of Staff"
     }
   },
   "redaction_notes": [
