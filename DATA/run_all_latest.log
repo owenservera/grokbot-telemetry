@@ -1,21 +1,21 @@
-=== run_all start 2026-10-27 18:16:32 CET ===
+=== run_all start 2026-10-27 18:21:21 CET ===
 --- running exec_daemon_sample.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261027-181632.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261027-182121.jsonl
 SUMMARY /workspace/grokbot-telemetry/DATA/exec_daemon_latest.md
-DAEMONS 3
-11 /workspace/grokbot-telemetry/DATA/exec_daemon_20261027-181632.jsonl
+DAEMONS 4
+13 /workspace/grokbot-telemetry/DATA/exec_daemon_20261027-182121.jsonl
 OK: exec_daemon_sample.sh
 --- running cli_inventory.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261027-181633.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261027-182122.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261027-181635.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261027-181635.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261027-182124.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261027-182124.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261027-181635-sandbox-telemetry-summary.md
-KINDS {'memory_sample': 1409, 'chrome_profile_sample': 45, 'egress_tunnel_connect': 6, 'egress_tunnel_desktop': 5, 'boot_stage': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1, 'chrome_launch': 1, 'egress_time_zone': 1, 'process_crash': 1}
+WROTE /workspace/grokbot-telemetry/DIFFS/20261027-182124-sandbox-telemetry-summary.md
+KINDS {'memory_sample': 1413, 'chrome_profile_sample': 45, 'egress_tunnel_connect': 6, 'egress_tunnel_desktop': 5, 'boot_stage': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1, 'chrome_launch': 1, 'egress_time_zone': 1, 'process_crash': 1}
 CDP_ROWS 0
-DONE 2026-10-27 18:16:35 CET
+DONE 2026-10-27 18:21:24 CET
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-27 18:16:35 CET fail=0 ===
+=== run_all end 2026-10-27 18:21:24 CET fail=0 ===
