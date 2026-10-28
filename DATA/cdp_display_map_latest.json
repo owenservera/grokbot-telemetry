@@ -1,48 +1,14 @@
 {
-  "timestamp": "2026-10-28T21:43:00+0100",
+  "timestamp": "2026-10-28T20:46:24+0000",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [
-    {
-      "cdp_port": 9246,
-      "display": ":24",
-      "display_num": 24,
-      "fork": 24,
-      "user_data_dir": "/home/box/chrome-profile/Fork-24",
-      "chrome_pid": 2703407,
-      "agent_id": "438c103e-760a-4ebe-9a65-a03d8974ca3c",
-      "agent_name": "GLG",
-      "playwright_attached": true,
-      "playwright_pids": [
-        2713909
-      ],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    }
-  ],
-  "playwright_workers": [
-    {
-      "pid": 2713909,
-      "ppid": 363,
-      "cdp_port": 9246,
-      "role": "sand-playwright-main"
-    }
-  ],
+  "live_table": [],
+  "playwright_workers": [],
   "xvfb": [
     {
-      "pid": 4136,
-      "display": ":1",
-      "display_num": 1
-    },
-    {
-      "pid": 889,
+      "pid": 1398,
       "display": ":3",
       "display_num": 3
-    },
-    {
-      "pid": 2702484,
-      "display": ":24",
-      "display_num": 24
     }
   ],
   "disk_forks": [
@@ -90,7 +56,7 @@
   "assignments_display_to_agent": {
     "9": {
       "agent_id": "00b908f7-c2ea-4719-8f62-f6215000f651",
-      "agent_name": "New Bot"
+      "agent_name": null
     },
     "20": {
       "agent_id": "11eafd10-3717-42e6-99a7-29c889b5c4a0",
@@ -110,11 +76,11 @@
     },
     "24": {
       "agent_id": "438c103e-760a-4ebe-9a65-a03d8974ca3c",
-      "agent_name": "GLG"
+      "agent_name": null
     },
     "19": {
       "agent_id": "49621308-b536-405d-ad0f-74589b133bae",
-      "agent_name": "Chief Of Staff"
+      "agent_name": null
     },
     "14": {
       "agent_id": "501f1c5c-7414-4335-ae6d-7bb39171f819",
@@ -122,7 +88,7 @@
     },
     "16": {
       "agent_id": "582f31df-8f12-4fc0-9738-92617befe733",
-      "agent_name": "Daintree Master"
+      "agent_name": null
     },
     "2": {
       "agent_id": "59b161ea-9ed8-45e9-9343-d88856e1b37b",
@@ -130,7 +96,7 @@
     },
     "17": {
       "agent_id": "7d255140-a496-49ce-8fb4-a6887c28c843",
-      "agent_name": "AI router"
+      "agent_name": null
     },
     "5": {
       "agent_id": "8070f3a8-4839-482f-a21f-5a27e0c37574",
@@ -138,27 +104,27 @@
     },
     "13": {
       "agent_id": "82dba8ac-1b27-48f4-9bf0-716a96b04a8b",
-      "agent_name": "Google-accounts"
+      "agent_name": null
     },
     "18": {
       "agent_id": "8652b49b-1c05-4fcb-ad1b-1e1e1994a5f2",
-      "agent_name": "Grock.Coms \u00b7 Comms Manager"
+      "agent_name": null
     },
     "10": {
       "agent_id": "8f1be303-7ff1-4cf4-b6c0-b61fe7f131f6",
-      "agent_name": "Grok Bot Objective Alignment"
+      "agent_name": null
     },
     "21": {
       "agent_id": "8f505e51-a551-4ca6-ad9e-2ed8cc568c86",
-      "agent_name": "Test"
+      "agent_name": null
     },
     "15": {
       "agent_id": "a80ef3f4-3341-481f-935e-b7b4cf0928e5",
-      "agent_name": "Vercel Live Full Rock Bot Project Management Feed"
+      "agent_name": null
     },
     "23": {
       "agent_id": "b5544065-6d2d-4260-8c0d-865109f0d4b8",
-      "agent_name": "AION PM"
+      "agent_name": null
     },
     "6": {
       "agent_id": "b89d2383-420a-4aff-bc12-76f86fd69c58",
@@ -178,7 +144,7 @@
     },
     "22": {
       "agent_id": "eaf650b7-83d1-4989-9747-3d7f7db89b5c",
-      "agent_name": "AION BFF \u00b7 AION Chief of Staff"
+      "agent_name": null
     }
   },
   "redaction_notes": [
