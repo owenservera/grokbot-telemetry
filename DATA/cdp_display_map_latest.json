@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T23:16:00+0100",
+  "timestamp": "2026-10-28T23:21:05+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [
@@ -14,7 +14,7 @@
       "agent_name": "GLG",
       "playwright_attached": true,
       "playwright_pids": [
-        18472
+        54347
       ],
       "cdp_formula": "9222 + display_num",
       "formula_match": true
@@ -22,7 +22,7 @@
   ],
   "playwright_workers": [
     {
-      "pid": 18472,
+      "pid": 54347,
       "ppid": 353,
       "cdp_port": 9246,
       "role": "sand-playwright-main"
