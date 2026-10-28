@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-10-28 23:59:32 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=53190 lines=205
+# sandbox_telemetry_parse — 2026-10-29 00:01:27 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=54468 lines=209
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 78 |
-| `chrome_profile_sample` | 71 |
+| `memory_sample` | 80 |
+| `chrome_profile_sample` | 73 |
 | `egress_tunnel_connect` | 29 |
 | `egress_tunnel_desktop` | 18 |
 | `boot_stage` | 3 |
@@ -48,25 +48,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 78} |
-| `chromeGpuPssKb` | {'int': 78} |
-| `chromeOtherPssKb` | {'int': 78} |
-| `chromeProcesses` | {'int': 78} |
-| `chromeProfiles` | {'int': 78} |
-| `chromeRendererMaxPssKb` | {'int': 78} |
-| `chromeRendererPssKb` | {'int': 78} |
-| `chromeRenderers` | {'int': 78} |
-| `chromeTabs` | {'int': 78} |
-| `chromeTabsProbedProfiles` | {'int': 78} |
-| `chromeUtilityPssKb` | {'int': 78} |
-| `desktopPssKb` | {'int': 78} |
-| `hostPssKb` | {'int': 78} |
-| `kind` | {'str': 78} |
-| `memAvailableKb` | {'int': 78} |
-| `memTotalKb` | {'int': 78} |
-| `otherPssKb` | {'int': 78} |
-| `processes` | {'int': 78} |
-| `pssFallbackProcesses` | {'int': 78} |
+| `chromeBrowserPssKb` | {'int': 80} |
+| `chromeGpuPssKb` | {'int': 80} |
+| `chromeOtherPssKb` | {'int': 80} |
+| `chromeProcesses` | {'int': 80} |
+| `chromeProfiles` | {'int': 80} |
+| `chromeRendererMaxPssKb` | {'int': 80} |
+| `chromeRendererPssKb` | {'int': 80} |
+| `chromeRenderers` | {'int': 80} |
+| `chromeTabs` | {'int': 80} |
+| `chromeTabsProbedProfiles` | {'int': 80} |
+| `chromeUtilityPssKb` | {'int': 80} |
+| `desktopPssKb` | {'int': 80} |
+| `hostPssKb` | {'int': 80} |
+| `kind` | {'str': 80} |
+| `memAvailableKb` | {'int': 80} |
+| `memTotalKb` | {'int': 80} |
+| `otherPssKb` | {'int': 80} |
+| `processes` | {'int': 80} |
+| `pssFallbackProcesses` | {'int': 80} |
 
 ### `egress_tunnel_desktop`
 
@@ -115,14 +115,14 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 70} |
-| `display` | {'int': 71} |
-| `kind` | {'str': 71} |
-| `processes` | {'int': 71} |
-| `pssKb` | {'int': 71} |
-| `rendererMaxPssKb` | {'int': 71} |
-| `renderers` | {'int': 71} |
-| `tabs` | {'int': 71} |
+| `cpuMillicores` | {'int': 72} |
+| `display` | {'int': 73} |
+| `kind` | {'str': 73} |
+| `processes` | {'int': 73} |
+| `pssKb` | {'int': 73} |
+| `rendererMaxPssKb` | {'int': 73} |
+| `renderers` | {'int': 73} |
+| `tabs` | {'int': 73} |
 
 ### `egress_tunnel_connect`
 
