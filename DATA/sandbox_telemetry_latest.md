@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-10-28 21:22:36 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1322990 lines=2992
+# sandbox_telemetry_parse — 2026-10-28 21:23:41 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1323628 lines=2994
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 2890 |
-| `chrome_profile_sample` | 66 |
+| `memory_sample` | 2891 |
+| `chrome_profile_sample` | 67 |
 | `egress_tunnel_connect` | 18 |
 | `egress_tunnel_desktop` | 6 |
 | `boot_stage` | 3 |
@@ -49,25 +49,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 2890} |
-| `chromeGpuPssKb` | {'int': 2890} |
-| `chromeOtherPssKb` | {'int': 2890} |
-| `chromeProcesses` | {'int': 2890} |
-| `chromeProfiles` | {'int': 2890} |
-| `chromeRendererMaxPssKb` | {'int': 2890} |
-| `chromeRendererPssKb` | {'int': 2890} |
-| `chromeRenderers` | {'int': 2890} |
-| `chromeTabs` | {'int': 2890} |
-| `chromeTabsProbedProfiles` | {'int': 2890} |
-| `chromeUtilityPssKb` | {'int': 2890} |
-| `desktopPssKb` | {'int': 2890} |
-| `hostPssKb` | {'int': 2890} |
-| `kind` | {'str': 2890} |
-| `memAvailableKb` | {'int': 2890} |
-| `memTotalKb` | {'int': 2890} |
-| `otherPssKb` | {'int': 2890} |
-| `processes` | {'int': 2890} |
-| `pssFallbackProcesses` | {'int': 2890} |
+| `chromeBrowserPssKb` | {'int': 2891} |
+| `chromeGpuPssKb` | {'int': 2891} |
+| `chromeOtherPssKb` | {'int': 2891} |
+| `chromeProcesses` | {'int': 2891} |
+| `chromeProfiles` | {'int': 2891} |
+| `chromeRendererMaxPssKb` | {'int': 2891} |
+| `chromeRendererPssKb` | {'int': 2891} |
+| `chromeRenderers` | {'int': 2891} |
+| `chromeTabs` | {'int': 2891} |
+| `chromeTabsProbedProfiles` | {'int': 2891} |
+| `chromeUtilityPssKb` | {'int': 2891} |
+| `desktopPssKb` | {'int': 2891} |
+| `hostPssKb` | {'int': 2891} |
+| `kind` | {'str': 2891} |
+| `memAvailableKb` | {'int': 2891} |
+| `memTotalKb` | {'int': 2891} |
+| `otherPssKb` | {'int': 2891} |
+| `processes` | {'int': 2891} |
+| `pssFallbackProcesses` | {'int': 2891} |
 
 ### `egress_tunnel_desktop`
 
@@ -126,14 +126,14 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 64} |
-| `display` | {'int': 66} |
-| `kind` | {'str': 66} |
-| `processes` | {'int': 66} |
-| `pssKb` | {'int': 66} |
-| `rendererMaxPssKb` | {'int': 66} |
-| `renderers` | {'int': 66} |
-| `tabs` | {'int': 65} |
+| `cpuMillicores` | {'int': 65} |
+| `display` | {'int': 67} |
+| `kind` | {'str': 67} |
+| `processes` | {'int': 67} |
+| `pssKb` | {'int': 67} |
+| `rendererMaxPssKb` | {'int': 67} |
+| `renderers` | {'int': 67} |
+| `tabs` | {'int': 66} |
 
 ### `process_crash`
 
