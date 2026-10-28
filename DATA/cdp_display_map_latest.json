@@ -1,46 +1,27 @@
 {
-  "timestamp": "2026-10-28T21:48:06+0100",
+  "timestamp": "2026-10-28T21:51:41+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [
-    {
-      "cdp_port": 9246,
-      "display": ":24",
-      "display_num": 24,
-      "fork": 24,
-      "user_data_dir": "/home/box/chrome-profile/Fork-24",
-      "chrome_pid": 2703407,
-      "agent_id": "438c103e-760a-4ebe-9a65-a03d8974ca3c",
-      "agent_name": "GLG",
-      "playwright_attached": true,
-      "playwright_pids": [
-        2713909
-      ],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    }
-  ],
-  "playwright_workers": [
-    {
-      "pid": 2713909,
-      "ppid": 363,
-      "cdp_port": 9246,
-      "role": "sand-playwright-main"
-    }
-  ],
+  "live_table": [],
+  "playwright_workers": [],
   "xvfb": [
     {
-      "pid": 4136,
+      "pid": 4492,
       "display": ":1",
       "display_num": 1
     },
     {
-      "pid": 889,
+      "pid": 1398,
       "display": ":3",
       "display_num": 3
     },
     {
-      "pid": 2702484,
+      "pid": 5797,
+      "display": ":9",
+      "display_num": 9
+    },
+    {
+      "pid": 10536,
       "display": ":24",
       "display_num": 24
     }

@@ -1,9 +1,9 @@
-# safe inventory 2026-10-28 21:48:04 CET
+# safe inventory 2026-10-28 21:51:36 CET
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
-| node | `/usr/bin/node` | v20.19.2  |
+| node | `/usr/local/bin/node` | v24.22.1  |
 | npm | `/usr/local/bin/npm` | 11.21.1  |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
 | python3 | `/usr/bin/python3` | Python 3.13.5  |
@@ -22,4 +22,4 @@
 | aider | `/home/box/.local/bin/aider` | aider 0.86.2  |
 | gemini | MISSING | | |
 | playwright | MISSING | | |
-| pnpm | `/usr/bin/pnpm` | 10.34.6  |
+| pnpm | `/usr/local/bin/pnpm` | 10.34.6  |
