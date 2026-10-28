@@ -1,15 +1,20 @@
 {
-  "timestamp": "2026-10-28T21:51:53+0100",
+  "timestamp": "2026-10-28T21:56:48+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 2253,
-  "line_count": 10,
+  "bytes": 5522,
+  "line_count": 23,
   "kind_counts": {
-    "memory_sample": 4,
+    "memory_sample": 9,
     "boot_stage": 3,
+    "cookie_persist": 2,
+    "chrome_profile_sample": 2,
+    "egress_tunnel_connect": 2,
     "egress_tunnel": 1,
     "host_boot_fetch": 1,
-    "egress_tunnel_desktop": 1
+    "egress_tunnel_desktop": 1,
+    "chrome_launch": 1,
+    "egress_time_zone": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -59,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 4
+        "int": 9
       },
       "chromeGpuPssKb": {
-        "int": 4
+        "int": 9
       },
       "chromeOtherPssKb": {
-        "int": 4
+        "int": 9
       },
       "chromeProcesses": {
-        "int": 4
+        "int": 9
       },
       "chromeProfiles": {
-        "int": 4
+        "int": 9
       },
       "chromeRendererMaxPssKb": {
-        "int": 4
+        "int": 9
       },
       "chromeRendererPssKb": {
-        "int": 4
+        "int": 9
       },
       "chromeRenderers": {
-        "int": 4
+        "int": 9
       },
       "chromeTabs": {
-        "int": 4
+        "int": 9
       },
       "chromeTabsProbedProfiles": {
-        "int": 4
+        "int": 9
       },
       "chromeUtilityPssKb": {
-        "int": 4
+        "int": 9
       },
       "desktopPssKb": {
-        "int": 4
+        "int": 9
       },
       "hostPssKb": {
-        "int": 4
+        "int": 9
       },
       "kind": {
-        "str": 4
+        "str": 9
       },
       "memAvailableKb": {
-        "int": 4
+        "int": 9
       },
       "memTotalKb": {
-        "int": 4
+        "int": 9
       },
       "otherPssKb": {
-        "int": 4
+        "int": 9
       },
       "processes": {
-        "int": 4
+        "int": 9
       },
       "pssFallbackProcesses": {
-        "int": 4
+        "int": 9
       }
     },
     "egress_tunnel_desktop": {
@@ -123,9 +128,120 @@
       "kind": {
         "str": 1
       }
+    },
+    "chrome_launch": {
+      "attempt": {
+        "int": 1
+      },
+      "display": {
+        "int": 1
+      },
+      "durationMs": {
+        "int": 1
+      },
+      "kind": {
+        "str": 1
+      },
+      "launcher": {
+        "int": 1
+      },
+      "launcherSource": {
+        "str": 1
+      },
+      "mode": {
+        "str": 1
+      },
+      "outcome": {
+        "str": 1
+      }
+    },
+    "egress_time_zone": {
+      "boxClockUtc": {
+        "bool": 1
+      },
+      "kind": {
+        "str": 1
+      },
+      "outcome": {
+        "str": 1
+      },
+      "provider": {
+        "str": 1
+      },
+      "source": {
+        "str": 1
+      }
+    },
+    "cookie_persist": {
+      "attempts": {
+        "int": 1
+      },
+      "injected": {
+        "int": 1
+      },
+      "kind": {
+        "str": 2
+      },
+      "missingAfter": {
+        "int": 1
+      },
+      "outcome": {
+        "str": 2
+      },
+      "phase": {
+        "str": 2
+      },
+      "seedCookies": {
+        "int": 2
+      }
+    },
+    "chrome_profile_sample": {
+      "cpuMillicores": {
+        "int": 1
+      },
+      "display": {
+        "int": 2
+      },
+      "kind": {
+        "str": 2
+      },
+      "processes": {
+        "int": 2
+      },
+      "pssKb": {
+        "int": 2
+      },
+      "rendererMaxPssKb": {
+        "int": 2
+      },
+      "renderers": {
+        "int": 2
+      },
+      "tabs": {
+        "int": 2
+      }
+    },
+    "egress_tunnel_connect": {
+      "count": {
+        "int": 2
+      },
+      "failClosed": {
+        "bool": 2
+      },
+      "kind": {
+        "str": 2
+      },
+      "route": {
+        "str": 2
+      },
+      "strict": {
+        "bool": 2
+      }
     }
   },
-  "display_counts_in_log": {},
+  "display_counts_in_log": {
+    "24": 3
+  },
   "boot_stages": {
     "entrypoint_started": 1,
     "daemon_listening": 1,
@@ -133,9 +249,20 @@
   },
   "outcomes": {
     "egress_tunnel:ready": 1,
-    "host_boot_fetch:applied": 1
+    "host_boot_fetch:applied": 1,
+    "chrome_launch:ready": 1,
+    "egress_time_zone:resolved": 1,
+    "cookie_persist:partial": 1,
+    "cookie_persist:captured": 1
   },
-  "redaction_summary": [],
+  "redaction_summary": [
+    {
+      "kind": "cookie_persist",
+      "key": "seedCookies",
+      "value_type": "int",
+      "seen": 2
+    }
+  ],
   "redaction_policy": [
     "Omit values for keys matching token|secret|password|cookie|credential|bearer|otp|seedCookies",
     "Emit only kind counts, key names, value types, and numeric aggregates",
