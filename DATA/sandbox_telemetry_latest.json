@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-28T06:24:46+0100",
+  "timestamp": "2026-10-28T06:27:29+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 950174,
-  "line_count": 2143,
+  "bytes": 951530,
+  "line_count": 2146,
   "kind_counts": {
-    "memory_sample": 2077,
+    "memory_sample": 2080,
     "chrome_profile_sample": 45,
     "egress_tunnel_connect": 6,
     "egress_tunnel_desktop": 5,
@@ -65,61 +65,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "chromeGpuPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "chromeOtherPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "chromeProcesses": {
-        "int": 2077
+        "int": 2080
       },
       "chromeProfiles": {
-        "int": 2077
+        "int": 2080
       },
       "chromeRendererMaxPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "chromeRendererPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "chromeRenderers": {
-        "int": 2077
+        "int": 2080
       },
       "chromeTabs": {
-        "int": 2077
+        "int": 2080
       },
       "chromeTabsProbedProfiles": {
-        "int": 2077
+        "int": 2080
       },
       "chromeUtilityPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "desktopPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "hostPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "kind": {
-        "str": 2077
+        "str": 2080
       },
       "memAvailableKb": {
-        "int": 2077
+        "int": 2080
       },
       "memTotalKb": {
-        "int": 2077
+        "int": 2080
       },
       "otherPssKb": {
-        "int": 2077
+        "int": 2080
       },
       "processes": {
-        "int": 2077
+        "int": 2080
       },
       "pssFallbackProcesses": {
-        "int": 2077
+        "int": 2080
       }
     },
     "egress_tunnel_desktop": {
