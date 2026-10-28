@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T21:08:15+0100",
+  "timestamp": "2026-10-28T21:12:25+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [
@@ -12,13 +12,22 @@
       "chrome_pid": 2703407,
       "agent_id": "438c103e-760a-4ebe-9a65-a03d8974ca3c",
       "agent_name": "GLG",
-      "playwright_attached": false,
-      "playwright_pids": [],
+      "playwright_attached": true,
+      "playwright_pids": [
+        2713909
+      ],
       "cdp_formula": "9222 + display_num",
       "formula_match": true
     }
   ],
-  "playwright_workers": [],
+  "playwright_workers": [
+    {
+      "pid": 2713909,
+      "ppid": 363,
+      "cdp_port": 9246,
+      "role": "sand-playwright-main"
+    }
+  ],
   "xvfb": [
     {
       "pid": 4136,
