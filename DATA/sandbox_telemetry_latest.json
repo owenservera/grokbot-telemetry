@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-28T14:34:37+0100",
+  "timestamp": "2026-10-28T14:38:39+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1149506,
-  "line_count": 2584,
+  "bytes": 1151314,
+  "line_count": 2588,
   "kind_counts": {
-    "memory_sample": 2518,
+    "memory_sample": 2522,
     "chrome_profile_sample": 45,
     "egress_tunnel_connect": 6,
     "egress_tunnel_desktop": 5,
@@ -65,61 +65,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "chromeGpuPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "chromeOtherPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "chromeProcesses": {
-        "int": 2518
+        "int": 2522
       },
       "chromeProfiles": {
-        "int": 2518
+        "int": 2522
       },
       "chromeRendererMaxPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "chromeRendererPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "chromeRenderers": {
-        "int": 2518
+        "int": 2522
       },
       "chromeTabs": {
-        "int": 2518
+        "int": 2522
       },
       "chromeTabsProbedProfiles": {
-        "int": 2518
+        "int": 2522
       },
       "chromeUtilityPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "desktopPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "hostPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "kind": {
-        "str": 2518
+        "str": 2522
       },
       "memAvailableKb": {
-        "int": 2518
+        "int": 2522
       },
       "memTotalKb": {
-        "int": 2518
+        "int": 2522
       },
       "otherPssKb": {
-        "int": 2518
+        "int": 2522
       },
       "processes": {
-        "int": 2518
+        "int": 2522
       },
       "pssFallbackProcesses": {
-        "int": 2518
+        "int": 2522
       }
     },
     "egress_tunnel_desktop": {
