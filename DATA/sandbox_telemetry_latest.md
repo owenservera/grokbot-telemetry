@@ -1,11 +1,11 @@
-# sandbox_telemetry_parse — 2026-10-29 13:02:27 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=365440 lines=911
+# sandbox_telemetry_parse — 2026-10-29 13:07:32 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=367769 lines=917
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 765 |
+| `memory_sample` | 770 |
 | `chrome_profile_sample` | 75 |
-| `egress_tunnel_desktop` | 31 |
+| `egress_tunnel_desktop` | 32 |
 | `egress_tunnel_connect` | 31 |
 | `boot_stage` | 3 |
 | `cookie_persist` | 2 |
@@ -48,33 +48,33 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 765} |
-| `chromeGpuPssKb` | {'int': 765} |
-| `chromeOtherPssKb` | {'int': 765} |
-| `chromeProcesses` | {'int': 765} |
-| `chromeProfiles` | {'int': 765} |
-| `chromeRendererMaxPssKb` | {'int': 765} |
-| `chromeRendererPssKb` | {'int': 765} |
-| `chromeRenderers` | {'int': 765} |
-| `chromeTabs` | {'int': 765} |
-| `chromeTabsProbedProfiles` | {'int': 765} |
-| `chromeUtilityPssKb` | {'int': 765} |
-| `desktopPssKb` | {'int': 765} |
-| `hostPssKb` | {'int': 765} |
-| `kind` | {'str': 765} |
-| `memAvailableKb` | {'int': 765} |
-| `memTotalKb` | {'int': 765} |
-| `otherPssKb` | {'int': 765} |
-| `processes` | {'int': 765} |
-| `pssFallbackProcesses` | {'int': 765} |
+| `chromeBrowserPssKb` | {'int': 770} |
+| `chromeGpuPssKb` | {'int': 770} |
+| `chromeOtherPssKb` | {'int': 770} |
+| `chromeProcesses` | {'int': 770} |
+| `chromeProfiles` | {'int': 770} |
+| `chromeRendererMaxPssKb` | {'int': 770} |
+| `chromeRendererPssKb` | {'int': 770} |
+| `chromeRenderers` | {'int': 770} |
+| `chromeTabs` | {'int': 770} |
+| `chromeTabsProbedProfiles` | {'int': 770} |
+| `chromeUtilityPssKb` | {'int': 770} |
+| `desktopPssKb` | {'int': 770} |
+| `hostPssKb` | {'int': 770} |
+| `kind` | {'str': 770} |
+| `memAvailableKb` | {'int': 770} |
+| `memTotalKb` | {'int': 770} |
+| `otherPssKb` | {'int': 770} |
+| `processes` | {'int': 770} |
+| `pssFallbackProcesses` | {'int': 770} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 31} |
-| `graceS` | {'int': 17} |
-| `kind` | {'str': 31} |
+| `event` | {'str': 32} |
+| `graceS` | {'int': 18} |
+| `kind` | {'str': 32} |
 
 ### `chrome_launch`
 
