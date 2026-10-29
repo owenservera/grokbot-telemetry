@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-10-29 14:42:58 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=423382 lines=1098
+# sandbox_telemetry_parse — 2026-10-29 14:43:39 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=424021 lines=1100
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 861 |
-| `chrome_profile_sample` | 142 |
+| `memory_sample` | 862 |
+| `chrome_profile_sample` | 143 |
 | `egress_tunnel_desktop` | 41 |
 | `egress_tunnel_connect` | 41 |
 | `boot_stage` | 3 |
@@ -48,25 +48,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 861} |
-| `chromeGpuPssKb` | {'int': 861} |
-| `chromeOtherPssKb` | {'int': 861} |
-| `chromeProcesses` | {'int': 861} |
-| `chromeProfiles` | {'int': 861} |
-| `chromeRendererMaxPssKb` | {'int': 861} |
-| `chromeRendererPssKb` | {'int': 861} |
-| `chromeRenderers` | {'int': 861} |
-| `chromeTabs` | {'int': 861} |
-| `chromeTabsProbedProfiles` | {'int': 861} |
-| `chromeUtilityPssKb` | {'int': 861} |
-| `desktopPssKb` | {'int': 861} |
-| `hostPssKb` | {'int': 861} |
-| `kind` | {'str': 861} |
-| `memAvailableKb` | {'int': 861} |
-| `memTotalKb` | {'int': 861} |
-| `otherPssKb` | {'int': 861} |
-| `processes` | {'int': 861} |
-| `pssFallbackProcesses` | {'int': 861} |
+| `chromeBrowserPssKb` | {'int': 862} |
+| `chromeGpuPssKb` | {'int': 862} |
+| `chromeOtherPssKb` | {'int': 862} |
+| `chromeProcesses` | {'int': 862} |
+| `chromeProfiles` | {'int': 862} |
+| `chromeRendererMaxPssKb` | {'int': 862} |
+| `chromeRendererPssKb` | {'int': 862} |
+| `chromeRenderers` | {'int': 862} |
+| `chromeTabs` | {'int': 862} |
+| `chromeTabsProbedProfiles` | {'int': 862} |
+| `chromeUtilityPssKb` | {'int': 862} |
+| `desktopPssKb` | {'int': 862} |
+| `hostPssKb` | {'int': 862} |
+| `kind` | {'str': 862} |
+| `memAvailableKb` | {'int': 862} |
+| `memTotalKb` | {'int': 862} |
+| `otherPssKb` | {'int': 862} |
+| `processes` | {'int': 862} |
+| `pssFallbackProcesses` | {'int': 862} |
 
 ### `egress_tunnel_desktop`
 
@@ -115,14 +115,14 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 139} |
-| `display` | {'int': 142} |
-| `kind` | {'str': 142} |
-| `processes` | {'int': 142} |
-| `pssKb` | {'int': 142} |
-| `rendererMaxPssKb` | {'int': 142} |
-| `renderers` | {'int': 142} |
-| `tabs` | {'int': 142} |
+| `cpuMillicores` | {'int': 140} |
+| `display` | {'int': 143} |
+| `kind` | {'str': 143} |
+| `processes` | {'int': 143} |
+| `pssKb` | {'int': 143} |
+| `rendererMaxPssKb` | {'int': 143} |
+| `renderers` | {'int': 143} |
+| `tabs` | {'int': 143} |
 
 ### `egress_tunnel_connect`
 
