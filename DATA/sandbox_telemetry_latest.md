@@ -1,11 +1,11 @@
-# sandbox_telemetry_parse — 2026-10-29 21:35:39 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=646676 lines=1815
+# sandbox_telemetry_parse — 2026-10-29 21:38:26 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=646770 lines=1816
 ## kind counts
 | kind | count |
 |------|------:|
 | `memory_sample` | 1246 |
 | `chrome_profile_sample` | 346 |
-| `egress_tunnel_connect` | 127 |
+| `egress_tunnel_connect` | 128 |
 | `egress_tunnel_desktop` | 77 |
 | `chrome_launch` | 6 |
 | `egress_time_zone` | 6 |
@@ -128,11 +128,11 @@
 
 | key | types |
 |-----|-------|
-| `count` | {'int': 127} |
-| `failClosed` | {'bool': 127} |
-| `kind` | {'str': 127} |
-| `route` | {'str': 127} |
-| `strict` | {'bool': 127} |
+| `count` | {'int': 128} |
+| `failClosed` | {'bool': 128} |
+| `kind` | {'str': 128} |
+| `route` | {'str': 128} |
+| `strict` | {'bool': 128} |
 
 ## redaction summary
 
