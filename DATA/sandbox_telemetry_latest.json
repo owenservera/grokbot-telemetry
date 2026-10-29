@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-29T12:38:41+0100",
+  "timestamp": "2026-10-29T12:42:25+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 356669,
-  "line_count": 889,
+  "bytes": 358543,
+  "line_count": 894,
   "kind_counts": {
-    "memory_sample": 746,
+    "memory_sample": 750,
     "chrome_profile_sample": 75,
     "egress_tunnel_connect": 31,
-    "egress_tunnel_desktop": 28,
+    "egress_tunnel_desktop": 29,
     "boot_stage": 3,
     "cookie_persist": 2,
     "egress_tunnel": 1,
@@ -64,72 +64,72 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 746
+        "int": 750
       },
       "chromeGpuPssKb": {
-        "int": 746
+        "int": 750
       },
       "chromeOtherPssKb": {
-        "int": 746
+        "int": 750
       },
       "chromeProcesses": {
-        "int": 746
+        "int": 750
       },
       "chromeProfiles": {
-        "int": 746
+        "int": 750
       },
       "chromeRendererMaxPssKb": {
-        "int": 746
+        "int": 750
       },
       "chromeRendererPssKb": {
-        "int": 746
+        "int": 750
       },
       "chromeRenderers": {
-        "int": 746
+        "int": 750
       },
       "chromeTabs": {
-        "int": 746
+        "int": 750
       },
       "chromeTabsProbedProfiles": {
-        "int": 746
+        "int": 750
       },
       "chromeUtilityPssKb": {
-        "int": 746
+        "int": 750
       },
       "desktopPssKb": {
-        "int": 746
+        "int": 750
       },
       "hostPssKb": {
-        "int": 746
+        "int": 750
       },
       "kind": {
-        "str": 746
+        "str": 750
       },
       "memAvailableKb": {
-        "int": 746
+        "int": 750
       },
       "memTotalKb": {
-        "int": 746
+        "int": 750
       },
       "otherPssKb": {
-        "int": 746
+        "int": 750
       },
       "processes": {
-        "int": 746
+        "int": 750
       },
       "pssFallbackProcesses": {
-        "int": 746
+        "int": 750
       }
     },
     "egress_tunnel_desktop": {
       "event": {
-        "str": 28
+        "str": 29
       },
       "graceS": {
-        "int": 15
+        "int": 16
       },
       "kind": {
-        "str": 28
+        "str": 29
       }
     },
     "chrome_launch": {
