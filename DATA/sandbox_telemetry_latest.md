@@ -1,12 +1,12 @@
-# sandbox_telemetry_parse — 2026-10-29 18:38:53 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=538193 lines=1432
+# sandbox_telemetry_parse — 2026-10-29 18:43:13 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=540136 lines=1438
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 1079 |
+| `memory_sample` | 1083 |
 | `chrome_profile_sample` | 207 |
 | `egress_tunnel_connect` | 68 |
-| `egress_tunnel_desktop` | 63 |
+| `egress_tunnel_desktop` | 65 |
 | `chrome_launch` | 4 |
 | `egress_time_zone` | 4 |
 | `boot_stage` | 3 |
@@ -48,33 +48,33 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1079} |
-| `chromeGpuPssKb` | {'int': 1079} |
-| `chromeOtherPssKb` | {'int': 1079} |
-| `chromeProcesses` | {'int': 1079} |
-| `chromeProfiles` | {'int': 1079} |
-| `chromeRendererMaxPssKb` | {'int': 1079} |
-| `chromeRendererPssKb` | {'int': 1079} |
-| `chromeRenderers` | {'int': 1079} |
-| `chromeTabs` | {'int': 1079} |
-| `chromeTabsProbedProfiles` | {'int': 1079} |
-| `chromeUtilityPssKb` | {'int': 1079} |
-| `desktopPssKb` | {'int': 1079} |
-| `hostPssKb` | {'int': 1079} |
-| `kind` | {'str': 1079} |
-| `memAvailableKb` | {'int': 1079} |
-| `memTotalKb` | {'int': 1079} |
-| `otherPssKb` | {'int': 1079} |
-| `processes` | {'int': 1079} |
-| `pssFallbackProcesses` | {'int': 1079} |
+| `chromeBrowserPssKb` | {'int': 1083} |
+| `chromeGpuPssKb` | {'int': 1083} |
+| `chromeOtherPssKb` | {'int': 1083} |
+| `chromeProcesses` | {'int': 1083} |
+| `chromeProfiles` | {'int': 1083} |
+| `chromeRendererMaxPssKb` | {'int': 1083} |
+| `chromeRendererPssKb` | {'int': 1083} |
+| `chromeRenderers` | {'int': 1083} |
+| `chromeTabs` | {'int': 1083} |
+| `chromeTabsProbedProfiles` | {'int': 1083} |
+| `chromeUtilityPssKb` | {'int': 1083} |
+| `desktopPssKb` | {'int': 1083} |
+| `hostPssKb` | {'int': 1083} |
+| `kind` | {'str': 1083} |
+| `memAvailableKb` | {'int': 1083} |
+| `memTotalKb` | {'int': 1083} |
+| `otherPssKb` | {'int': 1083} |
+| `processes` | {'int': 1083} |
+| `pssFallbackProcesses` | {'int': 1083} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 63} |
-| `graceS` | {'int': 35} |
-| `kind` | {'str': 63} |
+| `event` | {'str': 65} |
+| `graceS` | {'int': 37} |
+| `kind` | {'str': 65} |
 
 ### `chrome_launch`
 
