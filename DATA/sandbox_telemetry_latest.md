@@ -1,14 +1,14 @@
-# sandbox_telemetry_parse — 2026-10-29 18:55:04 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=544656 lines=1448
+# sandbox_telemetry_parse — 2026-10-29 19:00:10 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=547762 lines=1460
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 1093 |
-| `chrome_profile_sample` | 207 |
-| `egress_tunnel_connect` | 68 |
-| `egress_tunnel_desktop` | 65 |
-| `chrome_launch` | 4 |
-| `egress_time_zone` | 4 |
+| `memory_sample` | 1098 |
+| `chrome_profile_sample` | 209 |
+| `egress_tunnel_connect` | 70 |
+| `egress_tunnel_desktop` | 66 |
+| `chrome_launch` | 5 |
+| `egress_time_zone` | 5 |
 | `boot_stage` | 3 |
 | `cookie_persist` | 2 |
 | `egress_tunnel` | 1 |
@@ -48,56 +48,56 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1093} |
-| `chromeGpuPssKb` | {'int': 1093} |
-| `chromeOtherPssKb` | {'int': 1093} |
-| `chromeProcesses` | {'int': 1093} |
-| `chromeProfiles` | {'int': 1093} |
-| `chromeRendererMaxPssKb` | {'int': 1093} |
-| `chromeRendererPssKb` | {'int': 1093} |
-| `chromeRenderers` | {'int': 1093} |
-| `chromeTabs` | {'int': 1093} |
-| `chromeTabsProbedProfiles` | {'int': 1093} |
-| `chromeUtilityPssKb` | {'int': 1093} |
-| `desktopPssKb` | {'int': 1093} |
-| `hostPssKb` | {'int': 1093} |
-| `kind` | {'str': 1093} |
-| `memAvailableKb` | {'int': 1093} |
-| `memTotalKb` | {'int': 1093} |
-| `otherPssKb` | {'int': 1093} |
-| `processes` | {'int': 1093} |
-| `pssFallbackProcesses` | {'int': 1093} |
+| `chromeBrowserPssKb` | {'int': 1098} |
+| `chromeGpuPssKb` | {'int': 1098} |
+| `chromeOtherPssKb` | {'int': 1098} |
+| `chromeProcesses` | {'int': 1098} |
+| `chromeProfiles` | {'int': 1098} |
+| `chromeRendererMaxPssKb` | {'int': 1098} |
+| `chromeRendererPssKb` | {'int': 1098} |
+| `chromeRenderers` | {'int': 1098} |
+| `chromeTabs` | {'int': 1098} |
+| `chromeTabsProbedProfiles` | {'int': 1098} |
+| `chromeUtilityPssKb` | {'int': 1098} |
+| `desktopPssKb` | {'int': 1098} |
+| `hostPssKb` | {'int': 1098} |
+| `kind` | {'str': 1098} |
+| `memAvailableKb` | {'int': 1098} |
+| `memTotalKb` | {'int': 1098} |
+| `otherPssKb` | {'int': 1098} |
+| `processes` | {'int': 1098} |
+| `pssFallbackProcesses` | {'int': 1098} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 65} |
+| `event` | {'str': 66} |
 | `graceS` | {'int': 37} |
-| `kind` | {'str': 65} |
+| `kind` | {'str': 66} |
 
 ### `chrome_launch`
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 4} |
-| `display` | {'int': 4} |
-| `durationMs` | {'int': 4} |
-| `kind` | {'str': 4} |
-| `launcher` | {'int': 4} |
-| `launcherSource` | {'str': 4} |
-| `mode` | {'str': 4} |
-| `outcome` | {'str': 4} |
+| `attempt` | {'int': 5} |
+| `display` | {'int': 5} |
+| `durationMs` | {'int': 5} |
+| `kind` | {'str': 5} |
+| `launcher` | {'int': 5} |
+| `launcherSource` | {'str': 5} |
+| `mode` | {'str': 5} |
+| `outcome` | {'str': 5} |
 
 ### `egress_time_zone`
 
 | key | types |
 |-----|-------|
-| `boxClockUtc` | {'bool': 4} |
-| `kind` | {'str': 4} |
-| `outcome` | {'str': 4} |
-| `provider` | {'str': 4} |
-| `source` | {'str': 4} |
+| `boxClockUtc` | {'bool': 5} |
+| `kind` | {'str': 5} |
+| `outcome` | {'str': 5} |
+| `provider` | {'str': 5} |
+| `source` | {'str': 5} |
 
 ### `cookie_persist`
 
@@ -115,24 +115,24 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 203} |
-| `display` | {'int': 207} |
-| `kind` | {'str': 207} |
-| `processes` | {'int': 207} |
-| `pssKb` | {'int': 207} |
-| `rendererMaxPssKb` | {'int': 207} |
-| `renderers` | {'int': 207} |
-| `tabs` | {'int': 207} |
+| `cpuMillicores` | {'int': 204} |
+| `display` | {'int': 209} |
+| `kind` | {'str': 209} |
+| `processes` | {'int': 209} |
+| `pssKb` | {'int': 209} |
+| `rendererMaxPssKb` | {'int': 209} |
+| `renderers` | {'int': 209} |
+| `tabs` | {'int': 209} |
 
 ### `egress_tunnel_connect`
 
 | key | types |
 |-----|-------|
-| `count` | {'int': 68} |
-| `failClosed` | {'bool': 68} |
-| `kind` | {'str': 68} |
-| `route` | {'str': 68} |
-| `strict` | {'bool': 68} |
+| `count` | {'int': 70} |
+| `failClosed` | {'bool': 70} |
+| `kind` | {'str': 70} |
+| `route` | {'str': 70} |
+| `strict` | {'bool': 70} |
 
 ## redaction summary
 
