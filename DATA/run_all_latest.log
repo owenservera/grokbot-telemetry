@@ -1,21 +1,21 @@
-=== run_all start 2026-10-29 18:32:59 CET ===
+=== run_all start 2026-10-29 18:35:26 CET ===
 --- running exec_daemon_sample.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261029-183259.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261029-183526.jsonl
 SUMMARY /workspace/grokbot-telemetry/DATA/exec_daemon_latest.md
 DAEMONS 3
-9 /workspace/grokbot-telemetry/DATA/exec_daemon_20261029-183259.jsonl
+13 /workspace/grokbot-telemetry/DATA/exec_daemon_20261029-183526.jsonl
 OK: exec_daemon_sample.sh
 --- running cli_inventory.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261029-183300.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261029-183527.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261029-183302.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261029-183302.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261029-183529.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261029-183529.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261029-183302-sandbox-telemetry-summary.md
-KINDS {'memory_sample': 1073, 'chrome_profile_sample': 207, 'egress_tunnel_connect': 68, 'egress_tunnel_desktop': 61, 'chrome_launch': 4, 'egress_time_zone': 4, 'boot_stage': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1}
+WROTE /workspace/grokbot-telemetry/DIFFS/20261029-183529-sandbox-telemetry-summary.md
+KINDS {'memory_sample': 1075, 'chrome_profile_sample': 207, 'egress_tunnel_connect': 68, 'egress_tunnel_desktop': 61, 'chrome_launch': 4, 'egress_time_zone': 4, 'boot_stage': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1}
 CDP_ROWS 0
-DONE 2026-10-29 18:33:02 CET
+DONE 2026-10-29 18:35:29 CET
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-29 18:33:02 CET fail=0 ===
+=== run_all end 2026-10-29 18:35:29 CET fail=0 ===

@@ -1,16 +1,9 @@
 {
-  "timestamp": "2026-10-29T18:33:02+0100",
+  "timestamp": "2026-10-29T18:35:29+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
-  "playwright_workers": [
-    {
-      "pid": 843993,
-      "ppid": 353,
-      "cdp_port": 9246,
-      "role": "sand-playwright-main"
-    }
-  ],
+  "playwright_workers": [],
   "xvfb": [
     {
       "pid": 4492,
