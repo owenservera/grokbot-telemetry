@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-29T18:23:08+0100",
+  "timestamp": "2026-10-29T18:25:07+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 530793,
-  "line_count": 1413,
+  "bytes": 531697,
+  "line_count": 1415,
   "kind_counts": {
-    "memory_sample": 1063,
+    "memory_sample": 1065,
     "chrome_profile_sample": 207,
     "egress_tunnel_connect": 68,
     "egress_tunnel_desktop": 60,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "chromeGpuPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "chromeOtherPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "chromeProcesses": {
-        "int": 1063
+        "int": 1065
       },
       "chromeProfiles": {
-        "int": 1063
+        "int": 1065
       },
       "chromeRendererMaxPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "chromeRendererPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "chromeRenderers": {
-        "int": 1063
+        "int": 1065
       },
       "chromeTabs": {
-        "int": 1063
+        "int": 1065
       },
       "chromeTabsProbedProfiles": {
-        "int": 1063
+        "int": 1065
       },
       "chromeUtilityPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "desktopPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "hostPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "kind": {
-        "str": 1063
+        "str": 1065
       },
       "memAvailableKb": {
-        "int": 1063
+        "int": 1065
       },
       "memTotalKb": {
-        "int": 1063
+        "int": 1065
       },
       "otherPssKb": {
-        "int": 1063
+        "int": 1065
       },
       "processes": {
-        "int": 1063
+        "int": 1065
       },
       "pssFallbackProcesses": {
-        "int": 1063
+        "int": 1065
       }
     },
     "egress_tunnel_desktop": {
