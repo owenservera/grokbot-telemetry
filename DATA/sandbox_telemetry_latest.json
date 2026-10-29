@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-29T19:44:00+0100",
+  "timestamp": "2026-10-29T19:46:28+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 575744,
-  "line_count": 1563,
+  "bytes": 576743,
+  "line_count": 1566,
   "kind_counts": {
-    "memory_sample": 1139,
+    "memory_sample": 1141,
     "chrome_profile_sample": 250,
-    "egress_tunnel_connect": 85,
+    "egress_tunnel_connect": 86,
     "egress_tunnel_desktop": 72,
     "chrome_launch": 5,
     "egress_time_zone": 5,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "chromeGpuPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "chromeOtherPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "chromeProcesses": {
-        "int": 1139
+        "int": 1141
       },
       "chromeProfiles": {
-        "int": 1139
+        "int": 1141
       },
       "chromeRendererMaxPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "chromeRendererPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "chromeRenderers": {
-        "int": 1139
+        "int": 1141
       },
       "chromeTabs": {
-        "int": 1139
+        "int": 1141
       },
       "chromeTabsProbedProfiles": {
-        "int": 1139
+        "int": 1141
       },
       "chromeUtilityPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "desktopPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "hostPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "kind": {
-        "str": 1139
+        "str": 1141
       },
       "memAvailableKb": {
-        "int": 1139
+        "int": 1141
       },
       "memTotalKb": {
-        "int": 1139
+        "int": 1141
       },
       "otherPssKb": {
-        "int": 1139
+        "int": 1141
       },
       "processes": {
-        "int": 1139
+        "int": 1141
       },
       "pssFallbackProcesses": {
-        "int": 1139
+        "int": 1141
       }
     },
     "egress_tunnel_desktop": {
@@ -226,19 +226,19 @@
     },
     "egress_tunnel_connect": {
       "count": {
-        "int": 85
+        "int": 86
       },
       "failClosed": {
-        "bool": 85
+        "bool": 86
       },
       "kind": {
-        "str": 85
+        "str": 86
       },
       "route": {
-        "str": 85
+        "str": 86
       },
       "strict": {
-        "bool": 85
+        "bool": 86
       }
     }
   },

@@ -1,11 +1,11 @@
-# sandbox_telemetry_parse — 2026-10-29 19:44:00 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=575744 lines=1563
+# sandbox_telemetry_parse — 2026-10-29 19:46:28 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=576743 lines=1566
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 1139 |
+| `memory_sample` | 1141 |
 | `chrome_profile_sample` | 250 |
-| `egress_tunnel_connect` | 85 |
+| `egress_tunnel_connect` | 86 |
 | `egress_tunnel_desktop` | 72 |
 | `chrome_launch` | 5 |
 | `egress_time_zone` | 5 |
@@ -48,25 +48,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1139} |
-| `chromeGpuPssKb` | {'int': 1139} |
-| `chromeOtherPssKb` | {'int': 1139} |
-| `chromeProcesses` | {'int': 1139} |
-| `chromeProfiles` | {'int': 1139} |
-| `chromeRendererMaxPssKb` | {'int': 1139} |
-| `chromeRendererPssKb` | {'int': 1139} |
-| `chromeRenderers` | {'int': 1139} |
-| `chromeTabs` | {'int': 1139} |
-| `chromeTabsProbedProfiles` | {'int': 1139} |
-| `chromeUtilityPssKb` | {'int': 1139} |
-| `desktopPssKb` | {'int': 1139} |
-| `hostPssKb` | {'int': 1139} |
-| `kind` | {'str': 1139} |
-| `memAvailableKb` | {'int': 1139} |
-| `memTotalKb` | {'int': 1139} |
-| `otherPssKb` | {'int': 1139} |
-| `processes` | {'int': 1139} |
-| `pssFallbackProcesses` | {'int': 1139} |
+| `chromeBrowserPssKb` | {'int': 1141} |
+| `chromeGpuPssKb` | {'int': 1141} |
+| `chromeOtherPssKb` | {'int': 1141} |
+| `chromeProcesses` | {'int': 1141} |
+| `chromeProfiles` | {'int': 1141} |
+| `chromeRendererMaxPssKb` | {'int': 1141} |
+| `chromeRendererPssKb` | {'int': 1141} |
+| `chromeRenderers` | {'int': 1141} |
+| `chromeTabs` | {'int': 1141} |
+| `chromeTabsProbedProfiles` | {'int': 1141} |
+| `chromeUtilityPssKb` | {'int': 1141} |
+| `desktopPssKb` | {'int': 1141} |
+| `hostPssKb` | {'int': 1141} |
+| `kind` | {'str': 1141} |
+| `memAvailableKb` | {'int': 1141} |
+| `memTotalKb` | {'int': 1141} |
+| `otherPssKb` | {'int': 1141} |
+| `processes` | {'int': 1141} |
+| `pssFallbackProcesses` | {'int': 1141} |
 
 ### `egress_tunnel_desktop`
 
@@ -128,11 +128,11 @@
 
 | key | types |
 |-----|-------|
-| `count` | {'int': 85} |
-| `failClosed` | {'bool': 85} |
-| `kind` | {'str': 85} |
-| `route` | {'str': 85} |
-| `strict` | {'bool': 85} |
+| `count` | {'int': 86} |
+| `failClosed` | {'bool': 86} |
+| `kind` | {'str': 86} |
+| `route` | {'str': 86} |
+| `strict` | {'bool': 86} |
 
 ## redaction summary
 
