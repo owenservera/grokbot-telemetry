@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-29T14:32:48+0100",
+  "timestamp": "2026-10-29T14:36:40+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 417812,
-  "line_count": 1080,
+  "bytes": 419689,
+  "line_count": 1085,
   "kind_counts": {
-    "memory_sample": 851,
+    "memory_sample": 855,
     "chrome_profile_sample": 139,
-    "egress_tunnel_desktop": 40,
+    "egress_tunnel_desktop": 41,
     "egress_tunnel_connect": 39,
     "boot_stage": 3,
     "chrome_launch": 2,
@@ -64,72 +64,72 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 851
+        "int": 855
       },
       "chromeGpuPssKb": {
-        "int": 851
+        "int": 855
       },
       "chromeOtherPssKb": {
-        "int": 851
+        "int": 855
       },
       "chromeProcesses": {
-        "int": 851
+        "int": 855
       },
       "chromeProfiles": {
-        "int": 851
+        "int": 855
       },
       "chromeRendererMaxPssKb": {
-        "int": 851
+        "int": 855
       },
       "chromeRendererPssKb": {
-        "int": 851
+        "int": 855
       },
       "chromeRenderers": {
-        "int": 851
+        "int": 855
       },
       "chromeTabs": {
-        "int": 851
+        "int": 855
       },
       "chromeTabsProbedProfiles": {
-        "int": 851
+        "int": 855
       },
       "chromeUtilityPssKb": {
-        "int": 851
+        "int": 855
       },
       "desktopPssKb": {
-        "int": 851
+        "int": 855
       },
       "hostPssKb": {
-        "int": 851
+        "int": 855
       },
       "kind": {
-        "str": 851
+        "str": 855
       },
       "memAvailableKb": {
-        "int": 851
+        "int": 855
       },
       "memTotalKb": {
-        "int": 851
+        "int": 855
       },
       "otherPssKb": {
-        "int": 851
+        "int": 855
       },
       "processes": {
-        "int": 851
+        "int": 855
       },
       "pssFallbackProcesses": {
-        "int": 851
+        "int": 855
       }
     },
     "egress_tunnel_desktop": {
       "event": {
-        "str": 40
+        "str": 41
       },
       "graceS": {
-        "int": 22
+        "int": 23
       },
       "kind": {
-        "str": 40
+        "str": 41
       }
     },
     "chrome_launch": {
