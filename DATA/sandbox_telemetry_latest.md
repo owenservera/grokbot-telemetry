@@ -1,12 +1,12 @@
-# sandbox_telemetry_parse — 2026-10-29 15:27:22 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=448301 lines=1177
+# sandbox_telemetry_parse — 2026-10-29 15:29:21 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=449256 lines=1180
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 904 |
+| `memory_sample` | 906 |
 | `chrome_profile_sample` | 166 |
 | `egress_tunnel_connect` | 49 |
-| `egress_tunnel_desktop` | 45 |
+| `egress_tunnel_desktop` | 46 |
 | `boot_stage` | 3 |
 | `chrome_launch` | 3 |
 | `egress_time_zone` | 3 |
@@ -48,33 +48,33 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 904} |
-| `chromeGpuPssKb` | {'int': 904} |
-| `chromeOtherPssKb` | {'int': 904} |
-| `chromeProcesses` | {'int': 904} |
-| `chromeProfiles` | {'int': 904} |
-| `chromeRendererMaxPssKb` | {'int': 904} |
-| `chromeRendererPssKb` | {'int': 904} |
-| `chromeRenderers` | {'int': 904} |
-| `chromeTabs` | {'int': 904} |
-| `chromeTabsProbedProfiles` | {'int': 904} |
-| `chromeUtilityPssKb` | {'int': 904} |
-| `desktopPssKb` | {'int': 904} |
-| `hostPssKb` | {'int': 904} |
-| `kind` | {'str': 904} |
-| `memAvailableKb` | {'int': 904} |
-| `memTotalKb` | {'int': 904} |
-| `otherPssKb` | {'int': 904} |
-| `processes` | {'int': 904} |
-| `pssFallbackProcesses` | {'int': 904} |
+| `chromeBrowserPssKb` | {'int': 906} |
+| `chromeGpuPssKb` | {'int': 906} |
+| `chromeOtherPssKb` | {'int': 906} |
+| `chromeProcesses` | {'int': 906} |
+| `chromeProfiles` | {'int': 906} |
+| `chromeRendererMaxPssKb` | {'int': 906} |
+| `chromeRendererPssKb` | {'int': 906} |
+| `chromeRenderers` | {'int': 906} |
+| `chromeTabs` | {'int': 906} |
+| `chromeTabsProbedProfiles` | {'int': 906} |
+| `chromeUtilityPssKb` | {'int': 906} |
+| `desktopPssKb` | {'int': 906} |
+| `hostPssKb` | {'int': 906} |
+| `kind` | {'str': 906} |
+| `memAvailableKb` | {'int': 906} |
+| `memTotalKb` | {'int': 906} |
+| `otherPssKb` | {'int': 906} |
+| `processes` | {'int': 906} |
+| `pssFallbackProcesses` | {'int': 906} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 45} |
+| `event` | {'str': 46} |
 | `graceS` | {'int': 25} |
-| `kind` | {'str': 45} |
+| `kind` | {'str': 46} |
 
 ### `chrome_launch`
 
