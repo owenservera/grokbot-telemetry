@@ -1,8 +1,25 @@
 {
-  "timestamp": "2026-10-29T14:37:53+0100",
+  "timestamp": "2026-10-29T14:42:58+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [],
+  "live_table": [
+    {
+      "cdp_port": 9246,
+      "display": ":24",
+      "display_num": 24,
+      "fork": 24,
+      "user_data_dir": "/home/box/chrome-profile/Fork-24",
+      "chrome_pid": 934060,
+      "agent_id": "438c103e-760a-4ebe-9a65-a03d8974ca3c",
+      "agent_name": "GLG",
+      "playwright_attached": true,
+      "playwright_pids": [
+        843993
+      ],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": true
+    }
+  ],
   "playwright_workers": [
     {
       "pid": 843993,
@@ -21,6 +38,16 @@
       "pid": 1398,
       "display": ":3",
       "display_num": 3
+    },
+    {
+      "pid": 932060,
+      "display": ":20",
+      "display_num": 20
+    },
+    {
+      "pid": 933079,
+      "display": ":24",
+      "display_num": 24
     }
   ],
   "disk_forks": [
