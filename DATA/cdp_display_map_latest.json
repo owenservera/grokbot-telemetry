@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T20:47:32+0100",
+  "timestamp": "2026-10-30T20:48:36+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [
@@ -12,10 +12,8 @@
       "chrome_pid": 2667555,
       "agent_id": "2b5105b7-b669-47fe-9454-651542a04d57",
       "agent_name": "Code Master",
-      "playwright_attached": true,
-      "playwright_pids": [
-        2430556
-      ],
+      "playwright_attached": false,
+      "playwright_pids": [],
       "cdp_formula": "9222 + display_num",
       "formula_match": true
     },
@@ -34,20 +32,7 @@
       "formula_match": null
     }
   ],
-  "playwright_workers": [
-    {
-      "pid": 1196942,
-      "ppid": 353,
-      "cdp_port": 9246,
-      "role": "sand-playwright-main"
-    },
-    {
-      "pid": 2430556,
-      "ppid": 353,
-      "cdp_port": 9234,
-      "role": "sand-playwright-main"
-    }
-  ],
+  "playwright_workers": [],
   "xvfb": [
     {
       "pid": 4492,
@@ -58,6 +43,11 @@
       "pid": 2671812,
       "display": ":3",
       "display_num": 3
+    },
+    {
+      "pid": 2847365,
+      "display": ":9",
+      "display_num": 9
     },
     {
       "pid": 2417423,
