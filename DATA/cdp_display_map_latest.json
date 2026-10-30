@@ -1,13 +1,36 @@
 {
-  "timestamp": "2026-10-30T16:04:54+0100",
+  "timestamp": "2026-10-30T16:10:03+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [],
+  "live_table": [
+    {
+      "cdp_port": 9234,
+      "display": ":12",
+      "display_num": 12,
+      "fork": 12,
+      "user_data_dir": "/home/box/chrome-profile/Fork-12",
+      "chrome_pid": 2430212,
+      "agent_id": "2b5105b7-b669-47fe-9454-651542a04d57",
+      "agent_name": "Code Master",
+      "playwright_attached": true,
+      "playwright_pids": [
+        2430556
+      ],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": true
+    }
+  ],
   "playwright_workers": [
     {
       "pid": 1196942,
       "ppid": 353,
       "cdp_port": 9246,
+      "role": "sand-playwright-main"
+    },
+    {
+      "pid": 2430556,
+      "ppid": 353,
+      "cdp_port": 9234,
       "role": "sand-playwright-main"
     }
   ],
@@ -29,6 +52,10 @@
     }
   ],
   "disk_forks": [
+    {
+      "fork": 12,
+      "path": "/home/box/chrome-profile/Fork-12"
+    },
     {
       "fork": 16,
       "path": "/home/box/chrome-profile/Fork-16"
