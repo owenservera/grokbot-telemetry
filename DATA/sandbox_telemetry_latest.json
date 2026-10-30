@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-30T22:34:27+0100",
+  "timestamp": "2026-10-30T22:37:27+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1425966,
-  "line_count": 4274,
+  "bytes": 1427402,
+  "line_count": 4278,
   "kind_counts": {
-    "memory_sample": 2599,
+    "memory_sample": 2602,
     "chrome_profile_sample": 1105,
     "egress_tunnel_connect": 435,
     "egress_tunnel_desktop": 107,
@@ -15,7 +15,8 @@
     "supervisor_restart": 3,
     "cookie_persist": 2,
     "egress_tunnel": 1,
-    "host_boot_fetch": 1
+    "host_boot_fetch": 1,
+    "process_crash": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -65,61 +66,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "chromeGpuPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "chromeOtherPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "chromeProcesses": {
-        "int": 2599
+        "int": 2602
       },
       "chromeProfiles": {
-        "int": 2599
+        "int": 2602
       },
       "chromeRendererMaxPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "chromeRendererPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "chromeRenderers": {
-        "int": 2599
+        "int": 2602
       },
       "chromeTabs": {
-        "int": 2599
+        "int": 2602
       },
       "chromeTabsProbedProfiles": {
-        "int": 2599
+        "int": 2602
       },
       "chromeUtilityPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "desktopPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "hostPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "kind": {
-        "str": 2599
+        "str": 2602
       },
       "memAvailableKb": {
-        "int": 2599
+        "int": 2602
       },
       "memTotalKb": {
-        "int": 2599
+        "int": 2602
       },
       "otherPssKb": {
-        "int": 2599
+        "int": 2602
       },
       "processes": {
-        "int": 2599
+        "int": 2602
       },
       "pssFallbackProcesses": {
-        "int": 2599
+        "int": 2602
       }
     },
     "egress_tunnel_desktop": {
@@ -260,6 +261,20 @@
       },
       "runtimeS": {
         "int": 3
+      }
+    },
+    "process_crash": {
+      "binary": {
+        "str": 1
+      },
+      "count": {
+        "int": 1
+      },
+      "kind": {
+        "str": 1
+      },
+      "signal": {
+        "str": 1
       }
     }
   },

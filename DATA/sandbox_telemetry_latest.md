@@ -1,9 +1,9 @@
-# sandbox_telemetry_parse — 2026-10-30 22:34:27 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1425966 lines=4274
+# sandbox_telemetry_parse — 2026-10-30 22:37:27 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1427402 lines=4278
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 2599 |
+| `memory_sample` | 2602 |
 | `chrome_profile_sample` | 1105 |
 | `egress_tunnel_connect` | 435 |
 | `egress_tunnel_desktop` | 107 |
@@ -14,6 +14,7 @@
 | `cookie_persist` | 2 |
 | `egress_tunnel` | 1 |
 | `host_boot_fetch` | 1 |
+| `process_crash` | 1 |
 
 ## schema (key → value types) by kind
 
@@ -49,25 +50,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 2599} |
-| `chromeGpuPssKb` | {'int': 2599} |
-| `chromeOtherPssKb` | {'int': 2599} |
-| `chromeProcesses` | {'int': 2599} |
-| `chromeProfiles` | {'int': 2599} |
-| `chromeRendererMaxPssKb` | {'int': 2599} |
-| `chromeRendererPssKb` | {'int': 2599} |
-| `chromeRenderers` | {'int': 2599} |
-| `chromeTabs` | {'int': 2599} |
-| `chromeTabsProbedProfiles` | {'int': 2599} |
-| `chromeUtilityPssKb` | {'int': 2599} |
-| `desktopPssKb` | {'int': 2599} |
-| `hostPssKb` | {'int': 2599} |
-| `kind` | {'str': 2599} |
-| `memAvailableKb` | {'int': 2599} |
-| `memTotalKb` | {'int': 2599} |
-| `otherPssKb` | {'int': 2599} |
-| `processes` | {'int': 2599} |
-| `pssFallbackProcesses` | {'int': 2599} |
+| `chromeBrowserPssKb` | {'int': 2602} |
+| `chromeGpuPssKb` | {'int': 2602} |
+| `chromeOtherPssKb` | {'int': 2602} |
+| `chromeProcesses` | {'int': 2602} |
+| `chromeProfiles` | {'int': 2602} |
+| `chromeRendererMaxPssKb` | {'int': 2602} |
+| `chromeRendererPssKb` | {'int': 2602} |
+| `chromeRenderers` | {'int': 2602} |
+| `chromeTabs` | {'int': 2602} |
+| `chromeTabsProbedProfiles` | {'int': 2602} |
+| `chromeUtilityPssKb` | {'int': 2602} |
+| `desktopPssKb` | {'int': 2602} |
+| `hostPssKb` | {'int': 2602} |
+| `kind` | {'str': 2602} |
+| `memAvailableKb` | {'int': 2602} |
+| `memTotalKb` | {'int': 2602} |
+| `otherPssKb` | {'int': 2602} |
+| `processes` | {'int': 2602} |
+| `pssFallbackProcesses` | {'int': 2602} |
 
 ### `egress_tunnel_desktop`
 
@@ -145,6 +146,15 @@
 | `kind` | {'str': 3} |
 | `restartAttempt` | {'int': 3} |
 | `runtimeS` | {'int': 3} |
+
+### `process_crash`
+
+| key | types |
+|-----|-------|
+| `binary` | {'str': 1} |
+| `count` | {'int': 1} |
+| `kind` | {'str': 1} |
+| `signal` | {'str': 1} |
 
 ## redaction summary
 
