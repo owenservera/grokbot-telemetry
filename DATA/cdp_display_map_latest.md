@@ -1,4 +1,4 @@
-# CDP ↔ Fork ↔ display map — 2026-10-30 20:30:41 CET
+# CDP ↔ Fork ↔ display map — 2026-10-30 20:30:55 CET
 
 **Formula:** `CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)`
 
