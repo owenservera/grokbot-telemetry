@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-10-30T11:08:06+0100",
+  "timestamp": "2026-10-30T11:09:35+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 976611,
-  "line_count": 2548,
+  "bytes": 977932,
+  "line_count": 2553,
   "kind_counts": {
-    "memory_sample": 1975,
-    "chrome_profile_sample": 347,
+    "memory_sample": 1977,
+    "chrome_profile_sample": 348,
     "egress_tunnel_connect": 129,
     "egress_tunnel_desktop": 78,
-    "chrome_launch": 6,
-    "egress_time_zone": 6,
+    "chrome_launch": 7,
+    "egress_time_zone": 7,
     "boot_stage": 3,
     "cookie_persist": 2,
     "egress_tunnel": 1,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "chromeGpuPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "chromeOtherPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "chromeProcesses": {
-        "int": 1975
+        "int": 1977
       },
       "chromeProfiles": {
-        "int": 1975
+        "int": 1977
       },
       "chromeRendererMaxPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "chromeRendererPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "chromeRenderers": {
-        "int": 1975
+        "int": 1977
       },
       "chromeTabs": {
-        "int": 1975
+        "int": 1977
       },
       "chromeTabsProbedProfiles": {
-        "int": 1975
+        "int": 1977
       },
       "chromeUtilityPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "desktopPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "hostPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "kind": {
-        "str": 1975
+        "str": 1977
       },
       "memAvailableKb": {
-        "int": 1975
+        "int": 1977
       },
       "memTotalKb": {
-        "int": 1975
+        "int": 1977
       },
       "otherPssKb": {
-        "int": 1975
+        "int": 1977
       },
       "processes": {
-        "int": 1975
+        "int": 1977
       },
       "pssFallbackProcesses": {
-        "int": 1975
+        "int": 1977
       }
     },
     "egress_tunnel_desktop": {
@@ -134,45 +134,45 @@
     },
     "chrome_launch": {
       "attempt": {
-        "int": 6
+        "int": 7
       },
       "display": {
-        "int": 6
+        "int": 7
       },
       "durationMs": {
-        "int": 6
+        "int": 7
       },
       "kind": {
-        "str": 6
+        "str": 7
       },
       "launcher": {
-        "int": 6
+        "int": 7
       },
       "launcherSource": {
-        "str": 6
+        "str": 7
       },
       "mode": {
-        "str": 6
+        "str": 7
       },
       "outcome": {
-        "str": 6
+        "str": 7
       }
     },
     "egress_time_zone": {
       "boxClockUtc": {
-        "bool": 6
+        "bool": 7
       },
       "kind": {
-        "str": 6
+        "str": 7
       },
       "outcome": {
-        "str": 6
+        "str": 7
       },
       "provider": {
-        "str": 6
+        "str": 7
       },
       "source": {
-        "str": 6
+        "str": 7
       }
     },
     "cookie_persist": {
@@ -203,25 +203,25 @@
         "int": 341
       },
       "display": {
-        "int": 347
+        "int": 348
       },
       "kind": {
-        "str": 347
+        "str": 348
       },
       "processes": {
-        "int": 347
+        "int": 348
       },
       "pssKb": {
-        "int": 347
+        "int": 348
       },
       "rendererMaxPssKb": {
-        "int": 347
+        "int": 348
       },
       "renderers": {
-        "int": 347
+        "int": 348
       },
       "tabs": {
-        "int": 347
+        "int": 348
       }
     },
     "egress_tunnel_connect": {
@@ -243,7 +243,7 @@
     }
   },
   "display_counts_in_log": {
-    "24": 353
+    "24": 355
   },
   "boot_stages": {
     "entrypoint_started": 1,
@@ -253,8 +253,8 @@
   "outcomes": {
     "egress_tunnel:ready": 1,
     "host_boot_fetch:applied": 1,
-    "chrome_launch:ready": 6,
-    "egress_time_zone:resolved": 6,
+    "chrome_launch:ready": 7,
+    "egress_time_zone:resolved": 7,
     "cookie_persist:partial": 1,
     "cookie_persist:captured": 1
   },
