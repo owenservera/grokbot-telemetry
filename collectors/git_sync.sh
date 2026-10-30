@@ -72,7 +72,7 @@ if git diff --cached --quiet 2>/dev/null; then
       && [[ "$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)" != "0" ]]; then
       if ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
         echo "Diverged from origin/main; rebasing before push..."
-        git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase --autostash origin/main || {
+        git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" rebase --autostash -X theirs origin/main || {
           echo "FAIL: rebase needed but conflicted with no new commit path" >&2
           git rebase --abort 2>/dev/null || true
           exit 1
