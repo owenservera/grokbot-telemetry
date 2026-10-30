@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-30T07:52:55+0100",
+  "timestamp": "2026-10-30T07:54:12+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 893392,
-  "line_count": 2363,
+  "bytes": 893844,
+  "line_count": 2364,
   "kind_counts": {
-    "memory_sample": 1791,
+    "memory_sample": 1792,
     "chrome_profile_sample": 347,
     "egress_tunnel_connect": 129,
     "egress_tunnel_desktop": 77,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "chromeGpuPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "chromeOtherPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "chromeProcesses": {
-        "int": 1791
+        "int": 1792
       },
       "chromeProfiles": {
-        "int": 1791
+        "int": 1792
       },
       "chromeRendererMaxPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "chromeRendererPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "chromeRenderers": {
-        "int": 1791
+        "int": 1792
       },
       "chromeTabs": {
-        "int": 1791
+        "int": 1792
       },
       "chromeTabsProbedProfiles": {
-        "int": 1791
+        "int": 1792
       },
       "chromeUtilityPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "desktopPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "hostPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "kind": {
-        "str": 1791
+        "str": 1792
       },
       "memAvailableKb": {
-        "int": 1791
+        "int": 1792
       },
       "memTotalKb": {
-        "int": 1791
+        "int": 1792
       },
       "otherPssKb": {
-        "int": 1791
+        "int": 1792
       },
       "processes": {
-        "int": 1791
+        "int": 1792
       },
       "pssFallbackProcesses": {
-        "int": 1791
+        "int": 1792
       }
     },
     "egress_tunnel_desktop": {
