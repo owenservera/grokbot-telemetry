@@ -1,21 +1,21 @@
-=== run_all start 2026-10-30 21:46:17 CET ===
+=== run_all start 2026-10-30 21:47:38 CET ===
 --- running exec_daemon_sample.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261030-214617.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/exec_daemon_20261030-214738.jsonl
 SUMMARY /workspace/grokbot-telemetry/DATA/exec_daemon_latest.md
 DAEMONS 3
-8 /workspace/grokbot-telemetry/DATA/exec_daemon_20261030-214617.jsonl
+14 /workspace/grokbot-telemetry/DATA/exec_daemon_20261030-214738.jsonl
 OK: exec_daemon_sample.sh
 --- running cli_inventory.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261030-214618.jsonl
+WROTE /workspace/grokbot-telemetry/DATA/cli_inventory_20261030-214740.jsonl
 OK: cli_inventory.sh
 --- running sandbox_telemetry_parse.sh ---
-WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261030-214620.json
-WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261030-214620.json
+WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_20261030-214743.json
+WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_20261030-214743.json
 WROTE /workspace/grokbot-telemetry/DATA/sandbox_telemetry_latest.md
 WROTE /workspace/grokbot-telemetry/DATA/cdp_display_map_latest.md
-WROTE /workspace/grokbot-telemetry/DIFFS/20261030-214620-sandbox-telemetry-summary.md
-KINDS {'memory_sample': 2560, 'chrome_profile_sample': 1027, 'egress_tunnel_connect': 398, 'egress_tunnel_desktop': 100, 'chrome_launch': 9, 'egress_time_zone': 9, 'boot_stage': 3, 'supervisor_restart': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1}
+WROTE /workspace/grokbot-telemetry/DIFFS/20261030-214743-sandbox-telemetry-summary.md
+KINDS {'memory_sample': 2559, 'chrome_profile_sample': 1025, 'egress_tunnel_connect': 398, 'egress_tunnel_desktop': 101, 'chrome_launch': 9, 'egress_time_zone': 9, 'boot_stage': 3, 'supervisor_restart': 3, 'cookie_persist': 2, 'egress_tunnel': 1, 'host_boot_fetch': 1}
 CDP_ROWS 2
-DONE 2026-10-30 21:46:20 CET
+DONE 2026-10-30 21:47:43 CET
 OK: sandbox_telemetry_parse.sh
-=== run_all end 2026-10-30 21:46:20 CET fail=0 ===
+=== run_all end 2026-10-30 21:47:43 CET fail=0 ===
