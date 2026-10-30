@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-31T00:52:02+0100",
+  "timestamp": "2026-10-31T00:57:08+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1486043,
-  "line_count": 4411,
+  "bytes": 1487399,
+  "line_count": 4414,
   "kind_counts": {
-    "memory_sample": 2731,
+    "memory_sample": 2734,
     "chrome_profile_sample": 1105,
     "egress_tunnel_connect": 435,
     "egress_tunnel_desktop": 111,
@@ -66,61 +66,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "chromeGpuPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "chromeOtherPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "chromeProcesses": {
-        "int": 2731
+        "int": 2734
       },
       "chromeProfiles": {
-        "int": 2731
+        "int": 2734
       },
       "chromeRendererMaxPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "chromeRendererPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "chromeRenderers": {
-        "int": 2731
+        "int": 2734
       },
       "chromeTabs": {
-        "int": 2731
+        "int": 2734
       },
       "chromeTabsProbedProfiles": {
-        "int": 2731
+        "int": 2734
       },
       "chromeUtilityPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "desktopPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "hostPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "kind": {
-        "str": 2731
+        "str": 2734
       },
       "memAvailableKb": {
-        "int": 2731
+        "int": 2734
       },
       "memTotalKb": {
-        "int": 2731
+        "int": 2734
       },
       "otherPssKb": {
-        "int": 2731
+        "int": 2734
       },
       "processes": {
-        "int": 2731
+        "int": 2734
       },
       "pssFallbackProcesses": {
-        "int": 2731
+        "int": 2734
       }
     },
     "egress_tunnel_desktop": {
