@@ -1,17 +1,17 @@
-# sandbox_telemetry_parse — 2026-10-30 18:32:59 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1231487 lines=3413
+# sandbox_telemetry_parse — 2026-10-30 18:41:43 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1235420 lines=3433
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 2382 |
-| `chrome_profile_sample` | 671 |
-| `egress_tunnel_connect` | 252 |
-| `egress_tunnel_desktop` | 83 |
+| `memory_sample` | 2386 |
+| `chrome_profile_sample` | 679 |
+| `egress_tunnel_connect` | 256 |
+| `egress_tunnel_desktop` | 85 |
+| `egress_time_zone` | 9 |
 | `chrome_launch` | 8 |
-| `egress_time_zone` | 8 |
 | `boot_stage` | 3 |
+| `supervisor_restart` | 3 |
 | `cookie_persist` | 2 |
-| `supervisor_restart` | 2 |
 | `egress_tunnel` | 1 |
 | `host_boot_fetch` | 1 |
 
@@ -49,33 +49,33 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 2382} |
-| `chromeGpuPssKb` | {'int': 2382} |
-| `chromeOtherPssKb` | {'int': 2382} |
-| `chromeProcesses` | {'int': 2382} |
-| `chromeProfiles` | {'int': 2382} |
-| `chromeRendererMaxPssKb` | {'int': 2382} |
-| `chromeRendererPssKb` | {'int': 2382} |
-| `chromeRenderers` | {'int': 2382} |
-| `chromeTabs` | {'int': 2382} |
-| `chromeTabsProbedProfiles` | {'int': 2382} |
-| `chromeUtilityPssKb` | {'int': 2382} |
-| `desktopPssKb` | {'int': 2382} |
-| `hostPssKb` | {'int': 2382} |
-| `kind` | {'str': 2382} |
-| `memAvailableKb` | {'int': 2382} |
-| `memTotalKb` | {'int': 2382} |
-| `otherPssKb` | {'int': 2382} |
-| `processes` | {'int': 2382} |
-| `pssFallbackProcesses` | {'int': 2382} |
+| `chromeBrowserPssKb` | {'int': 2386} |
+| `chromeGpuPssKb` | {'int': 2386} |
+| `chromeOtherPssKb` | {'int': 2386} |
+| `chromeProcesses` | {'int': 2386} |
+| `chromeProfiles` | {'int': 2386} |
+| `chromeRendererMaxPssKb` | {'int': 2386} |
+| `chromeRendererPssKb` | {'int': 2386} |
+| `chromeRenderers` | {'int': 2386} |
+| `chromeTabs` | {'int': 2386} |
+| `chromeTabsProbedProfiles` | {'int': 2386} |
+| `chromeUtilityPssKb` | {'int': 2386} |
+| `desktopPssKb` | {'int': 2386} |
+| `hostPssKb` | {'int': 2386} |
+| `kind` | {'str': 2386} |
+| `memAvailableKb` | {'int': 2386} |
+| `memTotalKb` | {'int': 2386} |
+| `otherPssKb` | {'int': 2386} |
+| `processes` | {'int': 2386} |
+| `pssFallbackProcesses` | {'int': 2386} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 83} |
-| `graceS` | {'int': 47} |
-| `kind` | {'str': 83} |
+| `event` | {'str': 85} |
+| `graceS` | {'int': 49} |
+| `kind` | {'str': 85} |
 
 ### `chrome_launch`
 
@@ -94,11 +94,11 @@
 
 | key | types |
 |-----|-------|
-| `boxClockUtc` | {'bool': 8} |
-| `kind` | {'str': 8} |
-| `outcome` | {'str': 8} |
-| `provider` | {'str': 8} |
-| `source` | {'str': 8} |
+| `boxClockUtc` | {'bool': 9} |
+| `kind` | {'str': 9} |
+| `outcome` | {'str': 9} |
+| `provider` | {'str': 9} |
+| `source` | {'str': 9} |
 
 ### `cookie_persist`
 
@@ -116,35 +116,35 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 662} |
-| `display` | {'int': 671} |
-| `kind` | {'str': 671} |
-| `processes` | {'int': 671} |
-| `pssKb` | {'int': 671} |
-| `rendererMaxPssKb` | {'int': 671} |
-| `renderers` | {'int': 671} |
-| `tabs` | {'int': 668} |
+| `cpuMillicores` | {'int': 670} |
+| `display` | {'int': 679} |
+| `kind` | {'str': 679} |
+| `processes` | {'int': 679} |
+| `pssKb` | {'int': 679} |
+| `rendererMaxPssKb` | {'int': 679} |
+| `renderers` | {'int': 679} |
+| `tabs` | {'int': 671} |
 
 ### `egress_tunnel_connect`
 
 | key | types |
 |-----|-------|
-| `count` | {'int': 252} |
-| `failClosed` | {'bool': 252} |
-| `kind` | {'str': 252} |
-| `route` | {'str': 252} |
-| `strict` | {'bool': 252} |
+| `count` | {'int': 256} |
+| `failClosed` | {'bool': 256} |
+| `kind` | {'str': 256} |
+| `route` | {'str': 256} |
+| `strict` | {'bool': 256} |
 
 ### `supervisor_restart`
 
 | key | types |
 |-----|-------|
-| `at` | {'float': 2} |
-| `cause` | {'str': 2} |
-| `exitStatus` | {'int': 2} |
-| `kind` | {'str': 2} |
-| `restartAttempt` | {'int': 2} |
-| `runtimeS` | {'int': 2} |
+| `at` | {'float': 3} |
+| `cause` | {'str': 3} |
+| `exitStatus` | {'int': 3} |
+| `kind` | {'str': 3} |
+| `restartAttempt` | {'int': 3} |
+| `runtimeS` | {'int': 3} |
 
 ## redaction summary
 
