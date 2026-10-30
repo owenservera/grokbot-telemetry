@@ -1,12 +1,12 @@
-# sandbox_telemetry_parse — 2026-10-30 23:35:58 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1454180 lines=4338
+# sandbox_telemetry_parse — 2026-10-30 23:40:45 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1456496 lines=4344
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 2661 |
+| `memory_sample` | 2666 |
 | `chrome_profile_sample` | 1105 |
 | `egress_tunnel_connect` | 435 |
-| `egress_tunnel_desktop` | 108 |
+| `egress_tunnel_desktop` | 109 |
 | `chrome_launch` | 9 |
 | `egress_time_zone` | 9 |
 | `boot_stage` | 3 |
@@ -50,33 +50,33 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 2661} |
-| `chromeGpuPssKb` | {'int': 2661} |
-| `chromeOtherPssKb` | {'int': 2661} |
-| `chromeProcesses` | {'int': 2661} |
-| `chromeProfiles` | {'int': 2661} |
-| `chromeRendererMaxPssKb` | {'int': 2661} |
-| `chromeRendererPssKb` | {'int': 2661} |
-| `chromeRenderers` | {'int': 2661} |
-| `chromeTabs` | {'int': 2661} |
-| `chromeTabsProbedProfiles` | {'int': 2661} |
-| `chromeUtilityPssKb` | {'int': 2661} |
-| `desktopPssKb` | {'int': 2661} |
-| `hostPssKb` | {'int': 2661} |
-| `kind` | {'str': 2661} |
-| `memAvailableKb` | {'int': 2661} |
-| `memTotalKb` | {'int': 2661} |
-| `otherPssKb` | {'int': 2661} |
-| `processes` | {'int': 2661} |
-| `pssFallbackProcesses` | {'int': 2661} |
+| `chromeBrowserPssKb` | {'int': 2666} |
+| `chromeGpuPssKb` | {'int': 2666} |
+| `chromeOtherPssKb` | {'int': 2666} |
+| `chromeProcesses` | {'int': 2666} |
+| `chromeProfiles` | {'int': 2666} |
+| `chromeRendererMaxPssKb` | {'int': 2666} |
+| `chromeRendererPssKb` | {'int': 2666} |
+| `chromeRenderers` | {'int': 2666} |
+| `chromeTabs` | {'int': 2666} |
+| `chromeTabsProbedProfiles` | {'int': 2666} |
+| `chromeUtilityPssKb` | {'int': 2666} |
+| `desktopPssKb` | {'int': 2666} |
+| `hostPssKb` | {'int': 2666} |
+| `kind` | {'str': 2666} |
+| `memAvailableKb` | {'int': 2666} |
+| `memTotalKb` | {'int': 2666} |
+| `otherPssKb` | {'int': 2666} |
+| `processes` | {'int': 2666} |
+| `pssFallbackProcesses` | {'int': 2666} |
 
 ### `egress_tunnel_desktop`
 
 | key | types |
 |-----|-------|
-| `event` | {'str': 108} |
+| `event` | {'str': 109} |
 | `graceS` | {'int': 60} |
-| `kind` | {'str': 108} |
+| `kind` | {'str': 109} |
 
 ### `chrome_launch`
 
