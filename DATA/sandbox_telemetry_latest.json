@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-30T21:39:26+0100",
+  "timestamp": "2026-10-30T21:41:49+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1386056,
-  "line_count": 4093,
+  "bytes": 1386202,
+  "line_count": 4095,
   "kind_counts": {
     "memory_sample": 2555,
     "chrome_profile_sample": 1017,
-    "egress_tunnel_connect": 395,
-    "egress_tunnel_desktop": 98,
+    "egress_tunnel_connect": 396,
+    "egress_tunnel_desktop": 99,
     "chrome_launch": 9,
     "egress_time_zone": 9,
     "boot_stage": 3,
@@ -124,13 +124,13 @@
     },
     "egress_tunnel_desktop": {
       "event": {
-        "str": 98
+        "str": 99
       },
       "graceS": {
         "int": 56
       },
       "kind": {
-        "str": 98
+        "str": 99
       }
     },
     "chrome_launch": {
@@ -227,19 +227,19 @@
     },
     "egress_tunnel_connect": {
       "count": {
-        "int": 395
+        "int": 396
       },
       "failClosed": {
-        "bool": 395
+        "bool": 396
       },
       "kind": {
-        "str": 395
+        "str": 396
       },
       "route": {
-        "str": 395
+        "str": 396
       },
       "strict": {
-        "bool": 395
+        "bool": 396
       }
     },
     "supervisor_restart": {
