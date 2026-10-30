@@ -66,7 +66,7 @@ done < <(git diff --cached --name-only 2>/dev/null || true)
 if git diff --cached --quiet 2>/dev/null; then
   echo "No changes to commit ($TS)"
   # Still try push if we have unpushed commits (e.g. prior always_on commit).
-  if gh auth status >/dev/null 2>&1; then
+  if gh auth token >/dev/null 2>&1 || gh auth status >/dev/null 2>&1; then
     git fetch origin main >/dev/null 2>&1 || true
     if git rev-parse --verify origin/main >/dev/null 2>&1 \
       && [[ "$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)" != "0" ]]; then
@@ -88,7 +88,7 @@ fi
 git -c user.email="telemetry-master@local" -c user.name="TELEMETRY-MASTER" commit -m "$MSG" || true
 echo "Committed locally: $MSG"
 
-if gh auth status >/dev/null 2>&1; then
+if gh auth token >/dev/null 2>&1 || gh auth status >/dev/null 2>&1; then
   # Rebase onto remote if diverged (common when always_on + sync-loop race, or remote moved).
   git fetch origin main >/dev/null 2>&1 || true
   if git rev-parse --verify origin/main >/dev/null 2>&1 \
