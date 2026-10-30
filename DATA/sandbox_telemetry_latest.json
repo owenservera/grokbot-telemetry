@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-30T16:31:12+0100",
+  "timestamp": "2026-10-30T16:35:56+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1128929,
-  "line_count": 2968,
+  "bytes": 1132638,
+  "line_count": 2985,
   "kind_counts": {
-    "memory_sample": 2267,
-    "chrome_profile_sample": 441,
-    "egress_tunnel_connect": 155,
+    "memory_sample": 2271,
+    "chrome_profile_sample": 449,
+    "egress_tunnel_connect": 160,
     "egress_tunnel_desktop": 82,
     "chrome_launch": 8,
     "egress_time_zone": 8,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "chromeGpuPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "chromeOtherPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "chromeProcesses": {
-        "int": 2267
+        "int": 2271
       },
       "chromeProfiles": {
-        "int": 2267
+        "int": 2271
       },
       "chromeRendererMaxPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "chromeRendererPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "chromeRenderers": {
-        "int": 2267
+        "int": 2271
       },
       "chromeTabs": {
-        "int": 2267
+        "int": 2271
       },
       "chromeTabsProbedProfiles": {
-        "int": 2267
+        "int": 2271
       },
       "chromeUtilityPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "desktopPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "hostPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "kind": {
-        "str": 2267
+        "str": 2271
       },
       "memAvailableKb": {
-        "int": 2267
+        "int": 2271
       },
       "memTotalKb": {
-        "int": 2267
+        "int": 2271
       },
       "otherPssKb": {
-        "int": 2267
+        "int": 2271
       },
       "processes": {
-        "int": 2267
+        "int": 2271
       },
       "pssFallbackProcesses": {
-        "int": 2267
+        "int": 2271
       }
     },
     "egress_tunnel_desktop": {
@@ -200,52 +200,52 @@
     },
     "chrome_profile_sample": {
       "cpuMillicores": {
-        "int": 432
+        "int": 440
       },
       "display": {
-        "int": 441
+        "int": 449
       },
       "kind": {
-        "str": 441
+        "str": 449
       },
       "processes": {
-        "int": 441
+        "int": 449
       },
       "pssKb": {
-        "int": 441
+        "int": 449
       },
       "rendererMaxPssKb": {
-        "int": 441
+        "int": 449
       },
       "renderers": {
-        "int": 441
+        "int": 449
       },
       "tabs": {
-        "int": 441
+        "int": 449
       }
     },
     "egress_tunnel_connect": {
       "count": {
-        "int": 155
+        "int": 160
       },
       "failClosed": {
-        "bool": 155
+        "bool": 160
       },
       "kind": {
-        "str": 155
+        "str": 160
       },
       "route": {
-        "str": 155
+        "str": 160
       },
       "strict": {
-        "bool": 155
+        "bool": 160
       }
     }
   },
   "display_counts_in_log": {
     "24": 403,
-    "12": 27,
-    "111": 19
+    "12": 31,
+    "111": 23
   },
   "boot_stages": {
     "entrypoint_started": 1,
