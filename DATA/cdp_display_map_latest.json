@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-30T16:12:08+0100",
+  "timestamp": "2026-10-30T16:14:22+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [
@@ -18,6 +18,20 @@
       ],
       "cdp_formula": "9222 + display_num",
       "formula_match": true
+    },
+    {
+      "cdp_port": 9333,
+      "display": null,
+      "display_num": null,
+      "fork": null,
+      "user_data_dir": "/workspace/vivim-web-harness/runtime/chrome-profile",
+      "chrome_pid": 2443976,
+      "agent_id": null,
+      "agent_name": null,
+      "playwright_attached": false,
+      "playwright_pids": [],
+      "cdp_formula": "9222 + display_num",
+      "formula_match": null
     }
   ],
   "playwright_workers": [
