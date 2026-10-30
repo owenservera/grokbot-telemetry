@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-30T15:52:12+0100",
+  "timestamp": "2026-10-30T15:56:25+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1102954,
-  "line_count": 2873,
+  "bytes": 1103858,
+  "line_count": 2875,
   "kind_counts": {
-    "memory_sample": 2230,
+    "memory_sample": 2232,
     "chrome_profile_sample": 396,
     "egress_tunnel_connect": 144,
     "egress_tunnel_desktop": 82,
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "chromeGpuPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "chromeOtherPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "chromeProcesses": {
-        "int": 2230
+        "int": 2232
       },
       "chromeProfiles": {
-        "int": 2230
+        "int": 2232
       },
       "chromeRendererMaxPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "chromeRendererPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "chromeRenderers": {
-        "int": 2230
+        "int": 2232
       },
       "chromeTabs": {
-        "int": 2230
+        "int": 2232
       },
       "chromeTabsProbedProfiles": {
-        "int": 2230
+        "int": 2232
       },
       "chromeUtilityPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "desktopPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "hostPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "kind": {
-        "str": 2230
+        "str": 2232
       },
       "memAvailableKb": {
-        "int": 2230
+        "int": 2232
       },
       "memTotalKb": {
-        "int": 2230
+        "int": 2232
       },
       "otherPssKb": {
-        "int": 2230
+        "int": 2232
       },
       "processes": {
-        "int": 2230
+        "int": 2232
       },
       "pssFallbackProcesses": {
-        "int": 2230
+        "int": 2232
       }
     },
     "egress_tunnel_desktop": {
