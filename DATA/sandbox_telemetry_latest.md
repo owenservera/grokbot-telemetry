@@ -1,11 +1,11 @@
-# sandbox_telemetry_parse — 2026-10-30 20:20:23 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1322034 lines=3807
+# sandbox_telemetry_parse — 2026-10-30 20:21:13 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1322938 lines=3811
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 2484 |
-| `chrome_profile_sample` | 875 |
-| `egress_tunnel_connect` | 331 |
+| `memory_sample` | 2485 |
+| `chrome_profile_sample` | 877 |
+| `egress_tunnel_connect` | 332 |
 | `egress_tunnel_desktop` | 89 |
 | `chrome_launch` | 9 |
 | `egress_time_zone` | 9 |
@@ -49,25 +49,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 2484} |
-| `chromeGpuPssKb` | {'int': 2484} |
-| `chromeOtherPssKb` | {'int': 2484} |
-| `chromeProcesses` | {'int': 2484} |
-| `chromeProfiles` | {'int': 2484} |
-| `chromeRendererMaxPssKb` | {'int': 2484} |
-| `chromeRendererPssKb` | {'int': 2484} |
-| `chromeRenderers` | {'int': 2484} |
-| `chromeTabs` | {'int': 2484} |
-| `chromeTabsProbedProfiles` | {'int': 2484} |
-| `chromeUtilityPssKb` | {'int': 2484} |
-| `desktopPssKb` | {'int': 2484} |
-| `hostPssKb` | {'int': 2484} |
-| `kind` | {'str': 2484} |
-| `memAvailableKb` | {'int': 2484} |
-| `memTotalKb` | {'int': 2484} |
-| `otherPssKb` | {'int': 2484} |
-| `processes` | {'int': 2484} |
-| `pssFallbackProcesses` | {'int': 2484} |
+| `chromeBrowserPssKb` | {'int': 2485} |
+| `chromeGpuPssKb` | {'int': 2485} |
+| `chromeOtherPssKb` | {'int': 2485} |
+| `chromeProcesses` | {'int': 2485} |
+| `chromeProfiles` | {'int': 2485} |
+| `chromeRendererMaxPssKb` | {'int': 2485} |
+| `chromeRendererPssKb` | {'int': 2485} |
+| `chromeRenderers` | {'int': 2485} |
+| `chromeTabs` | {'int': 2485} |
+| `chromeTabsProbedProfiles` | {'int': 2485} |
+| `chromeUtilityPssKb` | {'int': 2485} |
+| `desktopPssKb` | {'int': 2485} |
+| `hostPssKb` | {'int': 2485} |
+| `kind` | {'str': 2485} |
+| `memAvailableKb` | {'int': 2485} |
+| `memTotalKb` | {'int': 2485} |
+| `otherPssKb` | {'int': 2485} |
+| `processes` | {'int': 2485} |
+| `pssFallbackProcesses` | {'int': 2485} |
 
 ### `egress_tunnel_desktop`
 
@@ -116,24 +116,24 @@
 
 | key | types |
 |-----|-------|
-| `cpuMillicores` | {'int': 865} |
-| `display` | {'int': 875} |
-| `kind` | {'str': 875} |
-| `processes` | {'int': 875} |
-| `pssKb` | {'int': 875} |
-| `rendererMaxPssKb` | {'int': 875} |
-| `renderers` | {'int': 875} |
-| `tabs` | {'int': 867} |
+| `cpuMillicores` | {'int': 867} |
+| `display` | {'int': 877} |
+| `kind` | {'str': 877} |
+| `processes` | {'int': 877} |
+| `pssKb` | {'int': 877} |
+| `rendererMaxPssKb` | {'int': 877} |
+| `renderers` | {'int': 877} |
+| `tabs` | {'int': 869} |
 
 ### `egress_tunnel_connect`
 
 | key | types |
 |-----|-------|
-| `count` | {'int': 331} |
-| `failClosed` | {'bool': 331} |
-| `kind` | {'str': 331} |
-| `route` | {'str': 331} |
-| `strict` | {'bool': 331} |
+| `count` | {'int': 332} |
+| `failClosed` | {'bool': 332} |
+| `kind` | {'str': 332} |
+| `route` | {'str': 332} |
+| `strict` | {'bool': 332} |
 
 ### `supervisor_restart`
 
