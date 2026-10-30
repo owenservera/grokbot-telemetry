@@ -1,37 +1,8 @@
 {
-  "timestamp": "2026-10-30T22:31:59+0100",
+  "timestamp": "2026-10-30T22:34:27+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
-  "live_table": [
-    {
-      "cdp_port": 9234,
-      "display": ":12",
-      "display_num": 12,
-      "fork": 12,
-      "user_data_dir": "/home/box/chrome-profile/Fork-12",
-      "chrome_pid": 2667555,
-      "agent_id": "2b5105b7-b669-47fe-9454-651542a04d57",
-      "agent_name": "Code Master",
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": true
-    },
-    {
-      "cdp_port": 9333,
-      "display": null,
-      "display_num": null,
-      "fork": null,
-      "user_data_dir": "/workspace/vivim-web-harness/runtime/chrome-profile",
-      "chrome_pid": 2443976,
-      "agent_id": null,
-      "agent_name": null,
-      "playwright_attached": false,
-      "playwright_pids": [],
-      "cdp_formula": "9222 + display_num",
-      "formula_match": null
-    }
-  ],
+  "live_table": [],
   "playwright_workers": [],
   "xvfb": [
     {
@@ -43,11 +14,6 @@
       "pid": 2671812,
       "display": ":3",
       "display_num": 3
-    },
-    {
-      "pid": 2417423,
-      "display": ":12",
-      "display_num": 12
     },
     {
       "pid": 2929403,

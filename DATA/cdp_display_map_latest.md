@@ -1,17 +1,14 @@
-# CDP ↔ Fork ↔ display map — 2026-10-30 22:31:59 CET
+# CDP ↔ Fork ↔ display map — 2026-10-30 22:34:27 CET
 
 **Formula:** `CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)`
 
 | CDP | Display | Fork | Profile | Chrome PID | Agent | Playwright |
 |-----|---------|------|---------|------------|-------|------------|
-| 9234 | :12 | Fork-12 | `/home/box/chrome-profile/Fork-12` | 2667555 | Code Master | no |
-| 9333 | None | Fork-None | `/workspace/vivim-web-harness/runtime/chrome-profile` | 2443976 | — | no |
 
 ## Xvfb
 
 - :1 pid=4492
 - :3 pid=2671812
-- :12 pid=2417423
 - :22 pid=2929403
 
 ## Disk forks
