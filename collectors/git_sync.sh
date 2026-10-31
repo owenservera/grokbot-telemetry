@@ -67,7 +67,7 @@ if git diff --cached --quiet 2>/dev/null; then
   echo "No changes to commit ($TS)"
   # Still try push if we have unpushed commits (e.g. prior always_on commit).
   if gh auth token >/dev/null 2>&1 || gh auth status >/dev/null 2>&1; then
-    git fetch origin main >/dev/null 2>&1 || true
+    timeout 60 git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=30 fetch origin main >/dev/null 2>&1 || true
     if git rev-parse --verify origin/main >/dev/null 2>&1 \
       && [[ "$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)" != "0" ]]; then
       if ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
@@ -90,7 +90,7 @@ echo "Committed locally: $MSG"
 
 if gh auth token >/dev/null 2>&1 || gh auth status >/dev/null 2>&1; then
   # Rebase onto remote if diverged (common when always_on + sync-loop race, or remote moved).
-  git fetch origin main >/dev/null 2>&1 || true
+  timeout 60 git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=30 fetch origin main >/dev/null 2>&1 || true
   if git rev-parse --verify origin/main >/dev/null 2>&1 \
     && ! git merge-base --is-ancestor origin/main HEAD 2>/dev/null; then
     echo "Diverged from origin/main; rebasing before push..."
