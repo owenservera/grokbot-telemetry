@@ -1,10 +1,10 @@
-# safe inventory 2026-11-03 11:34:45 CET
+# safe inventory 2026-11-03 11:37:42 CET
 | cli | path | version |
 |-----|------|---------|
 | bash | `/usr/bin/bash` | GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)  |
 | sh | `/usr/bin/sh` | sh: 0: Illegal option -- ? |
 | node | `/usr/local/bin/node` | v24.22.1  |
-| npm | `/usr/local/bin/npm` | ? |
+| npm | `/usr/local/bin/npm` | 11.21.1  |
 | bun | `/home/box/.bun/bin/bun` | 1.4.2  |
 | python3 | `/usr/bin/python3` | Python 3.13.5  |
 | uv | `/home/box/.local/bin/uv` | uv 0.12.23 (x86_64-unknown-linux-gnu)  |
