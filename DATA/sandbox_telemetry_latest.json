@@ -1,44 +1,137 @@
 {
-  "timestamp": "2026-11-06T10:54:19+0000",
+  "timestamp": "2026-11-06T11:59:26+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 188,
-  "line_count": 3,
+  "bytes": 1896,
+  "line_count": 10,
   "kind_counts": {
-    "boot_stage": 2,
-    "egress_tunnel": 1
+    "boot_stage": 3,
+    "egress_tunnel": 3,
+    "memory_sample": 3,
+    "host_boot_fetch": 1
   },
   "schema_by_kind": {
     "boot_stage": {
       "durationMs": {
-        "int": 2
+        "int": 3
       },
       "kind": {
-        "str": 2
+        "str": 3
       },
       "stage": {
-        "str": 2
+        "str": 3
       }
     },
     "egress_tunnel": {
       "attempt": {
+        "int": 3
+      },
+      "exitStatus": {
         "int": 1
+      },
+      "kind": {
+        "str": 3
+      },
+      "outcome": {
+        "str": 3
+      },
+      "runtimeS": {
+        "int": 1
+      }
+    },
+    "host_boot_fetch": {
+      "durationMs": {
+        "int": 1
+      },
+      "fromVersion": {
+        "str": 1
       },
       "kind": {
         "str": 1
       },
       "outcome": {
         "str": 1
+      },
+      "reason": {
+        "str": 1
+      },
+      "swapMs": {
+        "int": 1
+      },
+      "toVersion": {
+        "str": 1
+      }
+    },
+    "memory_sample": {
+      "chromeBrowserPssKb": {
+        "int": 3
+      },
+      "chromeGpuPssKb": {
+        "int": 3
+      },
+      "chromeOtherPssKb": {
+        "int": 3
+      },
+      "chromeProcesses": {
+        "int": 3
+      },
+      "chromeProfiles": {
+        "int": 3
+      },
+      "chromeRendererMaxPssKb": {
+        "int": 3
+      },
+      "chromeRendererPssKb": {
+        "int": 3
+      },
+      "chromeRenderers": {
+        "int": 3
+      },
+      "chromeTabs": {
+        "int": 3
+      },
+      "chromeTabsProbedProfiles": {
+        "int": 3
+      },
+      "chromeUtilityPssKb": {
+        "int": 3
+      },
+      "desktopPssKb": {
+        "int": 3
+      },
+      "hostPssKb": {
+        "int": 3
+      },
+      "kind": {
+        "str": 3
+      },
+      "memAvailableKb": {
+        "int": 3
+      },
+      "memTotalKb": {
+        "int": 3
+      },
+      "otherPssKb": {
+        "int": 3
+      },
+      "processes": {
+        "int": 3
+      },
+      "pssFallbackProcesses": {
+        "int": 3
       }
     }
   },
   "display_counts_in_log": {},
   "boot_stages": {
     "entrypoint_started": 1,
-    "daemon_listening": 1
+    "daemon_listening": 1,
+    "desktop_up": 1
   },
   "outcomes": {
-    "egress_tunnel:ready": 1
+    "egress_tunnel:ready": 2,
+    "host_boot_fetch:applied": 1,
+    "egress_tunnel:restart": 1
   },
   "redaction_summary": [],
   "redaction_policy": [
