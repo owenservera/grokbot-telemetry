@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-11-09 08:12:21 CET
+# exec_daemon_sample 2026-11-09 08:17:28 CET
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -6,9 +6,10 @@
 | 1160 | 14003 | 13603 | :3 | TELEMETRY-MASTER (c873572d…) | 0 |
 | 1429204 | 14022 | 13622 | :22 | AION BFF · AION Chief of Staff (eaf650b7…) | 0 |
 | 1437199 | 14009 | 13609 | :9 | New Bot (00b908f7…) | 0 |
+| 1468806 | 14020 | 13620 | :20 | Grok Bot (11eafd10…) | 0 |
 
 ## Notes
-- Snapshot: `2026-11-09 08:12:21 CET`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261109-081221.jsonl`
-- Daemons found: 4
+- Snapshot: `2026-11-09 08:17:28 CET`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261109-081728.jsonl`
+- Daemons found: 5
 - Auth tokens in argv replaced with [REDACTED]
