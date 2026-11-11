@@ -1,0 +1,7 @@
+# DIFF sandbox telemetry + CDP — 2026-11-11 21:20:53 CET
+
+- kind_counts: `{"memory_sample": 4026, "egress_tunnel": 5, "boot_stage": 3, "host_boot_fetch": 1}`
+- log_bytes: 1822277
+- live CDP ports: []
+- formula: CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)
+- secrets: none copied
