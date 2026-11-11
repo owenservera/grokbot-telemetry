@@ -1,5 +1,5 @@
-# sandbox_telemetry_parse — 2026-11-11 18:40:47 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1764792 lines=3908
+# sandbox_telemetry_parse — 2026-11-11 18:42:11 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1765244 lines=3908
 ## kind counts
 | kind | count |
 |------|------:|
