@@ -1,12 +1,12 @@
-# sandbox_telemetry_parse — 2026-11-15 20:51:52 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=2390797 lines=5291
+# sandbox_telemetry_parse — 2026-11-16 14:22:25 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=990 lines=8
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 5282 |
-| `egress_tunnel` | 5 |
 | `boot_stage` | 3 |
+| `egress_tunnel` | 3 |
 | `host_boot_fetch` | 1 |
+| `memory_sample` | 1 |
 
 ## schema (key → value types) by kind
 
@@ -22,11 +22,11 @@
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 5} |
-| `exitStatus` | {'int': 2} |
-| `kind` | {'str': 5} |
-| `outcome` | {'str': 5} |
-| `runtimeS` | {'int': 2} |
+| `attempt` | {'int': 3} |
+| `exitStatus` | {'int': 1} |
+| `kind` | {'str': 3} |
+| `outcome` | {'str': 3} |
+| `runtimeS` | {'int': 1} |
 
 ### `host_boot_fetch`
 
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 5282} |
-| `chromeGpuPssKb` | {'int': 5282} |
-| `chromeOtherPssKb` | {'int': 5282} |
-| `chromeProcesses` | {'int': 5282} |
-| `chromeProfiles` | {'int': 5282} |
-| `chromeRendererMaxPssKb` | {'int': 5282} |
-| `chromeRendererPssKb` | {'int': 5282} |
-| `chromeRenderers` | {'int': 5282} |
-| `chromeTabs` | {'int': 5282} |
-| `chromeTabsProbedProfiles` | {'int': 5282} |
-| `chromeUtilityPssKb` | {'int': 5282} |
-| `desktopPssKb` | {'int': 5282} |
-| `hostPssKb` | {'int': 5282} |
-| `kind` | {'str': 5282} |
-| `memAvailableKb` | {'int': 5282} |
-| `memTotalKb` | {'int': 5282} |
-| `otherPssKb` | {'int': 5282} |
-| `processes` | {'int': 5282} |
-| `pssFallbackProcesses` | {'int': 5282} |
+| `chromeBrowserPssKb` | {'int': 1} |
+| `chromeGpuPssKb` | {'int': 1} |
+| `chromeOtherPssKb` | {'int': 1} |
+| `chromeProcesses` | {'int': 1} |
+| `chromeProfiles` | {'int': 1} |
+| `chromeRendererMaxPssKb` | {'int': 1} |
+| `chromeRendererPssKb` | {'int': 1} |
+| `chromeRenderers` | {'int': 1} |
+| `chromeTabs` | {'int': 1} |
+| `chromeTabsProbedProfiles` | {'int': 1} |
+| `chromeUtilityPssKb` | {'int': 1} |
+| `desktopPssKb` | {'int': 1} |
+| `hostPssKb` | {'int': 1} |
+| `kind` | {'str': 1} |
+| `memAvailableKb` | {'int': 1} |
+| `memTotalKb` | {'int': 1} |
+| `otherPssKb` | {'int': 1} |
+| `processes` | {'int': 1} |
+| `pssFallbackProcesses` | {'int': 1} |
 
 ## redaction summary
 

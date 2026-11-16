@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-11-15T20:51:52+0100",
+  "timestamp": "2026-11-16T14:22:25+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 2390797,
-  "line_count": 5291,
+  "bytes": 990,
+  "line_count": 8,
   "kind_counts": {
-    "memory_sample": 5282,
-    "egress_tunnel": 5,
     "boot_stage": 3,
-    "host_boot_fetch": 1
+    "egress_tunnel": 3,
+    "host_boot_fetch": 1,
+    "memory_sample": 1
   },
   "schema_by_kind": {
     "boot_stage": {
@@ -24,19 +24,19 @@
     },
     "egress_tunnel": {
       "attempt": {
-        "int": 5
+        "int": 3
       },
       "exitStatus": {
-        "int": 2
+        "int": 1
       },
       "kind": {
-        "str": 5
+        "str": 3
       },
       "outcome": {
-        "str": 5
+        "str": 3
       },
       "runtimeS": {
-        "int": 2
+        "int": 1
       }
     },
     "host_boot_fetch": {
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 5282
+        "int": 1
       },
       "chromeGpuPssKb": {
-        "int": 5282
+        "int": 1
       },
       "chromeOtherPssKb": {
-        "int": 5282
+        "int": 1
       },
       "chromeProcesses": {
-        "int": 5282
+        "int": 1
       },
       "chromeProfiles": {
-        "int": 5282
+        "int": 1
       },
       "chromeRendererMaxPssKb": {
-        "int": 5282
+        "int": 1
       },
       "chromeRendererPssKb": {
-        "int": 5282
+        "int": 1
       },
       "chromeRenderers": {
-        "int": 5282
+        "int": 1
       },
       "chromeTabs": {
-        "int": 5282
+        "int": 1
       },
       "chromeTabsProbedProfiles": {
-        "int": 5282
+        "int": 1
       },
       "chromeUtilityPssKb": {
-        "int": 5282
+        "int": 1
       },
       "desktopPssKb": {
-        "int": 5282
+        "int": 1
       },
       "hostPssKb": {
-        "int": 5282
+        "int": 1
       },
       "kind": {
-        "str": 5282
+        "str": 1
       },
       "memAvailableKb": {
-        "int": 5282
+        "int": 1
       },
       "memTotalKb": {
-        "int": 5282
+        "int": 1
       },
       "otherPssKb": {
-        "int": 5282
+        "int": 1
       },
       "processes": {
-        "int": 5282
+        "int": 1
       },
       "pssFallbackProcesses": {
-        "int": 5282
+        "int": 1
       }
     }
   },
@@ -129,9 +129,9 @@
     "desktop_up": 1
   },
   "outcomes": {
-    "egress_tunnel:ready": 3,
+    "egress_tunnel:ready": 2,
     "host_boot_fetch:applied": 1,
-    "egress_tunnel:restart": 2
+    "egress_tunnel:restart": 1
   },
   "redaction_summary": [],
   "redaction_policy": [

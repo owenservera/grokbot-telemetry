@@ -1,27 +1,27 @@
 {
-  "timestamp": "2026-11-15T20:51:52+0100",
+  "timestamp": "2026-11-16T14:22:25+0100",
   "source": "cdp_display_map",
   "formula": "CDP_port = 9222 + N for display :N / chrome-profile/Fork-N (observed)",
   "live_table": [],
   "playwright_workers": [],
   "xvfb": [
     {
-      "pid": 5176,
+      "pid": 2815,
       "display": ":1",
       "display_num": 1
     },
     {
-      "pid": 3485006,
+      "pid": 5916,
       "display": ":3",
       "display_num": 3
     },
     {
-      "pid": 1904404,
+      "pid": 4040,
       "display": ":9",
       "display_num": 9
     },
     {
-      "pid": 1893500,
+      "pid": 1860,
       "display": ":22",
       "display_num": 22
     }
