@@ -1,11 +1,11 @@
-# sandbox_telemetry_parse — 2026-11-18 16:18:47 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=887271 lines=1968
+# sandbox_telemetry_parse — 2026-11-18 16:22:51 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=889230 lines=1974
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 1961 |
+| `memory_sample` | 1965 |
+| `egress_tunnel` | 5 |
 | `boot_stage` | 3 |
-| `egress_tunnel` | 3 |
 | `host_boot_fetch` | 1 |
 
 ## schema (key → value types) by kind
@@ -22,11 +22,11 @@
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 3} |
-| `exitStatus` | {'int': 1} |
-| `kind` | {'str': 3} |
-| `outcome` | {'str': 3} |
-| `runtimeS` | {'int': 1} |
+| `attempt` | {'int': 5} |
+| `exitStatus` | {'int': 2} |
+| `kind` | {'str': 5} |
+| `outcome` | {'str': 5} |
+| `runtimeS` | {'int': 2} |
 
 ### `host_boot_fetch`
 
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1961} |
-| `chromeGpuPssKb` | {'int': 1961} |
-| `chromeOtherPssKb` | {'int': 1961} |
-| `chromeProcesses` | {'int': 1961} |
-| `chromeProfiles` | {'int': 1961} |
-| `chromeRendererMaxPssKb` | {'int': 1961} |
-| `chromeRendererPssKb` | {'int': 1961} |
-| `chromeRenderers` | {'int': 1961} |
-| `chromeTabs` | {'int': 1961} |
-| `chromeTabsProbedProfiles` | {'int': 1961} |
-| `chromeUtilityPssKb` | {'int': 1961} |
-| `desktopPssKb` | {'int': 1961} |
-| `hostPssKb` | {'int': 1961} |
-| `kind` | {'str': 1961} |
-| `memAvailableKb` | {'int': 1961} |
-| `memTotalKb` | {'int': 1961} |
-| `otherPssKb` | {'int': 1961} |
-| `processes` | {'int': 1961} |
-| `pssFallbackProcesses` | {'int': 1961} |
+| `chromeBrowserPssKb` | {'int': 1965} |
+| `chromeGpuPssKb` | {'int': 1965} |
+| `chromeOtherPssKb` | {'int': 1965} |
+| `chromeProcesses` | {'int': 1965} |
+| `chromeProfiles` | {'int': 1965} |
+| `chromeRendererMaxPssKb` | {'int': 1965} |
+| `chromeRendererPssKb` | {'int': 1965} |
+| `chromeRenderers` | {'int': 1965} |
+| `chromeTabs` | {'int': 1965} |
+| `chromeTabsProbedProfiles` | {'int': 1965} |
+| `chromeUtilityPssKb` | {'int': 1965} |
+| `desktopPssKb` | {'int': 1965} |
+| `hostPssKb` | {'int': 1965} |
+| `kind` | {'str': 1965} |
+| `memAvailableKb` | {'int': 1965} |
+| `memTotalKb` | {'int': 1965} |
+| `otherPssKb` | {'int': 1965} |
+| `processes` | {'int': 1965} |
+| `pssFallbackProcesses` | {'int': 1965} |
 
 ## redaction summary
 
