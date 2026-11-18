@@ -1,9 +1,9 @@
-# sandbox_telemetry_parse — 2026-11-18 11:18:28 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=796367 lines=1767
+# sandbox_telemetry_parse — 2026-11-18 11:21:27 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=797723 lines=1770
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 1760 |
+| `memory_sample` | 1763 |
 | `boot_stage` | 3 |
 | `egress_tunnel` | 3 |
 | `host_boot_fetch` | 1 |
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 1760} |
-| `chromeGpuPssKb` | {'int': 1760} |
-| `chromeOtherPssKb` | {'int': 1760} |
-| `chromeProcesses` | {'int': 1760} |
-| `chromeProfiles` | {'int': 1760} |
-| `chromeRendererMaxPssKb` | {'int': 1760} |
-| `chromeRendererPssKb` | {'int': 1760} |
-| `chromeRenderers` | {'int': 1760} |
-| `chromeTabs` | {'int': 1760} |
-| `chromeTabsProbedProfiles` | {'int': 1760} |
-| `chromeUtilityPssKb` | {'int': 1760} |
-| `desktopPssKb` | {'int': 1760} |
-| `hostPssKb` | {'int': 1760} |
-| `kind` | {'str': 1760} |
-| `memAvailableKb` | {'int': 1760} |
-| `memTotalKb` | {'int': 1760} |
-| `otherPssKb` | {'int': 1760} |
-| `processes` | {'int': 1760} |
-| `pssFallbackProcesses` | {'int': 1760} |
+| `chromeBrowserPssKb` | {'int': 1763} |
+| `chromeGpuPssKb` | {'int': 1763} |
+| `chromeOtherPssKb` | {'int': 1763} |
+| `chromeProcesses` | {'int': 1763} |
+| `chromeProfiles` | {'int': 1763} |
+| `chromeRendererMaxPssKb` | {'int': 1763} |
+| `chromeRendererPssKb` | {'int': 1763} |
+| `chromeRenderers` | {'int': 1763} |
+| `chromeTabs` | {'int': 1763} |
+| `chromeTabsProbedProfiles` | {'int': 1763} |
+| `chromeUtilityPssKb` | {'int': 1763} |
+| `desktopPssKb` | {'int': 1763} |
+| `hostPssKb` | {'int': 1763} |
+| `kind` | {'str': 1763} |
+| `memAvailableKb` | {'int': 1763} |
+| `memTotalKb` | {'int': 1763} |
+| `otherPssKb` | {'int': 1763} |
+| `processes` | {'int': 1763} |
+| `pssFallbackProcesses` | {'int': 1763} |
 
 ## redaction summary
 
