@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-11-20 16:15:57 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=1793105 lines=3974
+# sandbox_telemetry_parse — 2026-11-20 16:23:13 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1794607 lines=3979
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 3963 |
-| `egress_tunnel` | 7 |
+| `memory_sample` | 3966 |
+| `egress_tunnel` | 9 |
 | `boot_stage` | 3 |
 | `host_boot_fetch` | 1 |
 
@@ -22,11 +22,11 @@
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 7} |
-| `exitStatus` | {'int': 3} |
-| `kind` | {'str': 7} |
-| `outcome` | {'str': 7} |
-| `runtimeS` | {'int': 3} |
+| `attempt` | {'int': 9} |
+| `exitStatus` | {'int': 4} |
+| `kind` | {'str': 9} |
+| `outcome` | {'str': 9} |
+| `runtimeS` | {'int': 4} |
 
 ### `host_boot_fetch`
 
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 3963} |
-| `chromeGpuPssKb` | {'int': 3963} |
-| `chromeOtherPssKb` | {'int': 3963} |
-| `chromeProcesses` | {'int': 3963} |
-| `chromeProfiles` | {'int': 3963} |
-| `chromeRendererMaxPssKb` | {'int': 3963} |
-| `chromeRendererPssKb` | {'int': 3963} |
-| `chromeRenderers` | {'int': 3963} |
-| `chromeTabs` | {'int': 3963} |
-| `chromeTabsProbedProfiles` | {'int': 3963} |
-| `chromeUtilityPssKb` | {'int': 3963} |
-| `desktopPssKb` | {'int': 3963} |
-| `hostPssKb` | {'int': 3963} |
-| `kind` | {'str': 3963} |
-| `memAvailableKb` | {'int': 3963} |
-| `memTotalKb` | {'int': 3963} |
-| `otherPssKb` | {'int': 3963} |
-| `processes` | {'int': 3963} |
-| `pssFallbackProcesses` | {'int': 3963} |
+| `chromeBrowserPssKb` | {'int': 3966} |
+| `chromeGpuPssKb` | {'int': 3966} |
+| `chromeOtherPssKb` | {'int': 3966} |
+| `chromeProcesses` | {'int': 3966} |
+| `chromeProfiles` | {'int': 3966} |
+| `chromeRendererMaxPssKb` | {'int': 3966} |
+| `chromeRendererPssKb` | {'int': 3966} |
+| `chromeRenderers` | {'int': 3966} |
+| `chromeTabs` | {'int': 3966} |
+| `chromeTabsProbedProfiles` | {'int': 3966} |
+| `chromeUtilityPssKb` | {'int': 3966} |
+| `desktopPssKb` | {'int': 3966} |
+| `hostPssKb` | {'int': 3966} |
+| `kind` | {'str': 3966} |
+| `memAvailableKb` | {'int': 3966} |
+| `memTotalKb` | {'int': 3966} |
+| `otherPssKb` | {'int': 3966} |
+| `processes` | {'int': 3966} |
+| `pssFallbackProcesses` | {'int': 3966} |
 
 ## redaction summary
 
