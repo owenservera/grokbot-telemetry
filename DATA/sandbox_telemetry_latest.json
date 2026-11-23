@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-21T00:35:22+0100",
+  "timestamp": "2026-11-23T14:22:54+0100",
   "source": "sandbox_telemetry_parse",
   "path": "/tmp/sand-box-telemetry.log",
-  "bytes": 1870167,
-  "line_count": 4146,
+  "bytes": 1871219,
+  "line_count": 4150,
   "kind_counts": {
-    "memory_sample": 4133,
-    "egress_tunnel": 9,
+    "memory_sample": 4135,
+    "egress_tunnel": 11,
     "boot_stage": 3,
     "host_boot_fetch": 1
   },
@@ -24,19 +24,19 @@
     },
     "egress_tunnel": {
       "attempt": {
-        "int": 9
+        "int": 11
       },
       "exitStatus": {
-        "int": 4
+        "int": 5
       },
       "kind": {
-        "str": 9
+        "str": 11
       },
       "outcome": {
-        "str": 9
+        "str": 11
       },
       "runtimeS": {
-        "int": 4
+        "int": 5
       }
     },
     "host_boot_fetch": {
@@ -64,61 +64,61 @@
     },
     "memory_sample": {
       "chromeBrowserPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "chromeGpuPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "chromeOtherPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "chromeProcesses": {
-        "int": 4133
+        "int": 4135
       },
       "chromeProfiles": {
-        "int": 4133
+        "int": 4135
       },
       "chromeRendererMaxPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "chromeRendererPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "chromeRenderers": {
-        "int": 4133
+        "int": 4135
       },
       "chromeTabs": {
-        "int": 4133
+        "int": 4135
       },
       "chromeTabsProbedProfiles": {
-        "int": 4133
+        "int": 4135
       },
       "chromeUtilityPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "desktopPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "hostPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "kind": {
-        "str": 4133
+        "str": 4135
       },
       "memAvailableKb": {
-        "int": 4133
+        "int": 4135
       },
       "memTotalKb": {
-        "int": 4133
+        "int": 4135
       },
       "otherPssKb": {
-        "int": 4133
+        "int": 4135
       },
       "processes": {
-        "int": 4133
+        "int": 4135
       },
       "pssFallbackProcesses": {
-        "int": 4133
+        "int": 4135
       }
     }
   },
@@ -129,9 +129,9 @@
     "desktop_up": 1
   },
   "outcomes": {
-    "egress_tunnel:ready": 5,
+    "egress_tunnel:ready": 6,
     "host_boot_fetch:applied": 1,
-    "egress_tunnel:restart": 4
+    "egress_tunnel:restart": 5
   },
   "redaction_summary": [],
   "redaction_policy": [
