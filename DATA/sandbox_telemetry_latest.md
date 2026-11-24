@@ -1,9 +1,9 @@
-# sandbox_telemetry_parse — 2026-11-25 00:50:26 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=2524998 lines=5595
+# sandbox_telemetry_parse — 2026-11-25 00:54:47 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=2526806 lines=5599
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 5580 |
+| `memory_sample` | 5584 |
 | `egress_tunnel` | 11 |
 | `boot_stage` | 3 |
 | `host_boot_fetch` | 1 |
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 5580} |
-| `chromeGpuPssKb` | {'int': 5580} |
-| `chromeOtherPssKb` | {'int': 5580} |
-| `chromeProcesses` | {'int': 5580} |
-| `chromeProfiles` | {'int': 5580} |
-| `chromeRendererMaxPssKb` | {'int': 5580} |
-| `chromeRendererPssKb` | {'int': 5580} |
-| `chromeRenderers` | {'int': 5580} |
-| `chromeTabs` | {'int': 5580} |
-| `chromeTabsProbedProfiles` | {'int': 5580} |
-| `chromeUtilityPssKb` | {'int': 5580} |
-| `desktopPssKb` | {'int': 5580} |
-| `hostPssKb` | {'int': 5580} |
-| `kind` | {'str': 5580} |
-| `memAvailableKb` | {'int': 5580} |
-| `memTotalKb` | {'int': 5580} |
-| `otherPssKb` | {'int': 5580} |
-| `processes` | {'int': 5580} |
-| `pssFallbackProcesses` | {'int': 5580} |
+| `chromeBrowserPssKb` | {'int': 5584} |
+| `chromeGpuPssKb` | {'int': 5584} |
+| `chromeOtherPssKb` | {'int': 5584} |
+| `chromeProcesses` | {'int': 5584} |
+| `chromeProfiles` | {'int': 5584} |
+| `chromeRendererMaxPssKb` | {'int': 5584} |
+| `chromeRendererPssKb` | {'int': 5584} |
+| `chromeRenderers` | {'int': 5584} |
+| `chromeTabs` | {'int': 5584} |
+| `chromeTabsProbedProfiles` | {'int': 5584} |
+| `chromeUtilityPssKb` | {'int': 5584} |
+| `desktopPssKb` | {'int': 5584} |
+| `hostPssKb` | {'int': 5584} |
+| `kind` | {'str': 5584} |
+| `memAvailableKb` | {'int': 5584} |
+| `memTotalKb` | {'int': 5584} |
+| `otherPssKb` | {'int': 5584} |
+| `processes` | {'int': 5584} |
+| `pssFallbackProcesses` | {'int': 5584} |
 
 ## redaction summary
 
