@@ -1,4 +1,4 @@
-# exec_daemon_sample 2026-11-26 23:11:38 CET
+# exec_daemon_sample 2026-11-26 23:14:15 CET
 
 | pid | port | pty | display | agent | children |
 |-----|------|-----|---------|-------|----------|
@@ -7,7 +7,7 @@
 | 185496 | 14022 | 13622 | :22 | AION BFF · AION Chief of Staff (eaf650b7…) | 0 |
 
 ## Notes
-- Snapshot: `2026-11-26 23:11:38 CET`
-- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261126-231138.jsonl`
+- Snapshot: `2026-11-26 23:14:15 CET`
+- JSONL: `/workspace/grokbot-telemetry/DATA/exec_daemon_20261126-231415.jsonl`
 - Daemons found: 3
 - Auth tokens in argv replaced with [REDACTED]
