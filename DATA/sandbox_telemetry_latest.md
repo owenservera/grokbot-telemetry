@@ -1,12 +1,12 @@
-# sandbox_telemetry_parse — 2026-11-26 16:58:49 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=3342008 lines=7403
+# sandbox_telemetry_parse — 2026-11-26 17:12:21 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=1062 lines=9
 ## kind counts
 | kind | count |
 |------|------:|
-| `memory_sample` | 7386 |
-| `egress_tunnel` | 13 |
-| `boot_stage` | 3 |
+| `boot_stage` | 4 |
+| `egress_tunnel` | 3 |
 | `host_boot_fetch` | 1 |
+| `memory_sample` | 1 |
 
 ## schema (key → value types) by kind
 
@@ -14,19 +14,19 @@
 
 | key | types |
 |-----|-------|
-| `durationMs` | {'int': 3} |
-| `kind` | {'str': 3} |
-| `stage` | {'str': 3} |
+| `durationMs` | {'int': 4} |
+| `kind` | {'str': 4} |
+| `stage` | {'str': 4} |
 
 ### `egress_tunnel`
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 13} |
-| `exitStatus` | {'int': 6} |
-| `kind` | {'str': 13} |
-| `outcome` | {'str': 13} |
-| `runtimeS` | {'int': 6} |
+| `attempt` | {'int': 3} |
+| `exitStatus` | {'int': 1} |
+| `kind` | {'str': 3} |
+| `outcome` | {'str': 3} |
+| `runtimeS` | {'int': 1} |
 
 ### `host_boot_fetch`
 
@@ -44,25 +44,25 @@
 
 | key | types |
 |-----|-------|
-| `chromeBrowserPssKb` | {'int': 7386} |
-| `chromeGpuPssKb` | {'int': 7386} |
-| `chromeOtherPssKb` | {'int': 7386} |
-| `chromeProcesses` | {'int': 7386} |
-| `chromeProfiles` | {'int': 7386} |
-| `chromeRendererMaxPssKb` | {'int': 7386} |
-| `chromeRendererPssKb` | {'int': 7386} |
-| `chromeRenderers` | {'int': 7386} |
-| `chromeTabs` | {'int': 7386} |
-| `chromeTabsProbedProfiles` | {'int': 7386} |
-| `chromeUtilityPssKb` | {'int': 7386} |
-| `desktopPssKb` | {'int': 7386} |
-| `hostPssKb` | {'int': 7386} |
-| `kind` | {'str': 7386} |
-| `memAvailableKb` | {'int': 7386} |
-| `memTotalKb` | {'int': 7386} |
-| `otherPssKb` | {'int': 7386} |
-| `processes` | {'int': 7386} |
-| `pssFallbackProcesses` | {'int': 7386} |
+| `chromeBrowserPssKb` | {'int': 1} |
+| `chromeGpuPssKb` | {'int': 1} |
+| `chromeOtherPssKb` | {'int': 1} |
+| `chromeProcesses` | {'int': 1} |
+| `chromeProfiles` | {'int': 1} |
+| `chromeRendererMaxPssKb` | {'int': 1} |
+| `chromeRendererPssKb` | {'int': 1} |
+| `chromeRenderers` | {'int': 1} |
+| `chromeTabs` | {'int': 1} |
+| `chromeTabsProbedProfiles` | {'int': 1} |
+| `chromeUtilityPssKb` | {'int': 1} |
+| `desktopPssKb` | {'int': 1} |
+| `hostPssKb` | {'int': 1} |
+| `kind` | {'str': 1} |
+| `memAvailableKb` | {'int': 1} |
+| `memTotalKb` | {'int': 1} |
+| `otherPssKb` | {'int': 1} |
+| `processes` | {'int': 1} |
+| `pssFallbackProcesses` | {'int': 1} |
 
 ## redaction summary
 
