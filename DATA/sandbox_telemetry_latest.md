@@ -1,10 +1,10 @@
-# sandbox_telemetry_parse — 2026-11-26 16:05:03 CET
-- Log: `/tmp/sand-box-telemetry.log` bytes=3321483 lines=7356
+# sandbox_telemetry_parse — 2026-11-26 16:05:15 CET
+- Log: `/tmp/sand-box-telemetry.log` bytes=3321630 lines=7358
 ## kind counts
 | kind | count |
 |------|------:|
 | `memory_sample` | 7341 |
-| `egress_tunnel` | 11 |
+| `egress_tunnel` | 13 |
 | `boot_stage` | 3 |
 | `host_boot_fetch` | 1 |
 
@@ -22,11 +22,11 @@
 
 | key | types |
 |-----|-------|
-| `attempt` | {'int': 11} |
-| `exitStatus` | {'int': 5} |
-| `kind` | {'str': 11} |
-| `outcome` | {'str': 11} |
-| `runtimeS` | {'int': 5} |
+| `attempt` | {'int': 13} |
+| `exitStatus` | {'int': 6} |
+| `kind` | {'str': 13} |
+| `outcome` | {'str': 13} |
+| `runtimeS` | {'int': 6} |
 
 ### `host_boot_fetch`
 
